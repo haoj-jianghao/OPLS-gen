@@ -1,0 +1,3341 @@
+{
+"source": "antechamber -at gaff2 (AmberTools 26, gaff2.dat 2.2.30); built by scripts/gaff2_reference.py",
+"sets": "targeted rare-type set (100), every 10th NCI first_5K molecule, the 100 test molecules",
+"molecules": [
+{
+"name": "methylammonium",
+"smiles": "C[NH3+]",
+"types": "c3 nz hx hx hx hn hn hn"
+},
+{
+"name": "dimethylammonium",
+"smiles": "C[NH2+]C",
+"types": "c3 ny c3 hx hx hx hn hn hx hx hx"
+},
+{
+"name": "trimethylammonium",
+"smiles": "C[NH+](C)C",
+"types": "c3 nx c3 c3 hx hx hx hn hx hx hx hx hx hx"
+},
+{
+"name": "tetramethylammonium",
+"smiles": "C[N+](C)(C)C",
+"types": "c3 n4 c3 c3 c3 hx hx hx hx hx hx hx hx hx hx hx hx"
+},
+{
+"name": "ammonium_acetate_like",
+"smiles": "[NH4+]",
+"types": "n+ hn hn hn hn"
+},
+{
+"name": "anilinium",
+"smiles": "c1ccccc1[NH3+]",
+"types": "ca ca ca ca ca ca nz ha ha ha ha ha hn hn hn"
+},
+{
+"name": "aziridine",
+"smiles": "C1CN1",
+"types": "cx cx n5 h1 h1 h1 h1 hn"
+},
+{
+"name": "n_methylaziridine",
+"smiles": "CN1CC1",
+"types": "c3 np cx cx h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "azetidine",
+"smiles": "C1CNC1",
+"types": "cy cy n6 cy hc hc h1 h1 hn h1 h1"
+},
+{
+"name": "n_methylazetidine",
+"smiles": "CN1CCC1",
+"types": "c3 nq cy cy cy h1 h1 h1 h1 h1 hc hc h1 h1"
+},
+{
+"name": "aziridinium",
+"smiles": "C1C[NH2+]1",
+"types": "cx cx nk hx hx hx hx hn hn"
+},
+{
+"name": "azetidinium",
+"smiles": "C1C[NH2+]C1",
+"types": "cy cy nl cy hc hc hx hx hn hn hx hx"
+},
+{
+"name": "beta_lactam",
+"smiles": "O=C1CCN1C",
+"types": "o c cy cy nj c3 hc hc h1 h1 h1 h1 h1"
+},
+{
+"name": "aziridinone_amide",
+"smiles": "CC(=O)N1CC1",
+"types": "c3 c o ni cx cx hc hc hc h1 h1 h1 h1"
+},
+{
+"name": "azetidine_amide",
+"smiles": "CC(=O)N1CCC1",
+"types": "c3 c o nj cy cy cy hc hc hc h1 h1 hc hc h1 h1"
+},
+{
+"name": "n_phenylaziridine",
+"smiles": "c1ccccc1N1CC1",
+"types": "ca ca ca ca ca ca nm cx cx ha ha ha ha ha h1 h1 h1 h1"
+},
+{
+"name": "n_phenylazetidine",
+"smiles": "c1ccccc1N1CCC1",
+"types": "ca ca ca ca ca ca nn cy cy cy ha ha ha ha ha h1 h1 hc hc h1 h1"
+},
+{
+"name": "oxirane",
+"smiles": "CC1CO1",
+"types": "c3 cx cx op hc hc hc h1 h1 h1"
+},
+{
+"name": "oxetane",
+"smiles": "C1COC1",
+"types": "cy cy oq cy hc hc h1 h1 h1 h1"
+},
+{
+"name": "thiirane",
+"smiles": "CC1CS1",
+"types": "c3 cx cx sp hc hc hc h1 h1 h1"
+},
+{
+"name": "thietane",
+"smiles": "C1CSC1",
+"types": "cy cy sq cy hc hc h1 h1 h1 h1"
+},
+{
+"name": "cyclopropene",
+"smiles": "CC1=CC1",
+"types": "c3 cu cu cx hc hc hc ha hc hc"
+},
+{
+"name": "cyclobutene",
+"smiles": "C1CC=C1",
+"types": "cy cy cv cv hc hc hc hc ha ha"
+},
+{
+"name": "cyclopropylamine",
+"smiles": "NC1CC1",
+"types": "n8 cx cx cx hn hn h1 hc hc hc hc"
+},
+{
+"name": "ammonia",
+"smiles": "N",
+"types": "n9 hn hn hn"
+},
+{
+"name": "methylamine",
+"smiles": "CN",
+"types": "c3 n8 h1 h1 h1 hn hn"
+},
+{
+"name": "dimethylamine",
+"smiles": "CNC",
+"types": "c3 n7 c3 h1 h1 h1 hn h1 h1 h1"
+},
+{
+"name": "trimethylamine",
+"smiles": "CN(C)C",
+"types": "c3 n3 c3 c3 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "aniline",
+"smiles": "Nc1ccccc1",
+"types": "nv ca ca ca ca ca ca hn hn ha ha ha ha ha"
+},
+{
+"name": "n_methylaniline",
+"smiles": "CNc1ccccc1",
+"types": "c3 nu ca ca ca ca ca ca h1 h1 h1 hn ha ha ha ha ha"
+},
+{
+"name": "enamine",
+"smiles": "CC=CN(C)C",
+"types": "c3 c2 c2 nh c3 c3 hc hc hc ha h4 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "hydrazine",
+"smiles": "NN",
+"types": "n8 n8 hn hn hn hn"
+},
+{
+"name": "methylhydrazine",
+"smiles": "CNN",
+"types": "c3 n7 n8 h1 h1 h1 hn hn hn"
+},
+{
+"name": "hydroxylamine",
+"smiles": "NO",
+"types": "n8 oh hn hn ho"
+},
+{
+"name": "oxime",
+"smiles": "CC(C)=NO",
+"types": "c3 c2 c3 n2 oh hc hc hc hc hc hc ho"
+},
+{
+"name": "imine",
+"smiles": "CC(C)=NC",
+"types": "c3 c2 c3 n2 c3 hc hc hc hc hc hc h1 h1 h1"
+},
+{
+"name": "amidine",
+"smiles": "CC(=N)N",
+"types": "c3 c2 n2 nv hc hc hc hn hn hn"
+},
+{
+"name": "guanidine",
+"smiles": "NC(=N)N",
+"types": "nv c2 n2 nv hn hn hn hn hn"
+},
+{
+"name": "urea",
+"smiles": "NC(N)=O",
+"types": "nt c nt o hn hn hn hn"
+},
+{
+"name": "thiourea",
+"smiles": "NC(N)=S",
+"types": "nt cs nt s hn hn hn hn"
+},
+{
+"name": "formamide",
+"smiles": "NC=O",
+"types": "nt c o hn hn h5"
+},
+{
+"name": "dimethylformamide",
+"smiles": "CN(C)C=O",
+"types": "c3 n c3 c o h1 h1 h1 h1 h1 h1 h5"
+},
+{
+"name": "carbamate",
+"smiles": "COC(=O)NC",
+"types": "c3 os c o ns c3 h1 h1 h1 hn h1 h1 h1"
+},
+{
+"name": "nitromethane",
+"smiles": "C[N+](=O)[O-]",
+"types": "c3 no o o h1 h1 h1"
+},
+{
+"name": "nitrobenzene",
+"smiles": "O=[N+]([O-])c1ccccc1",
+"types": "o no o ca ca ca ca ca ca ha ha ha ha ha"
+},
+{
+"name": "azide",
+"smiles": "CN=[N+]=[N-]",
+"types": "c3 n2 n1 n1 h1 h1 h1"
+},
+{
+"name": "diazomethane_ester",
+"smiles": "CCOC(=O)C=[N+]=[N-]",
+"types": "c3 c3 os c2 o ce n1 n1 hc hc hc h1 h1 h4"
+},
+{
+"name": "acetonitrile",
+"smiles": "CC#N",
+"types": "c3 c1 n1 hc hc hc"
+},
+{
+"name": "isonitrile",
+"smiles": "C[N+]#[C-]",
+"types": "c3 n1 c1 h1 h1 h1"
+},
+{
+"name": "carbodiimide",
+"smiles": "CN=C=NC",
+"types": "c3 n2 c1 n2 c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "allene",
+"smiles": "C=C=C",
+"types": "c2 c1 c2 ha ha ha ha"
+},
+{
+"name": "ketene",
+"smiles": "C=C=O",
+"types": "c2 c1 o ha ha"
+},
+{
+"name": "propyne",
+"smiles": "CC#C",
+"types": "c3 c1 c1 hc hc hc ha"
+},
+{
+"name": "cyanamide",
+"smiles": "NC#N",
+"types": "n8 c1 n1 hn hn"
+},
+{
+"name": "methanol",
+"smiles": "CO",
+"types": "c3 oh h1 h1 h1 ho"
+},
+{
+"name": "water_methyl_ether",
+"smiles": "COC",
+"types": "c3 os c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "phenol",
+"smiles": "Oc1ccccc1",
+"types": "oh ca ca ca ca ca ca ho ha ha ha ha ha"
+},
+{
+"name": "acetic_acid",
+"smiles": "CC(=O)O",
+"types": "c3 c o oh hc hc hc ho"
+},
+{
+"name": "acetate",
+"smiles": "CC(=O)[O-]",
+"types": "c3 c o o hc hc hc"
+},
+{
+"name": "dimethyl_sulfoxide",
+"smiles": "CS(C)=O",
+"types": "c3 s4 c3 o h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "dimethyl_sulfone",
+"smiles": "CS(C)(=O)=O",
+"types": "c3 s6 c3 o o h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "methanesulfonamide",
+"smiles": "CS(N)(=O)=O",
+"types": "c3 s6 n8 o o h1 h1 h1 hn hn"
+},
+{
+"name": "methanesulfonic_acid",
+"smiles": "CS(=O)(=O)O",
+"types": "c3 s6 o o oh h1 h1 h1 ho"
+},
+{
+"name": "sulfate_ester",
+"smiles": "COS(=O)(=O)OC",
+"types": "c3 os s6 o o os c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "thiol",
+"smiles": "CS",
+"types": "c3 sh h1 h1 h1 hs"
+},
+{
+"name": "thioether",
+"smiles": "CSC",
+"types": "c3 ss c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "disulfide",
+"smiles": "CSSC",
+"types": "c3 ss ss c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "thioketone",
+"smiles": "CC(C)=S",
+"types": "c3 cs c3 s hc hc hc hc hc hc"
+},
+{
+"name": "thiophene",
+"smiles": "c1ccsc1",
+"types": "cc cc cd ss cd ha ha h4 h4"
+},
+{
+"name": "sulfonyl_vinyl",
+"smiles": "C=CS(C)(=O)=O",
+"types": "c2 ce sy c3 o o ha ha h4 h1 h1 h1"
+},
+{
+"name": "sulfinyl_vinyl",
+"smiles": "C=CS(C)=O",
+"types": "c2 ce sx c3 o ha ha h4 h1 h1 h1"
+},
+{
+"name": "trimethylphosphine",
+"smiles": "CP(C)C",
+"types": "c3 p3 c3 c3 hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "trimethylphosphine_oxide",
+"smiles": "CP(C)(C)=O",
+"types": "c3 p5 c3 c3 o hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "trimethyl_phosphate",
+"smiles": "COP(=O)(OC)OC",
+"types": "c3 os p5 o os c3 os c3 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "phosphonate",
+"smiles": "CP(=O)(OC)OC",
+"types": "c3 p5 o os c3 os c3 hc hc hc h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "phosphoric_acid",
+"smiles": "OP(O)(O)=O",
+"types": "oh p5 oh oh o ho ho ho"
+},
+{
+"name": "vinyl_phosphonate",
+"smiles": "C=CP(=O)(OC)OC",
+"types": "c2 ce py o os c3 os c3 ha ha ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "fluoromethane",
+"smiles": "CF",
+"types": "c3 f h1 h1 h1"
+},
+{
+"name": "dichloromethane",
+"smiles": "ClCCl",
+"types": "cl c3 cl h2 h2"
+},
+{
+"name": "chloroform",
+"smiles": "ClC(Cl)Cl",
+"types": "cl c3 cl cl h3"
+},
+{
+"name": "bromobenzene",
+"smiles": "Brc1ccccc1",
+"types": "br ca ca ca ca ca ca ha ha ha ha ha"
+},
+{
+"name": "iodoethane",
+"smiles": "CCI",
+"types": "c3 c3 i hc hc hc h1 h1"
+},
+{
+"name": "trifluoroethanol",
+"smiles": "OCC(F)(F)F",
+"types": "oh c3 c3 f f f ho h1 h1"
+},
+{
+"name": "pyridine",
+"smiles": "c1ccncc1",
+"types": "ca ca ca nb ca ca ha ha h4 h4 ha"
+},
+{
+"name": "pyrimidine",
+"smiles": "c1cncnc1",
+"types": "ca ca nb ca nb ca ha h4 h5 h4"
+},
+{
+"name": "imidazole",
+"smiles": "c1c[nH]cn1",
+"types": "cc cd na cd nc h4 h4 hn h5"
+},
+{
+"name": "pyrazole",
+"smiles": "c1cn[nH]c1",
+"types": "cc cc nd na cd ha h4 hn h4"
+},
+{
+"name": "oxazole",
+"smiles": "c1cocn1",
+"types": "cc cd os cd nc h4 h4 h5"
+},
+{
+"name": "isoxazole",
+"smiles": "c1cnoc1",
+"types": "cc cc nd os cd ha h4 h4"
+},
+{
+"name": "tetrazole",
+"smiles": "c1nnn[nH]1",
+"types": "cc nd nd nc na h5 hn"
+},
+{
+"name": "pyridone",
+"smiles": "O=c1cccc[nH]1",
+"types": "o c cc cd cd cc ns ha ha ha h4 hn"
+},
+{
+"name": "indole",
+"smiles": "c1ccc2[nH]ccc2c1",
+"types": "ca ca ca ca na cc cd ca ca ha ha ha hn h4 ha ha"
+},
+{
+"name": "quinoline",
+"smiles": "c1ccc2ncccc2c1",
+"types": "ca ca ca ca nb ca ca ca ca ca ha ha ha h4 ha ha ha"
+},
+{
+"name": "biphenyl",
+"smiles": "c1ccc(cc1)-c1ccccc1",
+"types": "ca ca ca cp ca ca cp ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "styrene",
+"smiles": "C=Cc1ccccc1",
+"types": "c2 ce ca ca ca ca ca ca ha ha ha ha ha ha ha ha"
+},
+{
+"name": "butadiene",
+"smiles": "C=CC=C",
+"types": "c2 ce ce c2 ha ha ha ha ha ha"
+},
+{
+"name": "acrolein",
+"smiles": "C=CC=O",
+"types": "c2 ce c o ha ha ha h4"
+},
+{
+"name": "acrylonitrile",
+"smiles": "C=CC#N",
+"types": "c2 ce cg n1 ha ha ha"
+},
+{
+"name": "benzaldehyde",
+"smiles": "O=Cc1ccccc1",
+"types": "o c ca ca ca ca ca ca h4 ha ha ha ha ha"
+},
+{
+"name": "formic_acid",
+"smiles": "OC=O",
+"types": "oh c o ho h5"
+},
+{
+"name": "first_5K:0",
+"smiles": "CC1=CC(=O)C=CC1=O",
+"types": "c3 cc cd c o cc cd c o hc hc hc ha ha ha"
+},
+{
+"name": "first_5K:10",
+"smiles": "CC(C)(C)C1=C(O)C=C(C(=C1)O)C(C)(C)C",
+"types": "c3 c3 c3 c3 ca ca oh ca ca ca ca oh c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc ho ha ha ho hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:20",
+"smiles": "CC1=C2C=CC(=NC2=NC(=C1)O)N",
+"types": "c3 ca ca ca ca ca nb ca nb ca ca oh nv hc hc hc ha ha ha ho hn hn"
+},
+{
+"name": "first_5K:30",
+"smiles": "CC1=CC(=C(N)C(=C1)C)C",
+"types": "c3 ca ca ca ca nv ca ca c3 c3 hc hc hc ha hn hn ha hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:40",
+"smiles": "CN(C)[CH](C1=CC=CC=C1)C2=C(C)C=CC=C2",
+"types": "c3 n3 c3 c3 ca ca ca ca ca ca ca ca c3 ca ca ca ca h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:51",
+"smiles": "N#C[CH](C(C1=CC=CC=C1)C2=CC=CC=C2)C3=CC=CC=C3",
+"types": "n1 c1 c3 c3 ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca hc hc ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:61",
+"smiles": "CCC[N+](CCC)(CCC)CC1=CC=CC=C1",
+"types": "c3 c3 c3 n4 c3 c3 c3 c3 c3 c3 c3 ca ca ca ca ca ca hc hc hc hc hc hx hx hx hx hc hc hc hc hc hx hx hc hc hc hc hc hx hx ha ha ha ha ha"
+},
+{
+"name": "first_5K:71",
+"smiles": "C[C](O)([CH](C(O)=O)C1=CC=CC=C1)C2=CC=CC=C2",
+"types": "c3 c3 oh c3 c oh o ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc ho hc ho ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:82",
+"smiles": "CCOC(=O)C1=C(O)C2=CC=C(Cl)C(=C2N=C1)C",
+"types": "c3 c3 os c o ca ca oh ca ca ca ca cl ca ca nb ca c3 hc hc hc h1 h1 ho ha ha h4 hc hc hc"
+},
+{
+"name": "first_5K:92",
+"smiles": "Cl[CH](CC1=CC=CC=C1)C2=CC=CC=C2",
+"types": "cl c3 c3 ca ca ca ca ca ca ca ca ca ca ca ca h1 hc hc ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:102",
+"smiles": "CCCCCCCCN(CC)CC",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 n3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:113",
+"smiles": "OCC(F)(F)C(F)(F)C(F)(F)C(F)F",
+"types": "oh c3 c3 f f c3 f f c3 f f c3 f f ho h1 h1 h2"
+},
+{
+"name": "first_5K:124",
+"smiles": "CC[N+]([O-])(CC)CCCN1C2=C(C=CC=C2)S(=O)C3=C1C=CC=C3",
+"types": "c3 c3 n4 o c3 c3 c3 c3 c3 nh ca ca ca ca ca ca sx o ca ca ca ca ca ca hc hc hc hx hx hx hx hc hc hc hx hx hc hc h1 h1 ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:135",
+"smiles": "CCCC[CH](CC)CN(C[CH](CC)CCCC)N=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 nh c3 c3 c3 c3 c3 c3 c3 c3 n2 o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:145",
+"smiles": "OS(=O)(=O)C1=CC=CC=C1",
+"types": "oh sy o o ca ca ca ca ca ca ho ha ha ha ha ha"
+},
+{
+"name": "first_5K:155",
+"smiles": "OC(=O)C(=CC1=CC(=C(O)C(=C1)Cl)Cl)C2=CC=C(I)C=C2",
+"types": "oh c o ce cf ca ca ca ca oh ca ca cl cl ca ca ca ca i ca ca ho ha ha ho ha ha ha ha ha"
+},
+{
+"name": "first_5K:165",
+"smiles": "OCC(O)=O",
+"types": "oh c3 c oh o ho h1 h1 ho"
+},
+{
+"name": "first_5K:175",
+"smiles": "OC(=O)C1=NC(=CC=C1)C(O)=O",
+"types": "oh c o ca nb ca ca ca ca c oh o ho ha ha ha ho"
+},
+{
+"name": "first_5K:185",
+"smiles": "C[CH]1OC=C2C(=C(C(O)=O)C(=O)C(=C2[CH]1C)C)O",
+"types": "c3 c6 os c2 cc cc cd c oh o c o cd cc c6 c3 c3 oh hc hc hc h1 h4 ho hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:195",
+"smiles": "O=C(C=CC1=CN=CC=C1)C2=CC=CC=C2",
+"types": "o c ce cf ca ca nb ca ca ca ca ca ca ca ca ca ha ha h4 h4 ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:205",
+"smiles": "CC(C)(O)C1=CC=CC2=C(C=CC=C12)C(C)(C)O",
+"types": "c3 c3 c3 oh ca ca ca ca ca ca ca ca ca ca c3 c3 c3 oh hc hc hc hc hc hc ho ha ha ha ha ha ha hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:215",
+"smiles": "CC(C)C1=CC=C(C=CC(O)=O)C=C1",
+"types": "c3 c3 c3 ca ca ca ca ce cf c oh o ca ca hc hc hc hc hc hc hc ha ha ha ha ho ha ha"
+},
+{
+"name": "first_5K:225",
+"smiles": "CCOC(=O)CCCCCN",
+"types": "c3 c3 os c o c3 c3 c3 c3 c3 n8 hc hc hc h1 h1 hc hc hc hc hc hc hc hc h1 h1 hn hn"
+},
+{
+"name": "first_5K:235",
+"smiles": "CCOC(=O)N1CCCCC1",
+"types": "c3 c3 os c o n c6 c6 c6 c6 c6 hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc h1 h1"
+},
+{
+"name": "first_5K:246",
+"smiles": "NC1=CC(=C(Cl)C=C1)Cl",
+"types": "nv ca ca ca ca cl ca ca cl hn hn ha ha ha"
+},
+{
+"name": "first_5K:257",
+"smiles": "NNP(=S)(NN)C1=CC=CC=C1",
+"types": "n8 n7 py s n7 n8 ca ca ca ca ca ca hn hn hn hn hn hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:267",
+"smiles": "CC(=NNC(=S)NN=C(C)C1=CC=CC=C1)C2=CC=CC=C2",
+"types": "c3 ce n2 ns cs s ns n2 ce c3 ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc hn hn hc hc hc ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:277",
+"smiles": "OC1=C(C2CCCCC2)C(=O)C3=C(C=CC=C3)C1=O",
+"types": "oh cc cd c6 c6 c6 c6 c6 c6 c o ca ca ca ca ca ca c o ho hc hc hc hc hc hc hc hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:288",
+"smiles": "CC1=CC(=C(Br)C=C1)[N+]([O-])=O",
+"types": "c3 ca ca ca ca br ca ca no o o hc hc hc ha ha ha"
+},
+{
+"name": "first_5K:298",
+"smiles": "CC(=O)NC1=C(C=C(I)C=C1)C(O)=O",
+"types": "c3 c o ns ca ca ca ca i ca ca c oh o hc hc hc hn ha ha ha ho"
+},
+{
+"name": "first_5K:308",
+"smiles": "CC1=C(NNC2=C(C)C=CC=C2)C=CC=C1",
+"types": "c3 ca ca nu nu ca ca c3 ca ca ca ca ca ca ca ca hc hc hc hn hn hc hc hc ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:318",
+"smiles": "O[CH]1CCN(C2CCCCC2)C1=O",
+"types": "oh c5 c5 c5 n c6 c6 c6 c6 c6 c6 c o ho h1 hc hc h1 h1 h1 hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:328",
+"smiles": "CCOC(=O)[CH]1CN(C(C)C)C(=O)C1=O",
+"types": "c3 c3 os c o c5 c5 n c3 c3 c3 c o c o hc hc hc h1 h1 hc h1 h1 h1 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:338",
+"smiles": "O=NN1CCN(CC1)N=O",
+"types": "o n2 n3 c6 c6 nh c6 c6 n2 o h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:348",
+"smiles": "COC1=CC=C(C)C(=C1)CN(C)C",
+"types": "c3 os ca ca ca ca c3 ca ca c3 n3 c3 c3 h1 h1 h1 ha ha hc hc hc ha h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:359",
+"smiles": "CN(C)C1=CC=C(C=CC(=O)C2=CC=CC=C2)C=C1",
+"types": "c3 nh c3 ca ca ca ca ce cf c o ca ca ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:369",
+"smiles": "O=C(C=CC1=CC=CC=C1)C2=CC=C(C=C2)N=CC3=CC=CC=C3",
+"types": "o c ce cf ca ca ca ca ca ca ca ca ca ca ca ca ne cf ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:382",
+"smiles": "NC1=CC=C(C=N1)C(O)=O",
+"types": "nv ca ca ca ca ca nb c oh o hn hn ha ha h4 ho"
+},
+{
+"name": "first_5K:395",
+"smiles": "CCCC[CH](CC)C=CC1=NC2=C(C=CC=C2)C=C1",
+"types": "c3 c3 c3 c3 c3 c3 c3 c2 ce ca nb ca ca ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:405",
+"smiles": "CC(=O)C1=CC2=C(C=C1)C3=CC=CC=C3S2",
+"types": "c3 c o ca ca ca cp ca ca cp ca ca ca ca ca ss hc hc hc ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:416",
+"smiles": "C[CH]1N[CH](C)S[CH](C)S1",
+"types": "c3 c6 n7 c6 c3 ss c6 c3 ss hc hc hc h2 hn h2 hc hc hc h2 hc hc hc"
+},
+{
+"name": "first_5K:427",
+"smiles": "CCNC(=O)NCC",
+"types": "c3 c3 ns c o ns c3 c3 hc hc hc h1 h1 hn hn h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:438",
+"smiles": "CCNC(=O)OCC",
+"types": "c3 c3 ns c o os c3 c3 hc hc hc h1 h1 hn h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:448",
+"smiles": "CC1=C(N)N=CC=C1",
+"types": "c3 ca ca nv nb ca ca ca hc hc hc hn hn h4 ha ha"
+},
+{
+"name": "first_5K:458",
+"smiles": "CC1=CC(=NC(=C1)C)C",
+"types": "c3 ca ca ca nb ca ca c3 c3 hc hc hc ha ha hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:470",
+"smiles": "CCCC[C](CC)(CC1=CC=CC=C1)C(O)=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 ca ca ca ca ca ca c oh o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:483",
+"smiles": "N#CC(C#N)[CH](C#N)C1=CC=CC=C1",
+"types": "n1 c1 c3 c1 n1 c3 c1 n1 ca ca ca ca ca ca hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:493",
+"smiles": "O=C(NC1=CC=CC=C1)C=CC2=CC=CC=C2",
+"types": "o c ns ca ca ca ca ca ca ce cf ca ca ca ca ca ca hn ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:503",
+"smiles": "BrC[CH](Br)[CH](Br)CBr",
+"types": "br c3 c3 br c3 br c3 br h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:513",
+"smiles": "CC(=O)O[C](C)(C#N)[C](C)(OC(C)=O)C#N",
+"types": "c3 c o os c3 c3 c1 n1 c3 c3 os c c3 o c1 n1 hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:524",
+"smiles": "CCN(CC)C(=O)CCC(O)=O",
+"types": "c3 c3 n c3 c3 c o c3 c3 c oh o hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:534",
+"smiles": "C[CH](OC1=C(C=CC=C1)C2=CC=CC=C2)C(O)=O",
+"types": "c3 c3 os ca cp ca ca ca ca cp ca ca ca ca ca c oh o hc hc hc h1 ha ha ha ha ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:545",
+"smiles": "NS(=O)(=O)C1=CC=C(NC(=O)CBr)C=C1",
+"types": "n8 sy o o ca ca ca ca ns c o c3 br ca ca hn hn ha ha hn h1 h1 ha ha"
+},
+{
+"name": "first_5K:555",
+"smiles": "CCOC(=O)[CH]1C2CCC(CC2)[CH]1C(=O)OCC",
+"types": "c3 c3 os c o c6 c6 c6 c6 c6 c6 c6 c6 c o os c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:565",
+"smiles": "CC(C)C[CH](C)OC(=O)CC(C)C",
+"types": "c3 c3 c3 c3 c3 c3 os c o c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc h1 hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:576",
+"smiles": "CC(=O)CC1=CC=C(C=C1)[N+]([O-])=O",
+"types": "c3 c o c3 ca ca ca ca ca ca no o o hc hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:586",
+"smiles": "ClC1=CC2=C(NC(=O)CS2)C=C1",
+"types": "cl ca ca ca ca ns c o c6 ss ca ca ha hn h1 h1 ha ha"
+},
+{
+"name": "first_5K:596",
+"smiles": "CC1=C(Br)C(=C(C(O)=O)C(=C1)C)C",
+"types": "c3 ca ca br ca ca c oh o ca ca c3 c3 hc hc hc ho ha hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:606",
+"smiles": "ClCC[CH]1NC(=O)[CH](CCCl)NC1=O",
+"types": "cl c3 c3 c6 ns c o c6 c3 c3 cl ns c o h1 h1 hc hc h1 hn h1 hc hc h1 h1 hn"
+},
+{
+"name": "first_5K:616",
+"smiles": "OC(=O)C1CCC(CC1)C(O)=O",
+"types": "oh c o c6 c6 c6 c6 c6 c6 c oh o ho hc hc hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:626",
+"smiles": "C=CCOC[CH]1CO1",
+"types": "c2 c2 c3 os c3 cx cx op ha ha ha h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:636",
+"smiles": "NNC(=O)C1=C(O)C=CC(=C1)N",
+"types": "n8 ns c o ca ca oh ca ca ca ca nv hn hn hn ho ha ha ha hn hn"
+},
+{
+"name": "first_5K:647",
+"smiles": "NNC(=O)C1=C(O)C=CC=C1",
+"types": "n8 ns c o ca ca oh ca ca ca ca hn hn hn ho ha ha ha ha"
+},
+{
+"name": "first_5K:657",
+"smiles": "ON=CC1=CC=C(O1)[N+]([O-])=O",
+"types": "oh n2 ce cc cd cd cc os no o o ho h4 ha ha"
+},
+{
+"name": "first_5K:667",
+"smiles": "CC(C)(C)OOC(=O)C1=CC=CC=C1",
+"types": "c3 c3 c3 c3 os os c o ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:677",
+"smiles": "CCN(CC)CCOC1=CC=C(NC(=S)NC2=CC=C(OCC(C)C)C=C2)C=C1",
+"types": "c3 c3 n3 c3 c3 c3 c3 os ca ca ca ca ns cs s ns ca ca ca ca os c3 c3 c3 c3 ca ca ca ca hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 h1 h1 ha ha hn hn ha ha h1 h1 hc hc hc hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:687",
+"smiles": "NNC(=S)NN=CC1=CC=CC(=C1)[N+]([O-])=O",
+"types": "n8 ns cs s ns n2 ce ca ca ca ca ca ca no o o hn hn hn hn h4 ha ha ha ha"
+},
+{
+"name": "first_5K:697",
+"smiles": "NNC(=S)NC1=CC=CC=C1",
+"types": "n8 ns cs s ns ca ca ca ca ca ca hn hn hn hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:707",
+"smiles": "CC(C)CNC(=S)NN=CC1=CC=C(NC(C)=O)C=C1",
+"types": "c3 c3 c3 c3 ns cs s ns n2 ce ca ca ca ca ns c c3 o ca ca hc hc hc hc hc hc hc h1 h1 hn hn h4 ha ha hn hc hc hc ha ha"
+},
+{
+"name": "first_5K:717",
+"smiles": "NC(=S)NN=CC1=CC=C(S1)[N+]([O-])=O",
+"types": "nt cs s ns n2 ce cc cd cd cc ss no o o hn hn hn h4 ha ha"
+},
+{
+"name": "first_5K:727",
+"smiles": "COC1=C(O)C=CC(=C1)C=NNC(N)=S",
+"types": "c3 os ca ca oh ca ca ca ca ce n2 ns cs nt s h1 h1 h1 ho ha ha ha h4 hn hn hn"
+},
+{
+"name": "first_5K:738",
+"smiles": "CCOC(N)=O",
+"types": "c3 c3 os c nt o hc hc hc h1 h1 hn hn"
+},
+{
+"name": "first_5K:748",
+"smiles": "OC1=NC(=C2N=NNC2=N1)O",
+"types": "oh ca nb ca ca nc nd na ca nb oh ho hn ho"
+},
+{
+"name": "first_5K:758",
+"smiles": "O[CH](NC(=O)CC1=CC=CC=C1)C(Cl)Cl",
+"types": "oh c3 ns c o c3 ca ca ca ca ca ca c3 cl cl ho h2 hn hc hc ha ha ha ha ha h2"
+},
+{
+"name": "first_5K:768",
+"smiles": "CCCCCCCCCCCCCCCC1=CC(=CC(=C1)O)O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 ca ca ca ca ca ca oh oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ha ha ha ho ho"
+},
+{
+"name": "first_5K:790",
+"smiles": "O=C(C=CC1=CC=CC=C1)C2=CC=CC=N2",
+"types": "o c ce cf ca ca ca ca ca ca ca ca ca ca ca nb ha ha ha ha ha ha ha ha ha ha h4"
+},
+{
+"name": "first_5K:803",
+"smiles": "CN1CCC[CH]1[CH]2CCCNC2",
+"types": "c3 n3 c5 c5 c5 c5 c6 c6 c6 c6 n7 c6 h1 h1 h1 h1 h1 hc hc hc hc h1 hc hc hc hc hc h1 h1 hn h1 h1"
+},
+{
+"name": "first_5K:813",
+"smiles": "C[CH]1CCC[CH](C)[CH]1O",
+"types": "c3 c6 c6 c6 c6 c6 c3 c6 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho"
+},
+{
+"name": "first_5K:823",
+"smiles": "CCOC(=O)C(CCCCC(C(=O)OCC)C(=O)OCC)C(=O)OCC",
+"types": "c3 c3 os c o c3 c3 c3 c3 c3 c3 c o os c3 c3 c o os c3 c3 c o os c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc hc h1 h1 hc hc hc h1 h1 hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:833",
+"smiles": "O=C1NN(NO1)C2CCCCC2",
+"types": "o c ns na na os c6 c6 c6 c6 c6 c6 hn hn h1 hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:843",
+"smiles": "CCCCCCCCCCCCCS",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 sh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hs"
+},
+{
+"name": "first_5K:853",
+"smiles": "CC1=CC(=C(C(=C1)C)C(=O)CBr)C",
+"types": "c3 ca ca ca ca ca ca c3 c o c3 br c3 hc hc hc ha ha hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:866",
+"smiles": "ClC1=CC=C(C=C1)C=CC2=CC=CC=C2",
+"types": "cl ca ca ca ca ca ca ce cf ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:877",
+"smiles": "CN(C)C1=C(N)C=C(C=C1)C(=O)C2=CC(=C(C=C2)N(C)C)N",
+"types": "c3 nh c3 ca ca nv ca ca ca ca c o ca ca ca ca ca ca nh c3 c3 nv h1 h1 h1 h1 h1 h1 hn hn ha ha ha ha ha ha h1 h1 h1 h1 h1 h1 hn hn"
+},
+{
+"name": "first_5K:887",
+"smiles": "CC(C)(C)COC(=O)C1=CC=CC=C1",
+"types": "c3 c3 c3 c3 c3 os c o ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:897",
+"smiles": "CCCCC(O)(CCCC)CC(C)(C)C",
+"types": "c3 c3 c3 c3 c3 oh c3 c3 c3 c3 c3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc ho hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:907",
+"smiles": "CCCC(CCC)(CCC)C#N",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c1 n1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:917",
+"smiles": "CC(C)(CCl)C1=CC=C(C=C1)C(C)(C)CCl",
+"types": "c3 c3 c3 c3 cl ca ca ca ca ca ca c3 c3 c3 c3 cl hc hc hc hc hc hc h1 h1 ha ha ha ha hc hc hc hc hc hc h1 h1"
+},
+{
+"name": "first_5K:927",
+"smiles": "CC(=O)C(C)(C)C",
+"types": "c3 c o c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:937",
+"smiles": "CC(=O)OCC(C)(C)C",
+"types": "c3 c o os c3 c3 c3 c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:947",
+"smiles": "CC(C)(C)C[C](C)(C(O)=O)C(C)(C)C",
+"types": "c3 c3 c3 c3 c3 c3 c3 c oh o c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:957",
+"smiles": "CCC1=CC=NC=C1",
+"types": "c3 c3 ca ca ca nb ca ca hc hc hc hc hc ha h4 h4 ha"
+},
+{
+"name": "first_5K:967",
+"smiles": "CC[C](C)(O)C#C",
+"types": "c3 c3 c3 c3 oh c1 c1 hc hc hc hc hc hc hc hc ho ha"
+},
+{
+"name": "first_5K:977",
+"smiles": "NC1=C(SSC2=C(N)C=C(Cl)C=C2)C=CC(=C1)Cl",
+"types": "nv ca ca ss ss ca ca nv ca ca cl ca ca ca ca ca ca cl hn hn hn hn ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:987",
+"smiles": "COC1=CC=C(SSC2=CC=C(OC)C=C2)C=C1",
+"types": "c3 os ca ca ca ca ss ss ca ca ca ca os c3 ca ca ca ca h1 h1 h1 ha ha ha ha h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:997",
+"smiles": "C1=CC=C(C=C1)C=NC(N=CC2=CC=CC=C2)C3=CC=CC=C3",
+"types": "ca ca ca ca ca ca ce n2 c3 n2 ce ca ca ca ca ca ca ca ca ca ca ca ca ha ha ha ha ha h4 h2 h4 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1007",
+"smiles": "CCOC(=O)C1=C(N[CH](C2=CC=CC=C2)C3=C(O)C4=NC=CC=C4C=C3)C=CC=C1",
+"types": "c3 c3 os c o ca ca nu c3 ca ca ca ca ca ca ca ca oh ca nb ca ca ca ca ca ca ca ca ca ca hc hc hc h1 h1 hn h1 ha ha ha ha ha ho h4 ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1017",
+"smiles": "CC[C](C)(O)C#C[C](C)(O)CC",
+"types": "c3 c3 c3 c3 oh c1 c1 c3 c3 oh c3 c3 hc hc hc hc hc hc hc hc ho hc hc hc ho hc hc hc hc hc"
+},
+{
+"name": "first_5K:1027",
+"smiles": "CCOC(=O)NC(NC(=O)OCC)[CH](Cl)CC",
+"types": "c3 c3 os c o ns c3 ns c o os c3 c3 c3 cl c3 c3 hc hc hc h1 h1 hn h2 hn h1 h1 hc hc hc h1 hc hc hc hc hc"
+},
+{
+"name": "first_5K:1038",
+"smiles": "CCC(C)(C)N",
+"types": "c3 c3 c3 c3 c3 n8 hc hc hc hc hc hc hc hc hc hc hc hn hn"
+},
+{
+"name": "first_5K:1049",
+"smiles": "O=C1NC(=C[CH]([CH]1C#N)C2=CC=CC=C2)C3=CC=CC=C3",
+"types": "o c ns ce c2 c6 c6 c1 n1 ca ca ca ca ca ca ca ca ca ca ca ca hn ha hc hc ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1059",
+"smiles": "CC[CH](N)CO",
+"types": "c3 c3 c3 n8 c3 oh hc hc hc hc hc h1 hn hn h1 h1 ho"
+},
+{
+"name": "first_5K:1069",
+"smiles": "CCCC[CH](CC)COCCCN",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 c3 n8 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc h1 h1 hn hn"
+},
+{
+"name": "first_5K:1079",
+"smiles": "CCOC(=S)SCCSC",
+"types": "c3 c3 os cs s ss c3 c3 ss c3 hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:1089",
+"smiles": "CCCCNCCO",
+"types": "c3 c3 c3 c3 n7 c3 c3 oh hc hc hc hc hc hc hc h1 h1 hn h1 h1 h1 h1 ho"
+},
+{
+"name": "first_5K:1099",
+"smiles": "O=C1C[CH](CO1)C2=CC=CC=C2",
+"types": "o c c5 c5 c5 os ca ca ca ca ca ca hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:1109",
+"smiles": "CCCCCOC(S)=S",
+"types": "c3 c3 c3 c3 c3 os cs sh s hc hc hc hc hc hc hc hc hc h1 h1 hs"
+},
+{
+"name": "first_5K:1120",
+"smiles": "O[CH]1CCCC[CH]1N2C(=O)C3=C(C=CC=C3)C2=O",
+"types": "oh c6 c6 c6 c6 c6 c6 n c o ca ca ca ca ca ca c o ho h1 hc hc hc hc hc hc hc hc h1 ha ha ha ha"
+},
+{
+"name": "first_5K:1130",
+"smiles": "COC1=C(C[CH](C)N)C=CC=C1",
+"types": "c3 os ca ca c3 c3 c3 n8 ca ca ca ca h1 h1 h1 hc hc h1 hc hc hc hn hn ha ha ha ha"
+},
+{
+"name": "first_5K:1140",
+"smiles": "CC(C)(OC1=CC=C(Cl)C=C1)C(O)=O",
+"types": "c3 c3 c3 os ca ca ca ca cl ca ca c oh o hc hc hc hc hc hc ha ha ha ha ho"
+},
+{
+"name": "first_5K:1151",
+"smiles": "CC(C)(CO)N(CC(O)=O)CC(O)=O",
+"types": "c3 c3 c3 c3 oh n3 c3 c oh o c3 c oh o hc hc hc hc hc hc h1 h1 ho h1 h1 ho h1 h1 ho"
+},
+{
+"name": "first_5K:1161",
+"smiles": "CC(C)(C)[CH](Br)C(=O)NC1=CC=CC=C1",
+"types": "c3 c3 c3 c3 c3 br c o ns ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc h1 hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:1171",
+"smiles": "BrC1=CC=C(NC=O)C=C1",
+"types": "br ca ca ca ca ns c o ca ca ha ha hn h5 ha ha"
+},
+{
+"name": "first_5K:1181",
+"smiles": "CCCCCCCCCCSC#N",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 ss c1 n1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1"
+},
+{
+"name": "first_5K:1191",
+"smiles": "O=C(CSC#N)OC1CCCCC1",
+"types": "o c c3 ss c1 n1 os c6 c6 c6 c6 c6 c6 h1 h1 h1 hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1203",
+"smiles": "CCCCOC(=O)CCl",
+"types": "c3 c3 c3 c3 os c o c3 cl hc hc hc hc hc hc hc h1 h1 h1 h1"
+},
+{
+"name": "first_5K:1214",
+"smiles": "CC1(C)OC[CH](O1)[CH]2O[CH]3OC(C)(C)O[CH]3[CH]2O",
+"types": "c3 c5 c3 os c5 c5 os c5 os c5 os c5 c3 c3 os c5 c5 oh hc hc hc hc hc hc h1 h1 h1 h1 h2 hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "first_5K:1226",
+"smiles": "ClC1=C2CCCCC2=NC3=C1C=CC=C3",
+"types": "cl ca ca c6 c6 c6 c6 ca nb ca ca ca ca ca ca hc hc hc hc hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:1236",
+"smiles": "O1C2=CC=CC=C2C3=CC=CC=C13",
+"types": "os ca ca ca ca ca cp cp ca ca ca ca ca ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1248",
+"smiles": "CCCOC(=O)CCOC",
+"types": "c3 c3 c3 os c o c3 c3 os c3 hc hc hc hc hc h1 h1 hc hc h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:1258",
+"smiles": "OC1=CC=C(C=C1O)C2=CC=CC=C2",
+"types": "oh ca ca ca cp ca ca oh cp ca ca ca ca ca ho ha ha ha ho ha ha ha ha ha"
+},
+{
+"name": "first_5K:1268",
+"smiles": "CC[CH](C)OC(=O)[CH](C)OC(=O)OCCOCCOC(=O)O[CH](C)C(=O)O[CH](C)CC",
+"types": "c3 c3 c3 c3 os c o c3 c3 os c o os c3 c3 os c3 c3 os c o os c3 c3 c o os c3 c3 c3 c3 hc hc hc hc hc h1 hc hc hc h1 hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 hc hc hc h1 hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1278",
+"smiles": "C[CH](O)C(=O)OCCCCCO",
+"types": "c3 c3 oh c o os c3 c3 c3 c3 c3 oh hc hc hc h1 ho h1 h1 hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "first_5K:1312",
+"smiles": "COC1=CC(=C(OC)C=C1)[N+]([O-])=O",
+"types": "c3 os ca ca ca ca os c3 ca ca no o o h1 h1 h1 ha h1 h1 h1 ha ha"
+},
+{
+"name": "first_5K:1322",
+"smiles": "CCCCOC(=O)C1=CC=C(O)C(=C1)OC",
+"types": "c3 c3 c3 c3 os c o ca ca ca ca oh ca ca os c3 hc hc hc hc hc hc hc h1 h1 ha ha ho ha h1 h1 h1"
+},
+{
+"name": "first_5K:1332",
+"smiles": "COC1=C(OC)C=C(C=C1)C=C(C#N)C#N",
+"types": "c3 os ca ca os c3 ca ca ca ca ce cf ch n1 ch n1 h1 h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:1342",
+"smiles": "CC(=O)OC[CH]1O[CH](OC(C)=O)[CH](OC(C)=O)[CH](OC(C)=O)[CH]1O[CH]2O[CH](COC(C)=O)[CH](OC(C)=O)[CH](OC(C)=O)[CH]2OC(C)=O",
+"types": "c3 c o os c3 c6 os c6 os c c3 o c6 os c c3 o c6 os c c3 o c6 os c6 os c6 c3 os c c3 o c6 os c c3 o c6 os c c3 o c6 os c c3 o hc hc hc h1 h1 h1 h2 hc hc hc h1 hc hc hc h1 hc hc hc h1 h2 h1 h1 h1 hc hc hc h1 hc hc hc h1 hc hc hc h1 hc hc hc"
+},
+{
+"name": "first_5K:1352",
+"smiles": "CC(=O)OC1[CH](OC(C)=O)[CH](OC(C)=O)C2(CO2)[CH](OC(C)=O)[CH]1OC(C)=O",
+"types": "c3 c o os c6 c6 os c c3 o c6 os c c3 o cx cx op c6 os c c3 o c6 os c c3 o hc hc hc h1 h1 hc hc hc h1 hc hc hc h1 h1 h1 hc hc hc h1 hc hc hc"
+},
+{
+"name": "first_5K:1362",
+"smiles": "CC(=O)O[CH]1CO[CH](O[CH]1[CH]2O[CH](OC[CH]2OC(C)=O)C3=C(C=CC=C3)[N+]([O-])=O)C4=C(C=CC=C4)[N+]([O-])=O",
+"types": "c3 c o os c6 c6 os c6 os c6 c6 os c6 os c6 c6 os c c3 o ca ca ca ca ca ca no o o ca ca ca ca ca ca no o o hc hc hc h1 h1 h1 h2 h1 h1 h2 h1 h1 h1 hc hc hc ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1372",
+"smiles": "O[CH]1[CH]2CO[CH](O2)[CH]3O[CH](O[CH]13)C4=CC=CC=C4",
+"types": "oh c6 c5 c5 os c5 os c5 os c5 os c5 ca ca ca ca ca ca ho h1 h1 h1 h1 h2 h1 h2 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:1382",
+"smiles": "CSC1=NC(=C2C=NNC2=N1)O",
+"types": "c3 ss ca nb ca ca cc nd na ca nb oh h1 h1 h1 h4 hn ho"
+},
+{
+"name": "first_5K:1392",
+"smiles": "OC1=NC(=C2C=NNC2=N1)S",
+"types": "oh ca nb ca ca cc nd na ca nb sh ho h4 hn hs"
+},
+{
+"name": "first_5K:1402",
+"smiles": "NC1=C(C=NN1C2=CC=CC=C2)C#N",
+"types": "nv cc cd cd nc na ca ca ca ca ca ca ch n1 hn hn h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:1412",
+"smiles": "CN1N=CC2=C(Cl)N=CN=C12",
+"types": "c3 na nc cd ca ca cl nb ca nb ca h1 h1 h1 h4 h5"
+},
+{
+"name": "first_5K:1422",
+"smiles": "CC(C)NC1=C2C=NN(C3=CC=CC=C3)C2=NC=N1",
+"types": "c3 c3 c3 nu ca ca cc nd na ca ca ca ca ca ca ca nb ca nb hc hc hc h1 hc hc hc hn h4 ha ha ha ha ha h5"
+},
+{
+"name": "first_5K:1432",
+"smiles": "CCN(CC)CCNC1=C2C=NN(C3=CC=C(Cl)C=C3)C2=NC=N1",
+"types": "c3 c3 n3 c3 c3 c3 c3 nu ca ca cc nd na ca ca ca ca cl ca ca ca nb ca nb hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 h1 h1 hn h4 ha ha ha ha h5"
+},
+{
+"name": "first_5K:1442",
+"smiles": "CN1N=CC2=C(NC3=C(Cl)C=CC=C3)N=CN=C12",
+"types": "c3 na nc cd ca ca nu ca ca cl ca ca ca ca nb ca nb ca h1 h1 h1 h4 hn ha ha ha ha h5"
+},
+{
+"name": "first_5K:1457",
+"smiles": "O=C1OCC2=C1C=CC=C2",
+"types": "o c os c5 ca ca ca ca ca ca h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:1467",
+"smiles": "CCC[CH](O)C(=O)CCC",
+"types": "c3 c3 c3 c3 oh c o c3 c3 c3 hc hc hc hc hc hc hc h1 ho hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1477",
+"smiles": "CC1=CC=C(N)N=C1",
+"types": "c3 ca ca ca ca nv nb ca hc hc hc ha ha hn hn h4"
+},
+{
+"name": "first_5K:1487",
+"smiles": "NC1=C2C=CC=C(O)C2=CC=C1",
+"types": "nv ca ca ca ca ca ca oh ca ca ca ca hn hn ha ha ha ho ha ha ha"
+},
+{
+"name": "first_5K:1497",
+"smiles": "OC(=O)C=CC1=CC=C(Cl)C=C1",
+"types": "oh c o ce cf ca ca ca ca cl ca ca ho ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1508",
+"smiles": "CC(C)=CCCC(C)=CC=NNC(=N)NN(O)O",
+"types": "c3 c2 c3 c2 c3 c3 c2 c3 ce ce n2 nu c2 n2 nu n3 oh oh hc hc hc hc hc hc ha hc hc hc hc hc hc hc ha h4 hn hn hn ho ho"
+},
+{
+"name": "first_5K:1518",
+"smiles": "ON(O)NC(=N)NN=CC1=CC=CC=N1",
+"types": "oh n3 oh nu c2 n2 nu n2 ce ca ca ca ca ca nb ho ho hn hn hn h4 ha ha ha h4"
+},
+{
+"name": "first_5K:1529",
+"smiles": "OC1=CC=C(N=O)C(=C1N=O)O",
+"types": "oh ca ca ca ca ne o ca ca ne o oh ho ha ha ho"
+},
+{
+"name": "first_5K:1539",
+"smiles": "OC1=CC=CC(=C1)[N+]([O-])=O",
+"types": "oh ca ca ca ca ca ca no o o ho ha ha ha ha"
+},
+{
+"name": "first_5K:1549",
+"smiles": "OC1=CC=C(C=C1)N=CC2=CC(=CC=C2)[N+]([O-])=O",
+"types": "oh ca ca ca ca ca ca ne cf ca ca ca ca ca ca no o o ho ha ha ha ha h4 ha ha ha ha"
+},
+{
+"name": "first_5K:1559",
+"smiles": "OC1=CC(=CC=C1)O",
+"types": "oh ca ca ca ca ca ca oh ho ha ha ha ha ho"
+},
+{
+"name": "first_5K:1569",
+"smiles": "CCOC(=O)C1=CC=C(C=C1)N=NC2=C(N)N=C(N)N=C2O",
+"types": "c3 c3 os c o ca ca ca ca ca ca ne nf ca ca nv nb ca nv nb ca oh hc hc hc h1 h1 ha ha ha ha hn hn hn hn ho"
+},
+{
+"name": "first_5K:1580",
+"smiles": "CC(C)=CCCC(C)=CC=NNC(N)=O",
+"types": "c3 c2 c3 c2 c3 c3 c2 c3 ce ce n2 ns c nt o hc hc hc hc hc hc ha hc hc hc hc hc hc hc ha h4 hn hn hn"
+},
+{
+"name": "first_5K:1590",
+"smiles": "NC(=O)NN=CC1=CC=C(O1)[N+]([O-])=O",
+"types": "nt c o ns n2 ce cc cd cd cc os no o o hn hn hn h4 ha ha"
+},
+{
+"name": "first_5K:1601",
+"smiles": "C[CH](CCC(O)=O)[CH]1CC[C]2(C)[CH]3CC[CH]4C(C)(C)[CH](O)CC[C]4(C)[CH]3C(=O)C[C]12C",
+"types": "c3 c3 c3 c3 c oh o c5 c5 c5 c5 c3 c6 c6 c6 c6 c6 c3 c3 c6 oh c6 c6 c6 c3 c6 c o c6 c5 c3 hc hc hc hc hc hc hc hc ho hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1611",
+"smiles": "CC1=NC(=C2C=NN(C3=CC=C(Cl)C=C3)C2=N1)NC4=C(Cl)C=CC=C4",
+"types": "c3 ca nb ca ca cc nd na ca ca ca ca cl ca ca ca nb nu ca ca cl ca ca ca ca hc hc hc h4 ha ha ha ha hn ha ha ha ha"
+},
+{
+"name": "first_5K:1621",
+"smiles": "CC(=O)NC1=C(C=NN1CCOC(C)=O)C#N",
+"types": "c3 c o ns cc cd cd nc na c3 c3 os c c3 o ch n1 hc hc hc hn h4 h1 h1 h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:1631",
+"smiles": "CCC1=NC(=C2C=NN(C3=CC=CC=C3)C2=N1)S",
+"types": "c3 c3 ca nb ca ca cc nd na ca ca ca ca ca ca ca nb sh hc hc hc hc hc h4 ha ha ha ha ha hs"
+},
+{
+"name": "first_5K:1641",
+"smiles": "CC1=NN(CCO)C(=C1C#N)N",
+"types": "c3 cc nd na c3 c3 oh cd cc cg n1 nv hc hc hc h1 h1 h1 h1 ho hn hn"
+},
+{
+"name": "first_5K:1651",
+"smiles": "CC(=O)OC[CH]1O[CH](O[CH]2[CH]3CO[CH](O3)[CH]4OC(C)(C)O[CH]24)[CH](OC(C)=O)[CH](OC(C)=O)[CH]1OC(C)=O",
+"types": "c3 c o os c3 c6 os c6 os c6 c5 c5 os c5 os c5 os c5 c3 c3 os c5 c6 os c c3 o c6 os c c3 o c6 os c c3 o hc hc hc h1 h1 h1 h2 h1 h1 h1 h1 h2 h1 hc hc hc hc hc hc h1 h1 hc hc hc h1 hc hc hc h1 hc hc hc"
+},
+{
+"name": "first_5K:1661",
+"smiles": "CC(=O)OC[CH](OC(C)=O)[CH](OC(C)=O)[CH](OC(C)=O)[CH](COC(C)=O)OC(C)=O",
+"types": "c3 c o os c3 c3 os c c3 o c3 os c c3 o c3 os c c3 o c3 c3 os c c3 o os c c3 o hc hc hc h1 h1 h1 hc hc hc h1 hc hc hc h1 hc hc hc h1 h1 h1 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1671",
+"smiles": "OC[CH](O)[CH](O)[CH](O)[CH](O)[CH](O)[CH](O)[CH](O)C(=O)NNC1=CC=CC=C1",
+"types": "oh c3 c3 oh c3 oh c3 oh c3 oh c3 oh c3 oh c3 oh c o ns nu ca ca ca ca ca ca ho h1 h1 h1 ho h1 ho h1 ho h1 ho h1 ho h1 ho h1 ho hn hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:1681",
+"smiles": "O[CH](COC(=O)C1=CC=CC=C1)[CH](O)[CH](O)[CH](O)COC(=O)C2=CC=CC=C2",
+"types": "oh c3 c3 os c o ca ca ca ca ca ca c3 oh c3 oh c3 oh c3 os c o ca ca ca ca ca ca ho h1 h1 h1 ha ha ha ha ha h1 ho h1 ho h1 ho h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:1692",
+"smiles": "OC1=CC2=C(C=C1)C=CC(=C2)S(O)(=O)=O",
+"types": "oh ca ca ca ca ca ca ca ca ca ca sy oh o o ho ha ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:1702",
+"smiles": "CCCCCCCCCOC(=O)CI",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 os c o c3 i hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1"
+},
+{
+"name": "first_5K:1712",
+"smiles": "CCCCCCCNC(=O)[CH](C)Br",
+"types": "c3 c3 c3 c3 c3 c3 c3 ns c o c3 c3 br hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hn h1 hc hc hc"
+},
+{
+"name": "first_5K:1722",
+"smiles": "[O-][N+](=O)C1=C(OC[CH]2CO2)C=CC=C1",
+"types": "o no o ca ca os c3 cx cx op ca ca ca ca h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:1732",
+"smiles": "OC1=C2C=CC(=CC2=CC(=C1)S(O)(=O)=O)NC3=CC=CC=C3",
+"types": "oh ca ca ca ca ca ca ca ca ca ca sy oh o o nu ca ca ca ca ca ca ho ha ha ha ha ha ho hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:1744",
+"smiles": "O[CH]1COCO[CH]1[CH](O)[CH]2OCOC[CH]2O",
+"types": "oh c6 c6 os c6 os c6 c3 oh c6 os c6 os c6 c6 oh ho h1 h1 h1 h2 h2 h1 h1 ho h1 h2 h2 h1 h1 h1 ho"
+},
+{
+"name": "first_5K:1754",
+"smiles": "CC(C)(C1=CC=C(O)C=C1)C2=CC=C(O)C=C2",
+"types": "c3 c3 c3 ca ca ca ca oh ca ca ca ca ca ca oh ca ca hc hc hc hc hc hc ha ha ho ha ha ha ha ho ha ha"
+},
+{
+"name": "first_5K:1764",
+"smiles": "OS(=O)(=O)C1=CC2=C3C=CC=CC3=CC=C2C=C1",
+"types": "oh sy o o ca ca ca ca ca ca ca ca ca ca ca ca ca ca ho ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1774",
+"smiles": "BrC1=CC=C(OC2=CC=C(Br)C=C2)C=C1",
+"types": "br ca ca ca ca os ca ca ca ca br ca ca ca ca ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1784",
+"smiles": "CC1=C(C=CC=C1)N=NC2=CC(=C(N)C=C2)C",
+"types": "c3 ca ca ca ca ca ca ne nf ca ca ca ca nv ca ca c3 hc hc hc ha ha ha ha ha hn hn ha ha hc hc hc"
+},
+{
+"name": "first_5K:1795",
+"smiles": "CC(C)NC(C)C",
+"types": "c3 c3 c3 n7 c3 c3 c3 hc hc hc h1 hc hc hc hn h1 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:1831",
+"smiles": "ClC1=C(Cl)C=C(C=C1)S(=O)(=O)OC2=CC=CC=C2",
+"types": "cl ca ca cl ca ca ca ca sy o o os ca ca ca ca ca ca ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1841",
+"smiles": "S1C2=C(C=CC=C2)N=C1C3=CC=CC=C3",
+"types": "ss ca ca ca ca ca ca nc cd ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1851",
+"smiles": "OCCOC1=CC=CC=C1",
+"types": "oh c3 c3 os ca ca ca ca ca ca ho h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:1861",
+"smiles": "N(NC1=NC2=CC=CC=C2C=C1)C3=CC=CC=C3",
+"types": "nu nu ca nb ca ca ca ca ca ca ca ca ca ca ca ca ca ca hn hn ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1871",
+"smiles": "NC1=CC=C(C=C1)S(=O)(=O)C2=CNC(=N)S2",
+"types": "nv ca ca ca ca ca ca sy o o cc cd na cc n2 ss hn hn ha ha ha ha h4 hn hn"
+},
+{
+"name": "first_5K:1881",
+"smiles": "OC(=O)CS",
+"types": "oh c o c3 sh ho h1 h1 hs"
+},
+{
+"name": "first_5K:1891",
+"smiles": "OC(=O)[CH](Br)[CH](Br)C(O)=O",
+"types": "oh c o c3 br c3 br c oh o ho h1 h1 ho"
+},
+{
+"name": "first_5K:1903",
+"smiles": "CN1CNC(=O)NC1",
+"types": "c3 n3 c6 ns c o ns c6 h1 h1 h1 h2 h2 hn hn h2 h2"
+},
+{
+"name": "first_5K:1913",
+"smiles": "C[N+]1=C2C=CC=CC2=C3C=CC=CC3=C1",
+"types": "c3 na ca ca ca ca ca ca ca ca ca ca ca ca ca h1 h1 h1 ha ha ha ha ha ha ha ha h4"
+},
+{
+"name": "first_5K:1924",
+"smiles": "C1SCSCS1",
+"types": "c6 ss c6 ss c6 ss h2 h2 h2 h2 h2 h2"
+},
+{
+"name": "first_5K:1935",
+"smiles": "C[CH](O)[CH](O)[CH](O)[CH](O)CO",
+"types": "c3 c3 oh c3 oh c3 oh c3 oh c3 oh hc hc hc h1 ho h1 ho h1 ho h1 ho h1 h1 ho"
+},
+{
+"name": "first_5K:1945",
+"smiles": "CC1=CC=C(C=C1)S(=O)(=O)NN=C[CH](O)[CH](O)[CH](O)[CH](O)CO",
+"types": "c3 ca ca ca ca ca ca sy o o nu n2 c2 c3 oh c3 oh c3 oh c3 oh c3 oh hc hc hc ha ha ha ha hn h4 h1 ho h1 ho h1 ho h1 ho h1 h1 ho"
+},
+{
+"name": "first_5K:1955",
+"smiles": "O=C(CC(C1=CC=CC=C1)C2=CC=CC=C2)C3=CC=CC=C3",
+"types": "o c c3 c3 ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1965",
+"smiles": "COCC1=C(O[CH]2O[CH](CO)[CH](OC)[CH](OC)[CH]2OC)C=CC=C1",
+"types": "c3 os c3 ca ca os c6 os c6 c3 oh c6 os c3 c6 os c3 c6 os c3 ca ca ca ca h1 h1 h1 h1 h1 h2 h1 h1 h1 ho h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:1975",
+"smiles": "ON=C1C2=C(C=CC=C2)C3=CC=CC=C13",
+"types": "oh n2 cc ca cp ca ca ca ca cp ca ca ca ca ca ho ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:1999",
+"smiles": "CCCCCCCCCCCC[N+]1=CC=C(CCCCCCCCC)C=C1",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 na ca ca ca c3 c3 c3 c3 c3 c3 c3 c3 c3 ca ca hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h4 ha hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ha h4"
+},
+{
+"name": "first_5K:2009",
+"smiles": "ClS(=O)(=O)C1=C2C=CC=C(C2=CC=C1)S(Cl)(=O)=O",
+"types": "cl sy o o ca ca ca ca ca ca ca ca ca ca sy cl o o ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2021",
+"smiles": "S1C2=C(C=CC=C2)N=C1C3=CC=CC=C3",
+"types": "ss ca ca ca ca ca ca nc cd ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2031",
+"smiles": "OC1=CC2=C(C=CC=C2)C=C1",
+"types": "oh ca ca ca ca ca ca ca ca ca ca ho ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2044",
+"smiles": "CC1=C2C=CC=CC2=NC(=C1)O",
+"types": "c3 ca ca ca ca ca ca ca nb ca ca oh hc hc hc ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:2054",
+"smiles": "OC(=O)C=CC1=CC=C(C=C1)[N+]([O-])=O",
+"types": "oh c o ce cf ca ca ca ca ca ca no o o ho ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2064",
+"smiles": "N(N=NC1=CC=CC=C1)C2=CC=CC=C2",
+"types": "nu n2 ne ca ca ca ca ca ca ca ca ca ca ca ca hn ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2074",
+"smiles": "OC(=O)C1=C(C=CC=C1)C2=C3C=C(Br)C(=O)C(=C3OC4=C2C=C(Br)C(=C4Br)O)Br",
+"types": "oh c o ca ca ca ca ca ca cc cd cd cc br c o cc cd os ca ca ca ca br ca ca br oh br ho ha ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:2086",
+"smiles": "[O-][N+](=O)C1=CC=CC(=C1)N=CC2=CC=CC=C2",
+"types": "o no o ca ca ca ca ca ca ne cf ca ca ca ca ca ca ha ha ha ha h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:2098",
+"smiles": "CCC(=N)C([CH](C)CN(C)C)(C1=CC=CC=C1)C2=CC=CC=C2",
+"types": "c3 c3 c2 n2 c3 c3 c3 c3 n3 c3 c3 ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc hc hc hn hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2109",
+"smiles": "NN",
+"types": "n8 n8 hn hn hn hn"
+},
+{
+"name": "first_5K:2119",
+"smiles": "OC1=CC=C(OCC2=CC=CC=C2)C=C1",
+"types": "oh ca ca ca ca os c3 ca ca ca ca ca ca ca ca ho ha ha h1 h1 ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2129",
+"smiles": "COC[C](C)(CO)C[CH](C)CO",
+"types": "c3 os c3 c3 c3 c3 oh c3 c3 c3 c3 oh h1 h1 h1 h1 h1 hc hc hc h1 h1 ho hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "first_5K:2139",
+"smiles": "CC1=C(NCCO)C=CC=C1",
+"types": "c3 ca ca nu c3 c3 oh ca ca ca ca hc hc hc hn h1 h1 h1 h1 ho ha ha ha ha"
+},
+{
+"name": "first_5K:2149",
+"smiles": "O=CC1=CC=CS1",
+"types": "o c cc cd cd cc ss h4 ha ha h4"
+},
+{
+"name": "first_5K:2160",
+"smiles": "CCCCNCCSCCC1=CC=CC=C1",
+"types": "c3 c3 c3 c3 n7 c3 c3 ss c3 c3 ca ca ca ca ca ca hc hc hc hc hc hc hc h1 h1 hn h1 h1 h1 h1 h1 h1 hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:2171",
+"smiles": "OC(=O)C1=C(S)C=CC=C1",
+"types": "oh c o ca ca sh ca ca ca ca ho hs ha ha ha ha"
+},
+{
+"name": "first_5K:2181",
+"smiles": "COC1=CC=C(C=C1)C(=O)C2=CC=CC=C2",
+"types": "c3 os ca ca ca ca ca ca c o ca ca ca ca ca ca h1 h1 h1 ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2192",
+"smiles": "CC[CH](CC1=CC=CC=C1)OC(=O)C2=C(C=CC=C2)C(O)=O",
+"types": "c3 c3 c3 c3 ca ca ca ca ca ca os c o ca ca ca ca ca ca c oh o hc hc hc hc hc h1 hc hc ha ha ha ha ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:2202",
+"smiles": "CC1=CC=C(C=C1)C(O)=O",
+"types": "c3 ca ca ca ca ca ca c oh o hc hc hc ha ha ha ha ho"
+},
+{
+"name": "first_5K:2212",
+"smiles": "CN(C1=CC=CC=C1)S(=O)(=O)C2=CC=C(C)C=C2",
+"types": "c3 nh ca ca ca ca ca ca sy o o ca ca ca ca c3 ca ca h1 h1 h1 ha ha ha ha ha ha ha hc hc hc ha ha"
+},
+{
+"name": "first_5K:2222",
+"smiles": "COC(=O)CCC[CH](SC1=CC=CC=C1)C(=O)OC",
+"types": "c3 os c o c3 c3 c3 c3 ss ca ca ca ca ca ca c o os c3 h1 h1 h1 hc hc hc hc hc hc h1 ha ha ha ha ha h1 h1 h1"
+},
+{
+"name": "first_5K:2232",
+"smiles": "C1=CC=C(C=C1)C2=CC(=NC(=C2)C3=CC=CC=C3)C4=CC=CC=C4",
+"types": "ca ca ca cp ca ca cp ca cp nb cp ca cp ca ca ca ca ca cp ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2242",
+"smiles": "CCCC(O)(C1=CC=CC=C1)C2=CC=CC=C2",
+"types": "c3 c3 c3 c3 oh ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc hc hc hc hc ho ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2253",
+"smiles": "CC1=CC(=C(C)C(=C1)C)OCC(O)=O",
+"types": "c3 ca ca ca ca c3 ca ca c3 os c3 c oh o hc hc hc ha hc hc hc ha hc hc hc h1 h1 ho"
+},
+{
+"name": "first_5K:2263",
+"smiles": "COC(=O)CCSCC1=CC=CC=C1",
+"types": "c3 os c o c3 c3 ss c3 ca ca ca ca ca ca h1 h1 h1 hc hc h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:2273",
+"smiles": "CCOC(=O)NN=CC",
+"types": "c3 c3 os c o ns n2 c2 c3 hc hc hc h1 h1 hn h4 hc hc hc"
+},
+{
+"name": "first_5K:2283",
+"smiles": "CC(=O)COC(C)=O",
+"types": "c3 c o c3 os c c3 o hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:2293",
+"smiles": "CC(C)(O)C1=CC=CS1",
+"types": "c3 c3 c3 oh cc cd cd cc ss hc hc hc hc hc hc ho ha ha h4"
+},
+{
+"name": "first_5K:2303",
+"smiles": "CCCCCC[CH](CC=CCCCCCCCC(=O)OCCCC)OC(C)=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c2 c2 c3 c3 c3 c3 c3 c3 c3 c o os c3 c3 c3 c3 os c c3 o hc hc hc hc hc hc hc hc hc hc hc hc hc h1 hc hc ha ha hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2313",
+"smiles": "COC1=CC=C(OCCO)C=C1",
+"types": "c3 os ca ca ca ca os c3 c3 oh ca ca h1 h1 h1 ha ha h1 h1 h1 h1 ho ha ha"
+},
+{
+"name": "first_5K:2324",
+"smiles": "[O-][N+](=NC1=CC=C(SC2=CC=CC=C2)C=C1)C3=CC=C(SC4=CC=CC=C4)C=C3",
+"types": "o nh ne ca ca ca ca ss ca ca ca ca ca ca ca ca ca ca ca ca ss ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2335",
+"smiles": "CC1=C(OCC(O)=O)C=CC(=C1)Cl",
+"types": "c3 ca ca os c3 c oh o ca ca ca ca cl hc hc hc h1 h1 ho ha ha ha"
+},
+{
+"name": "first_5K:2345",
+"smiles": "CC(=O)[C](C)(CCC#N)CCC(O)=O",
+"types": "c3 c o c3 c3 c3 c3 c1 n1 c3 c3 c oh o hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:2355",
+"smiles": "O=C1N(C(=O)C2=C1C=CC=C2)C3=C4C=CC=CC4=CC=C3",
+"types": "o c n c o ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2365",
+"smiles": "OCCN1CC2=C(C=CC=C2)C1=O",
+"types": "oh c3 c3 n c5 ca ca ca ca ca ca c o ho h1 h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:2375",
+"smiles": "CC1=CC(=O)OC(C)(C)O1",
+"types": "c3 c2 ce c o os c6 c3 c3 os hc hc hc ha hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2385",
+"smiles": "CCCCOC(=O)OCCOCCOC(=O)O[CH](C)C(=O)OCCCC",
+"types": "c3 c3 c3 c3 os c o os c3 c3 os c3 c3 os c o os c3 c3 c o os c3 c3 c3 c3 hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 hc hc hc h1 h1 hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2395",
+"smiles": "CCCCCCC[CH](CO)CCCCC",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 oh c3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2405",
+"smiles": "CC(C)CCOC(=O)CC(CC(=O)OCCC(C)C)C(=O)OCCC(C)C",
+"types": "c3 c3 c3 c3 c3 os c o c3 c3 c3 c o os c3 c3 c3 c3 c3 c o os c3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc h1 h1 hc hc hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2415",
+"smiles": "OC1=CC=C(C=C1)S(=O)(=O)C2=C(O)C=CC=C2",
+"types": "oh ca ca ca ca ca ca sy o o ca ca oh ca ca ca ca ho ha ha ha ha ho ha ha ha ha"
+},
+{
+"name": "first_5K:2425",
+"smiles": "CC(C)CCOC(=O)NC1=CC(=CC=C1)Cl",
+"types": "c3 c3 c3 c3 c3 os c o ns ca ca ca ca ca ca cl hc hc hc hc hc hc hc hc hc h1 h1 hn ha ha ha ha"
+},
+{
+"name": "first_5K:2435",
+"smiles": "CCN(CC)CCCCCCNC1=C2N=CC=C(C)C2=CC(=C1)OC",
+"types": "c3 c3 n3 c3 c3 c3 c3 c3 c3 c3 c3 nu ca ca nb ca ca ca c3 ca ca ca ca os c3 hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 hc hc hc hc hc hc hc hc h1 h1 hn h4 ha hc hc hc ha ha h1 h1 h1"
+},
+{
+"name": "first_5K:2445",
+"smiles": "COC1=CC(=C2N=CC=CC2=C1)NCCCCCCC[CH]3CCCCN3",
+"types": "c3 os ca ca ca ca nb ca ca ca ca ca nu c3 c3 c3 c3 c3 c3 c3 c6 c6 c6 c6 c6 n7 h1 h1 h1 ha h4 ha ha ha hn h1 h1 hc hc hc hc hc hc hc hc hc hc hc hc h1 hc hc hc hc hc hc h1 h1 hn"
+},
+{
+"name": "first_5K:2456",
+"smiles": "ClC1=CC(=C(C=C1)C=NC2=CC=CC=C2)Cl",
+"types": "cl ca ca ca ca ca ca ce nf ca ca ca ca ca ca cl ha ha ha h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:2466",
+"smiles": "CCC[CH](O)CNCC1=CC=C(C=C1)N(C)C",
+"types": "c3 c3 c3 c3 oh c3 n7 c3 ca ca ca ca ca ca nh c3 c3 hc hc hc hc hc hc hc h1 ho h1 h1 hn h1 h1 ha ha ha ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:2477",
+"smiles": "CC(C)(C)C1=C(O)C(=CC(=C1)O)C(O)=O",
+"types": "c3 c3 c3 c3 ca ca oh ca ca ca ca oh c oh o hc hc hc hc hc hc hc hc hc ho ha ha ho ho"
+},
+{
+"name": "first_5K:2488",
+"smiles": "CC(=O)COC1=C(C=CC=C1)[N+]([O-])=O",
+"types": "c3 c o c3 os ca ca ca ca ca ca no o o hc hc hc h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:2498",
+"smiles": "[O-][N+](=O)C1=CC=C(C=C1)C(=O)C[N+]2=CC=CC=C2",
+"types": "o no o ca ca ca ca ca ca c o c3 na ca ca ca ca ca ha ha ha ha h1 h1 h4 ha ha ha h4"
+},
+{
+"name": "first_5K:2509",
+"smiles": "N[CH](CSCC1=CC=CC=C1)C(O)=O",
+"types": "n8 c3 c3 ss c3 ca ca ca ca ca ca c oh o hn hn h1 h1 h1 h1 h1 ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:2519",
+"smiles": "CC1=CC(=CC(=[O+]1)C)SCC(=O)C2=C(C=CC=C2)[N+]([O-])=O",
+"types": "c3 cc cc cd cd cc os c3 ss c3 c o ca ca ca ca ca ca no o o hc hc hc ha ha hc hc hc h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:2530",
+"smiles": "CC(C)[CH](NC=O)C(O)=O",
+"types": "c3 c3 c3 c3 ns c o c oh o hc hc hc hc hc hc hc h1 hn h5 ho"
+},
+{
+"name": "first_5K:2540",
+"smiles": "OC[CH](O)[CH](O)[CH]1OC(=O)[CH](O)[CH]1O",
+"types": "oh c3 c3 oh c3 oh c5 os c o c5 oh c5 oh ho h1 h1 h1 ho h1 ho h1 h1 ho h1 ho"
+},
+{
+"name": "first_5K:2551",
+"smiles": "OC[CH](O)[CH](O)[CH](O)[CH](O)[CH](O)C(C=NNC1=CC=CC=C1)=NNC2=CC=CC=C2",
+"types": "oh c3 c3 oh c3 oh c3 oh c3 oh c3 oh ce ce n2 nu ca ca ca ca ca ca n2 nu ca ca ca ca ca ca ho h1 h1 h1 ho h1 ho h1 ho h1 ho h1 ho h4 hn ha ha ha ha ha hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:2561",
+"smiles": "COC1=CC(=C(O)C=C1)C(O)=O",
+"types": "c3 os ca ca ca ca oh ca ca c oh o h1 h1 h1 ha ho ha ha ho"
+},
+{
+"name": "first_5K:2571",
+"smiles": "ClCC(Cl)(Cl)C#N",
+"types": "cl c3 c3 cl cl c1 n1 h1 h1"
+},
+{
+"name": "first_5K:2581",
+"smiles": "CC1=CC(=C(C)C=C1)O",
+"types": "c3 ca ca ca ca c3 ca ca oh hc hc hc ha hc hc hc ha ha ho"
+},
+{
+"name": "first_5K:2593",
+"smiles": "OS(=O)(=O)C1=CC2=C(C=C1)C3=C(C=CC=C3)C=C2",
+"types": "oh sy o o ca ca ca ca ca ca ca ca ca ca ca ca ca ca ho ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2603",
+"smiles": "CC[CH](O)[CH](C)C=O",
+"types": "c3 c3 c3 oh c3 c3 c o hc hc hc hc hc h1 ho hc hc hc hc h4"
+},
+{
+"name": "first_5K:2613",
+"smiles": "[O-][N+](=O)C1=CC2=C(C=C1)C(=O)NC2=O",
+"types": "o no o ca ca ca ca ca ca c o ns c o ha ha ha hn"
+},
+{
+"name": "first_5K:2623",
+"smiles": "BrCCCOC1=CC=CC=C1",
+"types": "br c3 c3 c3 os ca ca ca ca ca ca h1 h1 hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:2633",
+"smiles": "ClC1=C(Cl)C=C(C=C1)S(Cl)(=O)=O",
+"types": "cl ca ca cl ca ca ca ca sy cl o o ha ha ha"
+},
+{
+"name": "first_5K:2643",
+"smiles": "ClCCOCCOC1=C(Cl)C=C(Cl)C=C1Cl",
+"types": "cl c3 c3 os c3 c3 os ca ca cl ca ca cl ca ca cl h1 h1 h1 h1 h1 h1 h1 h1 ha ha"
+},
+{
+"name": "first_5K:2653",
+"smiles": "CCOP(=O)(CCBr)OCC",
+"types": "c3 c3 os p5 o c3 c3 br os c3 c3 hc hc hc h1 h1 hc hc h1 h1 h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:2664",
+"smiles": "C1CSC2=C(C1)C3=C(C=CC=C3)C=C2",
+"types": "c6 c6 ss ca ca c6 ca ca ca ca ca ca ca ca hc hc h1 h1 hc hc ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2674",
+"smiles": "CC1=CC=C(C=C1)S(=O)(=O)C2=C(N)C=CC=C2",
+"types": "c3 ca ca ca ca ca ca sy o o ca ca nv ca ca ca ca hc hc hc ha ha ha ha hn hn ha ha ha ha"
+},
+{
+"name": "first_5K:2685",
+"smiles": "C[N+](C)(C)C=CC1=CC=CC=C1",
+"types": "c3 n4 c3 c3 c2 ce ca ca ca ca ca ca hx hx hx hx hx hx hx hx hx hx ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2695",
+"smiles": "O=S(=O)(C#CC1=CC=CC=C1)C2=CC=CC=C2",
+"types": "o sy o c1 cg ca ca ca ca ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2705",
+"smiles": "CC1=CC=C(C=C1)S(=O)(=O)C2=CC=CC=C2",
+"types": "c3 ca ca ca ca ca ca sy o o ca ca ca ca ca ca hc hc hc ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2715",
+"smiles": "CC1=CC=C(S1)S(=O)(=O)C2=CC=CC=C2",
+"types": "c3 cc cd cd cc ss sy o o ca ca ca ca ca ca hc hc hc ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2725",
+"smiles": "OC(=O)C1=C(C=CC=C1Br)S(=O)(=O)C2=CC=CC=C2",
+"types": "oh c o ca ca ca ca ca ca br sy o o ca ca ca ca ca ca ho ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2735",
+"smiles": "CCCCOC1=CC=C(OCCCC)C=C1",
+"types": "c3 c3 c3 c3 os ca ca ca ca os c3 c3 c3 c3 ca ca hc hc hc hc hc hc hc h1 h1 ha ha h1 h1 hc hc hc hc hc hc hc ha ha"
+},
+{
+"name": "first_5K:2746",
+"smiles": "O=C1NC2NC(=O)NC2N1",
+"types": "o c ns c5 ns c o ns c5 ns hn h2 hn hn h2 hn"
+},
+{
+"name": "first_5K:2756",
+"smiles": "CN(C)C1=CC=C(C=C1)N=O",
+"types": "c3 nh c3 ca ca ca ca ca ca ne o h1 h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:2766",
+"smiles": "COC1=CC(=C2N=CC=CC2=C1O)[N+]([O-])=O",
+"types": "c3 os ca ca ca ca nb ca ca ca ca ca oh no o o h1 h1 h1 ha h4 ha ha ho"
+},
+{
+"name": "first_5K:2777",
+"smiles": "ClC1=CC(=C(COC(=O)OCC2=C(Cl)C=C(Cl)C=C2)C=C1)Cl",
+"types": "cl ca ca ca ca c3 os c o os c3 ca ca cl ca ca cl ca ca ca ca cl ha h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:2787",
+"smiles": "CC(=O)OC1=CC(=C(OC(C)=O)C=C1)C(O)=O",
+"types": "c3 c o os ca ca ca ca os c c3 o ca ca c oh o hc hc hc ha hc hc hc ha ha ho"
+},
+{
+"name": "first_5K:2798",
+"smiles": "OC1=CC(=C(O)C=C1)O",
+"types": "oh ca ca ca ca oh ca ca oh ho ha ho ha ha ho"
+},
+{
+"name": "first_5K:2808",
+"smiles": "CC1(C)[CH]2CC[CH](CC(O)=O)[CH]1C2",
+"types": "c3 cy c3 cy c6 c6 c6 c3 c oh o cy cy hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc hc"
+},
+{
+"name": "first_5K:2818",
+"smiles": "ClC1=C(Cl)C2=C(S1)C=CC=C2",
+"types": "cl cc cd cl ca ca ss ca ca ca ca ha ha ha ha"
+},
+{
+"name": "first_5K:2830",
+"smiles": "OCCSCC(O)CSCCO",
+"types": "oh c3 c3 ss c3 c3 oh c3 ss c3 c3 oh ho h1 h1 h1 h1 h1 h1 h1 ho h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "first_5K:2840",
+"smiles": "CCOC(=O)N(C)N=O",
+"types": "c3 c3 os c o n c3 n2 o hc hc hc h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:2850",
+"smiles": "OC1=C(Cl)C=CC=C1",
+"types": "oh ca ca cl ca ca ca ca ho ha ha ha ha"
+},
+{
+"name": "first_5K:2860",
+"smiles": "OC1=C(C=C(C=C1[N+]([O-])=O)[N+]([O-])=O)C2=CC=CC=C2",
+"types": "oh ca cp ca ca ca ca no o o no o o cp ca ca ca ca ca ho ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2870",
+"smiles": "CC(C)OC(=O)OC1=C(Cl)C=C(Cl)C(=C1)Cl",
+"types": "c3 c3 c3 os c o os ca ca cl ca ca cl ca ca cl hc hc hc h1 hc hc hc ha ha"
+},
+{
+"name": "first_5K:2881",
+"smiles": "OC1=C(C=C(C=C1)S(O)(=O)=O)C2CCCCC2",
+"types": "oh ca ca ca ca ca ca sy oh o o c6 c6 c6 c6 c6 c6 ho ha ha ha ho hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2907",
+"smiles": "CC(=O)CC(C)=O",
+"types": "c3 c o c3 c c3 o hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2918",
+"smiles": "BrC1=CC2=CC=CC=C2S1",
+"types": "br cc cd ca ca ca ca ca ca ss ha ha ha ha ha"
+},
+{
+"name": "first_5K:2930",
+"smiles": "COC1=CC2=C(Cl)C3=C(C=C(Cl)C=C3)N=C2C=C1",
+"types": "c3 os ca ca ca ca cl ca ca ca ca cl ca ca nb ca ca ca h1 h1 h1 ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2940",
+"smiles": "CC(C)C1=C[C]23CC[CH]4[C](C)(CCC[C]4(C)C(O)=O)[CH]2C[CH]1[CH]5[CH]3C(=O)C=CC5=O",
+"types": "c3 c3 c3 c2 c2 c6 c6 c6 c6 c6 c3 c6 c6 c6 c6 c3 c oh o c6 c6 c6 c6 c6 c o ce cf c o hc hc hc hc hc hc hc ha hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc hc hc hc hc ha ha"
+},
+{
+"name": "first_5K:2950",
+"smiles": "CC(C)C1=CC2=C(C=C1)[C]3(C)CCC[C](C)(COCCC#N)[CH]3CC2",
+"types": "c3 c3 c3 ca ca ca ca ca ca c6 c3 c6 c6 c6 c6 c3 c3 os c3 c3 c1 n1 c6 c6 c6 hc hc hc hc hc hc hc ha ha ha hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:2960",
+"smiles": "CC(C)[CH]1CC[CH]2[CH](CC[CH]3[C]2(C)CCC[C]3(C)C(O)=O)C1",
+"types": "c3 c3 c3 c6 c6 c6 c6 c6 c6 c6 c6 c6 c3 c6 c6 c6 c6 c3 c oh o c6 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc"
+},
+{
+"name": "first_5K:2970",
+"smiles": "OC(CN1CCCCC1)(C2=CC=CC=C2)C3=CC=CC=C3",
+"types": "oh c3 c3 n3 c6 c6 c6 c6 c6 ca ca ca ca ca ca ca ca ca ca ca ca ho h1 h1 h1 h1 hc hc hc hc hc hc h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:2980",
+"smiles": "C[CH]1CCCC(C1)(CC(O)=O)CC(O)=O",
+"types": "c3 c6 c6 c6 c6 c6 c6 c3 c oh o c3 c oh o hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc ho"
+},
+{
+"name": "first_5K:2990",
+"smiles": "CS(=O)(=O)C1=CC=C(C=O)C=C1",
+"types": "c3 sy o o ca ca ca ca c o ca ca h1 h1 h1 ha ha h4 ha ha"
+},
+{
+"name": "first_5K:3000",
+"smiles": "[O-][N+](=O)C1=CC=C(CCCC(=O)C2=CC=CC=C2)C=C1",
+"types": "o no o ca ca ca ca c3 c3 c3 c o ca ca ca ca ca ca ca ca ha ha hc hc hc hc hc hc ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3010",
+"smiles": "CCOC(=O)C(CC)(CCC1=CC=C(C=C1)[N+]([O-])=O)C(=O)OCC",
+"types": "c3 c3 os c o c3 c3 c3 c3 c3 ca ca ca ca ca ca no o o c o os c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc ha ha ha ha h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:3020",
+"smiles": "NC(=O)C1=CC2=C3C=CC=CC3=CC=C2C=C1",
+"types": "nt c o ca ca ca ca ca ca ca ca ca ca ca ca ca ca hn hn ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3030",
+"smiles": "CNC=O",
+"types": "c3 ns c o h1 h1 h1 hn h5"
+},
+{
+"name": "first_5K:3042",
+"smiles": "CC1=C(O)C(=C(CO)C=N1)C",
+"types": "c3 ca ca oh ca ca c3 oh ca nb c3 hc hc hc ho h1 h1 ho h4 hc hc hc"
+},
+{
+"name": "first_5K:3053",
+"smiles": "CC1(C)NC(=N)NC(=N)N1C2=CC=C(Cl)C=C2",
+"types": "c3 c6 c3 nu c2 n2 nu c2 n2 nh ca ca ca ca cl ca ca hc hc hc hc hc hc hn hn hn hn ha ha ha ha"
+},
+{
+"name": "first_5K:3063",
+"smiles": "C[S](=O)CC[CH](N)C(O)=O",
+"types": "c3 s4 o c3 c3 c3 n8 c oh o h1 h1 h1 h1 h1 hc hc h1 hn hn ho"
+},
+{
+"name": "first_5K:3075",
+"smiles": "CN[CH]1CCC2=CC(=C(OC)C(=C2C3=CC=C(OC)C(=O)C=C13)OC)OC",
+"types": "c3 n7 c3 c3 c3 ca ca ca ca os c3 ca ca cc cd cd cc os c3 c o cd cc os c3 os c3 h1 h1 h1 hn h1 hc hc hc hc ha h1 h1 h1 ha ha h1 h1 h1 ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3088",
+"smiles": "COC(=O)C1=C(N)C=CC=C1",
+"types": "c3 os c o ca ca nv ca ca ca ca h1 h1 h1 hn hn ha ha ha ha"
+},
+{
+"name": "first_5K:3098",
+"smiles": "CCCCOC(=O)[CH](C)OCCC#N",
+"types": "c3 c3 c3 c3 os c o c3 c3 os c3 c3 c1 n1 hc hc hc hc hc hc hc h1 h1 h1 hc hc hc h1 h1 hc hc"
+},
+{
+"name": "first_5K:3109",
+"smiles": "OC(=O)CCCC1=CNC2=C1C=CC=C2",
+"types": "oh c o c3 c3 c3 cc cd na ca ca ca ca ca ca ho hc hc hc hc hc hc h4 hn ha ha ha ha"
+},
+{
+"name": "first_5K:3119",
+"smiles": "NNC(=O)C(CC(C(=O)NN)C(=O)NN)C(=O)NN",
+"types": "n8 ns c o c3 c3 c3 c o ns n8 c o ns n8 c o ns n8 hn hn hn hc hc hc hc hn hn hn hn hn hn hn hn hn"
+},
+{
+"name": "first_5K:3129",
+"smiles": "CCCCCCCCC(=O)N1CCOCC1",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c o n c6 c6 os c6 c6 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3139",
+"smiles": "CCOC(=O)C1=CC=C(NC(C)=O)C=C1",
+"types": "c3 c3 os c o ca ca ca ca ns c c3 o ca ca hc hc hc h1 h1 ha ha hn hc hc hc ha ha"
+},
+{
+"name": "first_5K:3150",
+"smiles": "CCCCCCCCCCCCCC(=O)N1CCOCC1",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o n c6 c6 os c6 c6 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3160",
+"smiles": "CCCCCCCCCCCC(=O)NC1=CC=CC=C1",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o ns ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:3170",
+"smiles": "COC1=C(Br)C=C(CO)C(=C1OC)[N+]([O-])=O",
+"types": "c3 os ca ca br ca ca c3 oh ca ca os c3 no o o h1 h1 h1 ha h1 h1 ho h1 h1 h1"
+},
+{
+"name": "first_5K:3180",
+"smiles": "CC(=O)C1=CC(=C2C=CC=CN12)C(C)=O",
+"types": "c3 c o cc cd cd cc cc cd cd cc na c c3 o hc hc hc ha ha ha ha h4 hc hc hc"
+},
+{
+"name": "first_5K:3193",
+"smiles": "CCCCOS(=O)(=O)C1=CC=CC=C1",
+"types": "c3 c3 c3 c3 os sy o o ca ca ca ca ca ca hc hc hc hc hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:3204",
+"smiles": "CC(=O)C1=CSC2=C1C=CC=C2",
+"types": "c3 c o cc cd ss ca ca ca ca ca ca hc hc hc h4 ha ha ha ha"
+},
+{
+"name": "first_5K:3214",
+"smiles": "CC1=CC(=C(C=C1)C(C)(C)C)OP(S)(=S)OC2=C(C=CC(=C2)C)C(C)(C)C",
+"types": "c3 ca ca ca ca ca ca c3 c3 c3 c3 os p5 sh s os ca ca ca ca ca ca c3 c3 c3 c3 c3 hc hc hc ha ha ha hc hc hc hc hc hc hc hc hc hs ha ha ha hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3228",
+"smiles": "CC[CH](N)C(O)=O",
+"types": "c3 c3 c3 n8 c oh o hc hc hc hc hc h1 hn hn ho"
+},
+{
+"name": "first_5K:3238",
+"smiles": "OC1=C(C=C(O)C(=C1)N2CC2)N3CC3",
+"types": "oh ca ca ca ca oh ca ca nm cx cx nm cx cx ho ha ho ha h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3248",
+"smiles": "N=C(NC1=CC=CC=C1)NC2=CC=CC=C2",
+"types": "n2 c2 nu ca ca ca ca ca ca nu ca ca ca ca ca ca hn hn ha ha ha ha ha hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:3260",
+"smiles": "C[N+]1(CCC[CH]1C2=CN=CC=C2)CC[N+]3(C)CCC[CH]3C4=CN=CC=C4",
+"types": "c3 n4 c5 c5 c5 c5 ca ca nb ca ca ca c3 c3 n4 c3 c5 c5 c5 c5 ca ca nb ca ca ca hx hx hx hx hx hc hc hc hc hx h4 h4 ha ha hx hx hx hx hx hx hx hx hx hc hc hc hc hx h4 h4 ha ha"
+},
+{
+"name": "first_5K:3270",
+"smiles": "CCCCCCCCN(CCCCCCCC)C(=O)[CH](C)O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 n c3 c3 c3 c3 c3 c3 c3 c3 c o c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 hc hc hc ho"
+},
+{
+"name": "first_5K:3280",
+"smiles": "CN1C=C(C(=O)NCCO)C(=O)N(C)C1=O",
+"types": "c3 n cc cd c o ns c3 c3 oh c o n c3 c o h1 h1 h1 h4 hn h1 h1 h1 h1 ho h1 h1 h1"
+},
+{
+"name": "first_5K:3290",
+"smiles": "CC(=C)C(CCC1=NC(=NC(=N1)N)N)(CCC2=NC(=NC(=N2)N)N)C(C)=O",
+"types": "c3 c2 c2 c3 c3 c3 ca nb ca nb ca nb nv nv c3 c3 ca nb ca nb ca nb nv nv c c3 o hc hc hc ha ha hc hc hc hc hn hn hn hn hc hc hc hc hn hn hn hn hc hc hc"
+},
+{
+"name": "first_5K:3300",
+"smiles": "CCCCCCCCCCCCCCCC(N)=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c nt o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hn hn"
+},
+{
+"name": "first_5K:3310",
+"smiles": "NNC(=O)C[N+]1=C(N)C(=CC=C1N)N=NC2=CC=CC=C2",
+"types": "n8 ns c o c3 na ca nv ca ca ca ca nv ne nf ca ca ca ca ca ca hn hn hn h1 h1 hn hn ha ha hn hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:3320",
+"smiles": "CC(=O)O[CH]1CC[C]2(C)C3=CC[C]4(C)[CH](CC[CH]4[C]35C=C[C]2(C1)[CH]6[CH]5C(=O)OC6=O)C(C)=O",
+"types": "c3 c o os c6 c6 c6 c6 c3 c2 c2 c6 c5 c3 c5 c5 c5 c5 c6 c2 c2 c6 c6 c5 c5 c o os c o c c3 o hc hc hc h1 hc hc hc hc hc hc hc ha hc hc hc hc hc hc hc hc hc hc hc ha ha hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3331",
+"smiles": "C[C]1(O)CC[CH]2[CH]3CCC4=CC(=O)CC[C]4(C)[CH]3[CH](O)C[C]12C",
+"types": "c3 c5 oh c5 c5 c5 c6 c6 c6 c2 ce c o c6 c6 c6 c3 c6 c6 oh c6 c5 c3 hc hc hc ho hc hc hc hc hc hc hc hc hc hc ha hc hc hc hc hc hc hc hc h1 ho hc hc hc hc hc"
+},
+{
+"name": "first_5K:3341",
+"smiles": "C1CN1C2=CC=CC=C2",
+"types": "cx cx nm ca ca ca ca ca ca h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:3351",
+"smiles": "[O-][N+](=O)C1=CC=C(C=CC(=O)C2=CC=CC=C2)C=C1",
+"types": "o no o ca ca ca ca ce cf c o ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3368",
+"smiles": "NC1=CC=C(NC2=CC=CC=C2)C=C1",
+"types": "nv ca ca ca ca nu ca ca ca ca ca ca ca ca hn hn ha ha hn ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3380",
+"smiles": "CN=C1SSC(=O)N1C",
+"types": "c3 n2 cc ss ss c o n c3 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3391",
+"smiles": "COC1=CC2=C(N[CH](C)CCCN(CCCl)CCCl)C3=CC=C(Cl)C=C3N=C2C=C1",
+"types": "c3 os ca ca ca ca nu c3 c3 c3 c3 c3 n3 c3 c3 cl c3 c3 cl ca ca ca ca cl ca ca nb ca ca ca h1 h1 h1 ha hn h1 hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:3402",
+"smiles": "C[CH](OC(C)=O)C1=CC(=CC=C1)C#N",
+"types": "c3 c3 os c c3 o ca ca ca ca ca ca cg n1 hc hc hc h1 hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:3412",
+"smiles": "C=CC1=CC(=CC=C1)C#N",
+"types": "c2 ce ca ca ca ca ca ca cg n1 ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3422",
+"smiles": "CCCCCCCC=CC1=CC=C(C=C1)N(C)C",
+"types": "c3 c3 c3 c3 c3 c3 c3 c2 ce ca ca ca ca ca ca nh c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ha ha ha ha ha ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3432",
+"smiles": "[O-][N+](=O)C1=C(CCNCC2=CC=CC=C2)C=CC=C1",
+"types": "o no o ca ca c3 c3 n7 c3 ca ca ca ca ca ca ca ca ca ca hc hc h1 h1 hn h1 h1 ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3442",
+"smiles": "CCCNCCC1=CC=C(C=C1)[N+]([O-])=O",
+"types": "c3 c3 c3 n7 c3 c3 ca ca ca ca ca ca no o o hc hc hc hc hc h1 h1 hn h1 h1 hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:3452",
+"smiles": "C=NCC#N",
+"types": "c2 n2 c3 c1 n1 h4 h4 h1 h1"
+},
+{
+"name": "first_5K:3462",
+"smiles": "CN(C)C1=CC=C(C=C1)[CH]2C[CH](N(N=C2)C3=CC=CC=C3)C4=CC=C(C=C4)N(C)C",
+"types": "c3 nh c3 ca ca ca ca ca ca c6 c6 c6 nh n2 c2 ca ca ca ca ca ca ca ca ca ca ca ca nh c3 c3 h1 h1 h1 h1 h1 h1 ha ha ha ha hc hc hc h1 h4 ha ha ha ha ha ha ha ha ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:3472",
+"smiles": "CCCCCCCCCCCCCCCCSC(N)=N",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 ss c2 nv n2 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hn hn hn"
+},
+{
+"name": "first_5K:3482",
+"smiles": "CC(C)C=NC=C(C)C",
+"types": "c3 c3 c3 c2 ne ce c2 c3 c3 hc hc hc hc hc hc hc h4 h4 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3492",
+"smiles": "[O-][N+](=O)C1=CC=C(Br)C=C1",
+"types": "o no o ca ca ca ca br ca ca ha ha ha ha"
+},
+{
+"name": "first_5K:3502",
+"smiles": "CCCCNS(=O)(=O)C1=CC=CC=C1",
+"types": "c3 c3 c3 c3 n7 sy o o ca ca ca ca ca ca hc hc hc hc hc hc hc h1 h1 hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:3514",
+"smiles": "CC(C)NS(=O)(=O)C1=CC=CC=C1",
+"types": "c3 c3 c3 n7 sy o o ca ca ca ca ca ca hc hc hc h1 hc hc hc hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:3525",
+"smiles": "[O-][N+](=O)C1=CC(=C(C=CC2=CC=CC=C2)C=C1)[N+]([O-])=O",
+"types": "o no o ca ca ca ca ce cf ca ca ca ca ca ca ca ca no o o ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3536",
+"smiles": "CN(CCCC[CH]1CCCN(C1)C(=O)C2=CC=CC=C2)C(=O)C3=CC=CC=C3",
+"types": "c3 n c3 c3 c3 c3 c6 c6 c6 c6 n c6 c o ca ca ca ca ca ca c o ca ca ca ca ca ca h1 h1 h1 h1 h1 hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3546",
+"smiles": "CCCCN(CCCC)C[CH](O)C1=CC2=C3C=CC=CC3=CC=C2C=C1",
+"types": "c3 c3 c3 c3 n3 c3 c3 c3 c3 c3 c3 oh ca ca ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc h1 h1 h1 ho ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3557",
+"smiles": "CN(C)C1=CC=C(C=C[CH](O)C2=CC=CC=C2)C=C1",
+"types": "c3 nh c3 ca ca ca ca ce c2 c3 oh ca ca ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 ha ha ha ha h1 ho ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3574",
+"smiles": "CCCN1N=NNC1=N",
+"types": "c3 c3 c3 na n2 n2 na cc n2 hc hc hc hc hc h1 h1 hn hn"
+},
+{
+"name": "first_5K:3585",
+"smiles": "CCN(CC)C(=CC(=O)C1=CC=C(Cl)C=C1)C(=O)C2=CC=C(Cl)C=C2",
+"types": "c3 c3 nh c3 c3 ce cf c o ca ca ca ca cl ca ca c o ca ca ca ca cl ca ca hc hc hc h1 h1 h1 h1 hc hc hc ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3595",
+"smiles": "CC(C)(O)C(F)(F)F",
+"types": "c3 c3 c3 oh c3 f f f hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:3605",
+"smiles": "CCC[CH]([CH](O)CC)[N+]([O-])=O",
+"types": "c3 c3 c3 c3 c3 oh c3 c3 no o o hc hc hc hc hc hc hc h1 h1 ho hc hc hc hc hc"
+},
+{
+"name": "first_5K:3615",
+"smiles": "CC1=C(Cl)C=CC(=C1)S(C)(=O)=O",
+"types": "c3 ca ca cl ca ca ca ca sy c3 o o hc hc hc ha ha ha h1 h1 h1"
+},
+{
+"name": "first_5K:3625",
+"smiles": "CCCCCCSC1=CC=C(C)C=C1",
+"types": "c3 c3 c3 c3 c3 c3 ss ca ca ca ca c3 ca ca hc hc hc hc hc hc hc hc hc hc hc h1 h1 ha ha hc hc hc ha ha"
+},
+{
+"name": "first_5K:3635",
+"smiles": "CCO[CH]([CH](C)N)C(F)(F)F",
+"types": "c3 c3 os c3 c3 c3 n8 c3 f f f hc hc hc h1 h1 h1 h1 hc hc hc hn hn"
+},
+{
+"name": "first_5K:3645",
+"smiles": "OC1=C(CN2CCCCC2)C3=CC=CC=C3C=C1",
+"types": "oh ca ca c3 n3 c6 c6 c6 c6 c6 ca ca ca ca ca ca ca ca ho h1 h1 h1 h1 hc hc hc hc hc hc h1 h1 ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3655",
+"smiles": "O=C1CCC(=O)N2N1C(=O)CCC2=O",
+"types": "o c c6 c6 c o n n c o c6 c6 c o hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3665",
+"smiles": "CCCCCCCCCCCCCCCCC#N",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c1 n1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3675",
+"smiles": "CC1CCC(O)CC1",
+"types": "c3 c6 c6 c6 c6 oh c6 c6 hc hc hc hc hc hc hc hc h1 ho hc hc hc hc"
+},
+{
+"name": "first_5K:3686",
+"smiles": "CC(C)[CH]1CC[CH](C)C[CH]1OC(=O)C2=C(O)C=CC=C2",
+"types": "c3 c3 c3 c6 c6 c6 c6 c3 c6 c6 os c o ca ca oh ca ca ca ca hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho ha ha ha ha"
+},
+{
+"name": "first_5K:3696",
+"smiles": "CCCCNC(=S)NCCCC",
+"types": "c3 c3 c3 c3 ns cs s ns c3 c3 c3 c3 hc hc hc hc hc hc hc h1 h1 hn hn h1 h1 hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3706",
+"smiles": "CC(=O)N(C1=CC=CC=C1)C2=NC3=CC=CC=C3S2",
+"types": "c3 c o n ca ca ca ca ca ca cc nd ca ca ca ca ca ca ss hc hc hc ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3716",
+"smiles": "CCN(CC)C(=S)SCCO",
+"types": "c3 c3 n c3 c3 cs s ss c3 c3 oh hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 h1 h1 ho"
+},
+{
+"name": "first_5K:3726",
+"smiles": "ClC1=CC=CC(=C1)NC(=O)OCCOC(=O)NC2=CC(=CC=C2)Cl",
+"types": "cl ca ca ca ca ca ca ns c o os c3 c3 os c o ns ca ca ca ca ca ca cl ha ha ha ha hn h1 h1 h1 h1 hn ha ha ha ha"
+},
+{
+"name": "first_5K:3738",
+"smiles": "COC1=CC=C(C=C1)C#N",
+"types": "c3 os ca ca ca ca ca ca cg n1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:3748",
+"smiles": "OC(=O)CC1=CNC2=C1C=CC=C2",
+"types": "oh c o c3 cc cd na ca ca ca ca ca ca ho hc hc h4 hn ha ha ha ha"
+},
+{
+"name": "first_5K:3758",
+"smiles": "COC(=O)C1=C(C=CC=C1)C(=O)C2=CC=CC=C2",
+"types": "c3 os c o ca ca ca ca ca ca c o ca ca ca ca ca ca h1 h1 h1 ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3770",
+"smiles": "[O-][N+](=O)C1=CC=C(C=C1)[N+]([O-])=O",
+"types": "o no o ca ca ca ca ca ca no o o ha ha ha ha"
+},
+{
+"name": "first_5K:3780",
+"smiles": "CCCCCCC(N)=O",
+"types": "c3 c3 c3 c3 c3 c3 c nt o hc hc hc hc hc hc hc hc hc hc hc hc hc hn hn"
+},
+{
+"name": "first_5K:3790",
+"smiles": "CC1=CC(=C(O)C=C1)C",
+"types": "c3 ca ca ca ca oh ca ca c3 hc hc hc ha ho ha ha hc hc hc"
+},
+{
+"name": "first_5K:3800",
+"smiles": "C[CH](N)C(=O)NO",
+"types": "c3 c3 n8 c o ns oh hc hc hc h1 hn hn hn ho"
+},
+{
+"name": "first_5K:3812",
+"smiles": "ClC1=NC(=NC(=N1)NC2=C(Cl)C=CC=C2)Cl",
+"types": "cl ca nb ca nb ca nb nu ca ca cl ca ca ca ca cl hn ha ha ha ha"
+},
+{
+"name": "first_5K:3823",
+"smiles": "[O-][N+](=O)C1=CC(=C(NN=CC2=CC=CC=C2)C=C1)[N+]([O-])=O",
+"types": "o no o ca ca ca ca nu n2 ce ca ca ca ca ca ca ca ca no o o ha hn h4 ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:3834",
+"smiles": "O=C(CCCC1CCCCC1)OC2=C3N=CC=CC3=CC=C2",
+"types": "o c c3 c3 c3 c6 c6 c6 c6 c6 c6 os ca ca nb ca ca ca ca ca ca ca hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:3847",
+"smiles": "CCOC(=O)CC(CC(=O)OCC)(OC(C)=O)C(=O)OCC",
+"types": "c3 c3 os c o c3 c3 c3 c o os c3 c3 os c c3 o c o os c3 c3 hc hc hc h1 h1 hc hc hc hc h1 h1 hc hc hc hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "first_5K:3857",
+"smiles": "ON(N=O)C1=CC=CC=C1",
+"types": "oh nh n2 o ca ca ca ca ca ca ho ha ha ha ha ha"
+},
+{
+"name": "first_5K:3872",
+"smiles": "CC(=O)CC(=O)NC1=C(Cl)C=CC=C1",
+"types": "c3 c o c3 c o ns ca ca cl ca ca ca ca hc hc hc hc hc hn ha ha ha ha"
+},
+{
+"name": "first_5K:3882",
+"smiles": "CC[CH](C)N(N=O)[CH](C)CC",
+"types": "c3 c3 c3 c3 nh n2 o c3 c3 c3 c3 hc hc hc hc hc h1 hc hc hc h1 hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3894",
+"smiles": "ON=CC1=C(O)C(=CC(=C1)Cl)Cl",
+"types": "oh n2 ce ca ca oh ca ca ca ca cl cl ho h4 ho ha ha"
+},
+{
+"name": "first_5K:3907",
+"smiles": "CC(C)CNC(=O)CCCCC1CCCCC1",
+"types": "c3 c3 c3 c3 ns c o c3 c3 c3 c3 c6 c6 c6 c6 c6 c6 hc hc hc hc hc hc hc h1 h1 hn hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:3918",
+"smiles": "ClC1=CC=C(C=C1)N2N=CC3=C(NCC4=CC=CC=C4)N=CN=C23",
+"types": "cl ca ca ca ca ca ca na nc cd ca ca nu c3 ca ca ca ca ca ca nb ca nb ca ha ha ha ha h4 hn h1 h1 ha ha ha ha ha h5"
+},
+{
+"name": "first_5K:3929",
+"smiles": "N[CH](CC(O)=O)C(O)=O",
+"types": "n8 c3 c3 c oh o c oh o hn hn h1 hc hc ho ho"
+},
+{
+"name": "first_5K:3939",
+"smiles": "OC(=O)C1=CC(=O)C=C(N1)C(O)=O",
+"types": "oh c o cc cd c o cc cd na c oh o ho ha ha hn ho"
+},
+{
+"name": "first_5K:3949",
+"smiles": "COC1=CC(=CC=C1O)CO",
+"types": "c3 os ca ca ca ca ca ca oh c3 oh h1 h1 h1 ha ha ha ho h1 h1 ho"
+},
+{
+"name": "first_5K:3960",
+"smiles": "COC1=C(NC(C)=O)C=CC=C1",
+"types": "c3 os ca ca ns c c3 o ca ca ca ca h1 h1 h1 hn hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:3970",
+"smiles": "NC1=CC2=C(C=C(C=C2)S(O)(=O)=O)C=C1S(O)(=O)=O",
+"types": "nv ca ca ca ca ca ca ca ca sy oh o o ca ca sy oh o o hn hn ha ha ha ha ho ha ho"
+},
+{
+"name": "first_5K:3980",
+"smiles": "C(N1C=CC=C1)C2=CC=CC=C2",
+"types": "c3 na cc cd cd cc ca ca ca ca ca ca h1 h1 h4 ha ha h4 ha ha ha ha ha"
+},
+{
+"name": "first_5K:3990",
+"smiles": "CC[CH](C)C(=O)OC(=O)C1=CC=C(C=C1)[N+]([O-])=O",
+"types": "c3 c3 c3 c3 c o os c o ca ca ca ca ca ca no o o hc hc hc hc hc hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:4000",
+"smiles": "C(OC1=C2C=CC=CC2=CC=C1)C3=CC=CC=C3",
+"types": "c3 os ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca ca h1 h1 ha ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4011",
+"smiles": "CC1=CC=CC(=C1)OP(=O)(OC2=CC(=CC=C2)C)OC3=CC(=CC=C3)C",
+"types": "c3 ca ca ca ca ca ca os p5 o os ca ca ca ca ca ca c3 os ca ca ca ca ca ca c3 hc hc hc ha ha ha ha ha ha ha ha hc hc hc ha ha ha ha hc hc hc"
+},
+{
+"name": "first_5K:4021",
+"smiles": "CC1=NC2=C(C=NN2)C(=N1)NCC3=CC=CO3",
+"types": "c3 ca nb ca ca cc nd na ca nb nu c3 cc cd cd cc os hc hc hc h4 hn hn h1 h1 ha ha h4"
+},
+{
+"name": "first_5K:4031",
+"smiles": "ON=C1CCCCC1=NO",
+"types": "oh n2 ce c6 c6 c6 c6 ce n2 oh ho hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:4041",
+"smiles": "CC(C)N(C(C)C)C(=O)C(Cl)Cl",
+"types": "c3 c3 c3 n c3 c3 c3 c o c3 cl cl hc hc hc h1 hc hc hc h1 hc hc hc hc hc hc h2"
+},
+{
+"name": "first_5K:4051",
+"smiles": "CCCCCCNC(=O)[CH](C)Br",
+"types": "c3 c3 c3 c3 c3 c3 ns c o c3 c3 br hc hc hc hc hc hc hc hc hc hc hc h1 h1 hn h1 hc hc hc"
+},
+{
+"name": "first_5K:4061",
+"smiles": "CCCOC1=C(Cl)C(=O)C2=CC=CC(=C2C1=O)[N+]([O-])=O",
+"types": "c3 c3 c3 os cc cd cl c o ca ca ca ca ca ca c o no o o hc hc hc hc hc h1 h1 ha ha ha"
+},
+{
+"name": "first_5K:4074",
+"smiles": "O=C1CSC(=S)N1",
+"types": "o c c5 ss cs s ns h1 h1 hn"
+},
+{
+"name": "first_5K:4087",
+"smiles": "CCOCCOC(=O)[CH](C)O",
+"types": "c3 c3 os c3 c3 os c o c3 c3 oh hc hc hc h1 h1 h1 h1 h1 h1 h1 hc hc hc ho"
+},
+{
+"name": "first_5K:4098",
+"smiles": "N[CH](CC1=CC(=C(O)C(=C1)I)I)C(O)=O",
+"types": "n8 c3 c3 ca ca ca ca oh ca ca i i c oh o hn hn h1 hc hc ha ho ha ho"
+},
+{
+"name": "first_5K:4108",
+"smiles": "NC1=CC2=C(C=CC=C2)C=C1",
+"types": "nv ca ca ca ca ca ca ca ca ca ca hn hn ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4118",
+"smiles": "C1C[CH](O[CH]2CCC=C2)C=C1",
+"types": "c5 c5 c5 os c5 c5 c5 c2 c2 c2 c2 hc hc hc hc h1 h1 hc hc hc hc ha ha ha ha"
+},
+{
+"name": "first_5K:4128",
+"smiles": "FC1=CC=C(C=C1)C2=CC=C(F)C=C2",
+"types": "f ca ca ca cp ca ca cp ca ca ca f ca ca ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4141",
+"smiles": "CC(=O)OC1=C2C=CC=C(OC(C)=O)C2=CC=C1",
+"types": "c3 c o os ca ca ca ca ca ca os c c3 o ca ca ca ca hc hc hc ha ha ha hc hc hc ha ha ha"
+},
+{
+"name": "first_5K:4152",
+"smiles": "CN(C)C1=CC=C(C=C1)N=NC2=C3C=CC=CC3=CC=C2",
+"types": "c3 nh c3 ca ca ca ca ca ca ne nf ca ca ca ca ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4162",
+"smiles": "O=C([CH]1COCCO1)C2=CC=CC=C2",
+"types": "o c c6 c6 os c6 c6 os ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:4172",
+"smiles": "ClC1=C2C=C3C=CC=CC3=CC2=CC=C1",
+"types": "cl ca ca ca ca ca ca ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4182",
+"smiles": "C(C1=NC2=CC=CC=C2C=C1)[N+]3=CC4=CC=CC=C4C=C3",
+"types": "c3 ca nb ca ca ca ca ca ca ca ca na ca ca ca ca ca ca ca ca ca h1 h1 ha ha ha ha ha ha h4 ha ha ha ha ha h4"
+},
+{
+"name": "first_5K:4192",
+"smiles": "CN(C)C1=CC=C(C=C1)C=CC2=CC=C3C=CC=CC3=[N+]2C",
+"types": "c3 nh c3 cc cc cd cd cd cc ce ce cd cd cc ca ca ca ca ca ca na c3 h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha ha ha h1 h1 h1"
+},
+{
+"name": "first_5K:4202",
+"smiles": "NOCC1=CC=CC=C1",
+"types": "n8 os c3 ca ca ca ca ca ca hn hn h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:4212",
+"smiles": "OC1=C2CC=CCC2=C(O)C=C1",
+"types": "oh ca ca c6 c2 c2 c6 ca ca oh ca ca ho hc hc ha ha hc hc ho ha ha"
+},
+{
+"name": "first_5K:4222",
+"smiles": "CN(C)CCOC(=O)COC1=CC=C(Cl)C=C1",
+"types": "c3 n3 c3 c3 c3 os c o c3 os ca ca ca ca cl ca ca h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:4232",
+"smiles": "BrC1=CC=C(NC(=O)C(=CC2=CC=CO2)C#N)C=C1",
+"types": "br ca ca ca ca ns c o ce cf cd cc cc cd os cg n1 ca ca ha ha hn ha ha ha h4 ha ha"
+},
+{
+"name": "first_5K:4242",
+"smiles": "CC(=O)NC1=CC=C(C=C1)C(O)C2=CC=C(NC(C)=O)C=C2",
+"types": "c3 c o ns ca ca ca ca ca ca c3 oh ca ca ca ca ns c c3 o ca ca hc hc hc hn ha ha ha ha h1 ho ha ha hn hc hc hc ha ha"
+},
+{
+"name": "first_5K:4252",
+"smiles": "O=C1C2=C(C(=O)C3=C1C=CC=C3)C4=C(O2)C=CC5=CC=CC=C45",
+"types": "o c cc cd c o ca ca ca ca ca ca ca ca os ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4262",
+"smiles": "O=C(OCCN1CCCCC1)[CH](OCCN2CCCCC2)C3=CC=CC=C3",
+"types": "o c os c3 c3 n3 c6 c6 c6 c6 c6 c3 os c3 c3 n3 c6 c6 c6 c6 c6 ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 hc hc hc hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:4277",
+"smiles": "COC1=C(OC)C=C(C=CC(O)=O)C=C1",
+"types": "c3 os ca ca os c3 ca ca ce cf c oh o ca ca h1 h1 h1 h1 h1 h1 ha ha ha ho ha ha"
+},
+{
+"name": "first_5K:4287",
+"smiles": "O[CH](CCl)CC1=CC=CC=C1",
+"types": "oh c3 c3 cl c3 ca ca ca ca ca ca ho h1 h1 h1 hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:4297",
+"smiles": "CCOC(=O)C1=CN=C2C=CC=CC2=C1O",
+"types": "c3 c3 os c o ca ca nb ca ca ca ca ca ca ca oh hc hc hc h1 h1 h4 ha ha ha ha ho"
+},
+{
+"name": "first_5K:4307",
+"smiles": "OC1=C(O)C=C(C=C1)C(=O)CNCCCC2=CC=CC=C2",
+"types": "oh ca ca oh ca ca ca ca c o c3 n7 c3 c3 c3 ca ca ca ca ca ca ho ho ha ha ha h1 h1 hn h1 h1 hc hc hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:4318",
+"smiles": "CCCNC[CH](O)CNC1=CC=C(Cl)C=C1",
+"types": "c3 c3 c3 n7 c3 c3 oh c3 nu ca ca ca ca cl ca ca hc hc hc hc hc h1 h1 hn h1 h1 h1 ho h1 h1 hn ha ha ha ha"
+},
+{
+"name": "first_5K:4329",
+"smiles": "O[CH]([CH]1CCCCN1)C2=C3C=CC=C(Cl)C3=NC(=C2)C4=CC=C(Cl)C=C4",
+"types": "oh c3 c6 c6 c6 c6 c6 n7 ca ca ca ca ca ca cl ca nb cp ca cp ca ca ca cl ca ca ho h1 h1 hc hc hc hc hc hc h1 h1 hn ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4339",
+"smiles": "CC(C)OC[CH](CCl)OC(=O)NC1=CC=CC=C1",
+"types": "c3 c3 c3 os c3 c3 c3 cl os c o ns ca ca ca ca ca ca hc hc hc h1 hc hc hc h1 h1 h1 h1 h1 hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:4350",
+"smiles": "CC(C)COC(=O)COC(=O)OCCOCCOC(=O)OCC(=O)OCC(C)C",
+"types": "c3 c3 c3 c3 os c o c3 os c o os c3 c3 os c3 c3 os c o os c3 c o os c3 c3 c3 c3 hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4361",
+"smiles": "N#CCCNCCNCCC#N",
+"types": "n1 c1 c3 c3 n7 c3 c3 n7 c3 c3 c1 n1 hc hc h1 h1 hn h1 h1 h1 h1 hn h1 h1 hc hc"
+},
+{
+"name": "first_5K:4371",
+"smiles": "NNC(S)=S",
+"types": "n8 ns cs sh s hn hn hn hs"
+},
+{
+"name": "first_5K:4382",
+"smiles": "CCN(CCCl)C1=CC(=C(C=C1)C=CC2=[N+](C)C3=C(C=CC=C3)C2(C)C)C",
+"types": "c3 c3 nh c3 c3 cl cc cc cd cd cd cc ce ce c2 nh c3 ca ca ca ca ca ca c5 c3 c3 c3 hc hc hc h1 h1 h1 h1 h1 h1 ha ha ha ha ha h1 h1 h1 ha ha ha ha hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4392",
+"smiles": "OC(=O)CSC1=NC2=CC=CC=C2S1",
+"types": "oh c o c3 ss cc nd ca ca ca ca ca ca ss ho h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:4402",
+"smiles": "NC(=N)SCCC(O)=O",
+"types": "nv c2 n2 ss c3 c3 c oh o hn hn hn h1 h1 hc hc ho"
+},
+{
+"name": "first_5K:4412",
+"smiles": "CCN(CC)N=NC1=CC=C(C=C1)S(N)(=O)=O",
+"types": "c3 c3 nh c3 c3 n2 ne ca ca ca ca ca ca sy n8 o o hc hc hc h1 h1 h1 h1 hc hc hc ha ha ha ha hn hn"
+},
+{
+"name": "first_5K:4422",
+"smiles": "CC1=CN=C2C=C(Cl)C(=CC2=C1O)C",
+"types": "c3 ca ca nb ca ca ca cl ca ca ca ca oh c3 hc hc hc h4 ha ha ho hc hc hc"
+},
+{
+"name": "first_5K:4432",
+"smiles": "CC1=CSC(=O)N1",
+"types": "c3 cc cd ss c o ns hc hc hc h4 hn"
+},
+{
+"name": "first_5K:4450",
+"smiles": "NC1=CC=CC(=C1)S(O)(=O)=O",
+"types": "nv ca ca ca ca ca ca sy oh o o hn hn ha ha ha ha ho"
+},
+{
+"name": "first_5K:4460",
+"smiles": "C1CN(CCO1)CCN2CCOCC2",
+"types": "c6 c6 n3 c6 c6 os c3 c3 n3 c6 c6 os c6 c6 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "first_5K:4470",
+"smiles": "BrC(CS(=O)(=O)C1=CC=CC=C1)CS(=O)(=O)C2=CC=CC=C2",
+"types": "br c3 c3 sy o o ca ca ca ca ca ca c3 sy o o ca ca ca ca ca ca h1 h1 h1 ha ha ha ha ha h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:4481",
+"smiles": "OC(=O)C1CCC1",
+"types": "oh c o cy cy cy cy ho hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4491",
+"smiles": "BrC(Br)CS(=O)(=O)C1=CC=CC=C1",
+"types": "br c3 br c3 sy o o ca ca ca ca ca ca h2 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "first_5K:4501",
+"smiles": "O=C1OC(=O)[CH]2[CH]3CC[CH](C=C3)[CH]12",
+"types": "o c os c o c5 c6 c6 c6 c6 c2 c2 c5 hc hc hc hc hc hc hc ha ha hc"
+},
+{
+"name": "first_5K:4513",
+"smiles": "S(C1=CC=CC=C1)C2=CC=CC=C2",
+"types": "ss ca ca ca ca ca ca ca ca ca ca ca ca ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4523",
+"smiles": "CC1=CC=C(CC2=C(C=CC=C2)C(O)=O)C=C1",
+"types": "c3 ca ca ca ca c3 ca ca ca ca ca ca c oh o ca ca hc hc hc ha ha hc hc ha ha ha ha ho ha ha"
+},
+{
+"name": "first_5K:4534",
+"smiles": "COC1=CC=C(C=C1OC)[CH]2[CH]3COC(=O)[CH]3CC4=C2C=C(OC)C(=C4)OC",
+"types": "c3 os ca ca ca ca ca ca os c3 c6 c5 c5 os c o c5 c6 ca ca ca ca os c3 ca ca os c3 h1 h1 h1 ha ha ha h1 h1 h1 hc hc h1 h1 hc hc hc ha h1 h1 h1 ha h1 h1 h1"
+},
+{
+"name": "first_5K:4544",
+"smiles": "OC(=O)C1=CC=C(O1)S(O)(=O)=O",
+"types": "oh c o cc cd cd cc os sy oh o o ho ha ha ho"
+},
+{
+"name": "first_5K:4555",
+"smiles": "CC1=C(Cl)C=CC(=C1)S(Cl)(=O)=O",
+"types": "c3 ca ca cl ca ca ca ca sy cl o o hc hc hc ha ha ha"
+},
+{
+"name": "first_5K:4565",
+"smiles": "CC(C)(Br)C(=O)NC1=CC=CC=C1",
+"types": "c3 c3 c3 br c o ns ca ca ca ca ca ca hc hc hc hc hc hc hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:4575",
+"smiles": "CCCCCC(C)(Cl)CCCCC",
+"types": "c3 c3 c3 c3 c3 c3 c3 cl c3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4585",
+"smiles": "CCCCCCCCCCC[CH](O)C(C)(C)C",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 oh c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4606",
+"smiles": "CON=C(C)C(C)=O",
+"types": "c3 os n2 ce c3 c c3 o h1 h1 h1 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4617",
+"smiles": "COC1=CC=C(F)C=C1",
+"types": "c3 os ca ca ca ca f ca ca h1 h1 h1 ha ha ha ha"
+},
+{
+"name": "first_5K:4627",
+"smiles": "ClC1=CC2=C(C=C1)N=CC=C2",
+"types": "cl ca ca ca ca ca ca nb ca ca ca ha ha ha h4 ha ha"
+},
+{
+"name": "first_5K:4637",
+"smiles": "CC(C=CC1=CC=CC=C1)=NO",
+"types": "c3 ce ce cf ca ca ca ca ca ca n2 oh hc hc hc ha ha ha ha ha ha ha ho"
+},
+{
+"name": "first_5K:4647",
+"smiles": "[O-][N+](=O)C1=CC2=C(C=C1)N(N=O)C3=CC=CC=C23",
+"types": "o no o ca ca cp ca ca ca na n2 o ca ca ca ca ca cp ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4658",
+"smiles": "O=C(CC#N)C1=CC=CC=C1",
+"types": "o c c3 c1 n1 ca ca ca ca ca ca hc hc ha ha ha ha ha"
+},
+{
+"name": "first_5K:4668",
+"smiles": "CC(C)=C(OC(=O)C1=CC=CC=C1)[C](C)(CC(C)(C)C)C(C)(C)C",
+"types": "c3 c2 c3 c2 os c o ca ca ca ca ca ca c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 hc hc hc hc hc hc ha ha ha ha ha hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4678",
+"smiles": "O=C1CC(=O)NC(=S)N1",
+"types": "o c c6 c o ns cs s ns hc hc hn hn"
+},
+{
+"name": "first_5K:4688",
+"smiles": "COC1=C(C=C(C=O)C=C1)S(O)(=O)=O",
+"types": "c3 os ca ca ca ca c o ca ca sy oh o o h1 h1 h1 ha h4 ha ha ho"
+},
+{
+"name": "first_5K:4698",
+"smiles": "NC1=CC=C(C=C1)S(=O)(=O)NC2=CC=CC=N2",
+"types": "nv ca ca ca ca ca ca sy o o nu ca ca ca ca ca nb hn hn ha ha ha ha hn ha ha ha h4"
+},
+{
+"name": "first_5K:4708",
+"smiles": "CCCCCCCCCCCCCCCCCCOOCCCCCCCCCCCCCCCCCC",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os os c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4721",
+"smiles": "NC1=CC=C(N)C=C1",
+"types": "nv ca ca ca ca nv ca ca hn hn ha ha hn hn ha ha"
+},
+{
+"name": "first_5K:4731",
+"smiles": "CCCC=C(CC)C=O",
+"types": "c3 c3 c3 c2 ce c3 c3 c o hc hc hc hc hc hc hc ha hc hc hc hc hc h4"
+},
+{
+"name": "first_5K:4745",
+"smiles": "CCCCCCCC[CH](O)C(O)=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 oh c oh o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho ho"
+},
+{
+"name": "first_5K:4755",
+"smiles": "C(NCC1=CC=CC=C1)C2=CC=CC=C2",
+"types": "c3 n7 c3 ca ca ca ca ca ca ca ca ca ca ca ca h1 h1 hn h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4766",
+"smiles": "CC(C)(C)C1CCC(O)(CC1)C#C",
+"types": "c3 c3 c3 c3 c6 c6 c6 c6 oh c6 c6 c1 c1 hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho hc hc hc hc ha"
+},
+{
+"name": "first_5K:4781",
+"smiles": "OC=O",
+"types": "oh c o ho h5"
+},
+{
+"name": "first_5K:4792",
+"smiles": "CCN(CC)C(S)=S",
+"types": "c3 c3 n c3 c3 cs sh s hc hc hc h1 h1 h1 h1 hc hc hc hs"
+},
+{
+"name": "first_5K:4802",
+"smiles": "O=C1NS(=O)(=O)C2=CC=CC=C12",
+"types": "o c ns sy o o ca ca ca ca ca ca hn ha ha ha ha"
+},
+{
+"name": "first_5K:4812",
+"smiles": "CC(C)OC(=O)C(=O)OC(C)C",
+"types": "c3 c3 c3 os c o c o os c3 c3 c3 hc hc hc h1 hc hc hc h1 hc hc hc hc hc hc"
+},
+{
+"name": "first_5K:4822",
+"smiles": "CCC[CH](O)C1=CC=CC=C1",
+"types": "c3 c3 c3 c3 oh ca ca ca ca ca ca hc hc hc hc hc hc hc h1 ho ha ha ha ha ha"
+},
+{
+"name": "first_5K:4832",
+"smiles": "OC1=CC(=C(O)C2=C1C(=O)C3=C(C=CC=C3)C2=O)S(O)(=O)=O",
+"types": "oh ca ca ca ca oh ca ca c o ca ca ca ca ca ca c o sy oh o o ho ha ho ha ha ha ha ho"
+},
+{
+"name": "first_5K:4842",
+"smiles": "OC(=O)C1=C(C=CC=C1)C(C2=CC=C(O)C(=C2)S(O)(=O)=O)=C3C=CC(=O)C(=C3)S(O)(=O)=O",
+"types": "oh c o ca ca ca ca ca ca ce ca ca ca ca oh ca ca sy oh o o cd cd cc c o cc cd sy oh o o ho ha ha ha ha ha ha ho ha ho ha ha ha ho"
+},
+{
+"name": "first_5K:4852",
+"smiles": "CN1C=NC2=C(O)N=C(O)N=C12",
+"types": "c3 na cc nd ca ca oh nb ca oh nb ca h1 h1 h1 h5 ho ho"
+},
+{
+"name": "first_5K:4862",
+"smiles": "CCCNC1=C2C=NNC2=NC=N1",
+"types": "c3 c3 c3 nu ca ca cc nd na ca nb ca nb hc hc hc hc hc h1 h1 hn h4 hn h5"
+},
+{
+"name": "first_5K:4872",
+"smiles": "CSC1=C2C=NNC2=NC=N1",
+"types": "c3 ss ca ca cc nd na ca nb ca nb h1 h1 h1 h4 hn h5"
+},
+{
+"name": "first_5K:4882",
+"smiles": "CN1C=NC2=C(Cl)N=CN=C12",
+"types": "c3 na cc nd ca ca cl nb ca nb ca h1 h1 h1 h5 h5"
+},
+{
+"name": "first_5K:4893",
+"smiles": "OCCNCCO",
+"types": "oh c3 c3 n7 c3 c3 oh ho h1 h1 h1 h1 hn h1 h1 h1 h1 ho"
+},
+{
+"name": "first_5K:4903",
+"smiles": "COC1=C(O)C=CC(=C1)C",
+"types": "c3 os ca ca oh ca ca ca ca c3 h1 h1 h1 ho ha ha ha hc hc hc"
+},
+{
+"name": "first_5K:4913",
+"smiles": "CC1=C(N)C=CC(=C1)Cl",
+"types": "c3 ca ca nv ca ca ca ca cl hc hc hc hn hn ha ha ha"
+},
+{
+"name": "first_5K:4923",
+"smiles": "NC1=CC=CC(=C1)S(=O)(=O)NC2=CC=CC=C2",
+"types": "nv ca ca ca ca ca ca sy o o nu ca ca ca ca ca ca hn hn ha ha ha ha hn ha ha ha ha ha"
+},
+{
+"name": "first_5K:4933",
+"smiles": "CC1=NC2=C(C=C1)C3=C(C=CC=C3)C=C2",
+"types": "c3 ca nb ca ca ca ca ca ca ca ca ca ca ca ca hc hc hc ha ha ha ha ha ha ha ha"
+},
+{
+"name": "first_5K:4947",
+"smiles": "CC1=C(N)C=CC(=C1)C(O)(C2=CC=C(NC3=CC=CC=C3)C=C2)C4=CC=C(NC5=CC=C(C=C5)S(O)(=O)=O)C=C4",
+"types": "c3 ca ca nv ca ca ca ca c3 oh ca ca ca ca nu ca ca ca ca ca ca ca ca ca ca ca ca nu ca ca ca ca ca ca sy oh o o ca ca hc hc hc hn hn ha ha ha ho ha ha hn ha ha ha ha ha ha ha ha ha hn ha ha ha ha ho ha ha"
+},
+{
+"name": "first_5K:4958",
+"smiles": "CCCCCCCCCC(O)=O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c oh o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "first_5K:4968",
+"smiles": "OC1=C(O)C(=CC=C1)O",
+"types": "oh ca ca oh ca ca ca ca oh ho ho ha ha ha ho"
+},
+{
+"name": "first_5K:4978",
+"smiles": "OC(=O)C1=C(C=O)C=CC=C1",
+"types": "oh c o ca ca c o ca ca ca ca ho h4 ha ha ha ha"
+},
+{
+"name": "first_5K:4988",
+"smiles": "ON=C(C1=CC=CO1)C(=NO)C2=CC=CO2",
+"types": "oh n2 ce cc cd cd cc os ce n2 oh cc cd cd cc os ho ha ha h4 ho ha ha h4"
+},
+{
+"name": "1-Octanol",
+"smiles": "CCCCCCCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "1-Dodecanol",
+"smiles": "CCCCCCCCCCCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "2-Ethylhexan-1-ol",
+"smiles": "CCCCC(CC)CO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "Lauric acid",
+"smiles": "CCCCCCCCCCCC(=O)O",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "C12E2",
+"smiles": "CCCCCCCCCCCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "C12E3",
+"smiles": "CCCCCCCCCCCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "C12E4",
+"smiles": "CCCCCCCCCCCCOCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "C12E5",
+"smiles": "CCCCCCCCCCCCOCCOCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "C12E6",
+"smiles": "CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "Lauramine oxide",
+"smiles": "CCCCCCCCCCCC[N+](C)(C)[O-]",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 n4 c3 c3 o hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hx hx hx hx hx hx hx hx"
+},
+{
+"name": "Limonene",
+"smiles": "CC1=CCC(CC1)C(=C)C",
+"types": "c3 c2 c2 c6 c6 c6 c6 c2 c2 c3 hc hc hc ha hc hc hc hc hc hc hc ha ha hc hc hc"
+},
+{
+"name": "Linalool",
+"smiles": "CC(C)=CCCC(C)(O)C=C",
+"types": "c3 c2 c3 c2 c3 c3 c3 c3 oh c2 c2 hc hc hc hc hc hc ha hc hc hc hc hc hc hc ho ha ha ha"
+},
+{
+"name": "Geraniol",
+"smiles": "CC(C)=CCC/C(C)=C/CO",
+"types": "c3 c2 c3 c2 c3 c3 c2 c3 c2 c3 oh hc hc hc hc hc hc ha hc hc hc hc hc hc hc ha h1 h1 ho"
+},
+{
+"name": "Citronellol",
+"smiles": "CC(C)=CCCC(C)CCO",
+"types": "c3 c2 c3 c2 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc ha hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "Menthol",
+"smiles": "CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O",
+"types": "c3 c3 c3 c6 c6 c6 c6 c3 c6 c6 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 ho"
+},
+{
+"name": "Carvone",
+"smiles": "CC1=CCC(CC1=O)C(=C)C",
+"types": "c3 ce c2 c6 c6 c6 c o c2 c2 c3 hc hc hc ha hc hc hc hc hc ha ha hc hc hc"
+},
+{
+"name": "Benzyl acetate",
+"smiles": "CC(=O)OCc1ccccc1",
+"types": "c3 c o os c3 ca ca ca ca ca ca hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "2-Phenylethanol",
+"smiles": "OCCc1ccccc1",
+"types": "oh c3 c3 ca ca ca ca ca ca ho h1 h1 hc hc ha ha ha ha ha"
+},
+{
+"name": "Eugenol",
+"smiles": "COc1cc(CC=C)ccc1O",
+"types": "c3 os ca ca ca c3 c2 c2 ca ca ca oh h1 h1 h1 ha hc hc ha ha ha ha ha ho"
+},
+{
+"name": "Vanillin",
+"smiles": "COc1cc(C=O)ccc1O",
+"types": "c3 os ca ca ca c o ca ca ca oh h1 h1 h1 ha h4 ha ha ho"
+},
+{
+"name": "Coumarin",
+"smiles": "O=c1ccc2ccccc2o1",
+"types": "o c cc cd ca ca ca ca ca ca os ha ha ha ha ha ha"
+},
+{
+"name": "trans-Cinnamaldehyde",
+"smiles": "O=C/C=C/c1ccccc1",
+"types": "o c ce cf ca ca ca ca ca ca h4 ha ha ha ha ha ha ha"
+},
+{
+"name": "Methyl salicylate",
+"smiles": "COC(=O)c1ccccc1O",
+"types": "c3 os c o ca ca ca ca ca ca oh h1 h1 h1 ha ha ha ha ho"
+},
+{
+"name": "Benzyl benzoate",
+"smiles": "O=C(OCc1ccccc1)c1ccccc1",
+"types": "o c os c3 ca ca ca ca ca ca ca ca ca ca ca ca h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "4-Anisaldehyde",
+"smiles": "COc1ccc(C=O)cc1",
+"types": "c3 os ca ca ca ca c o ca ca h1 h1 h1 ha ha h4 ha ha"
+},
+{
+"name": "n-Butyl acetate",
+"smiles": "CCCCOC(C)=O",
+"types": "c3 c3 c3 c3 os c c3 o hc hc hc hc hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "Anisole",
+"smiles": "COc1ccccc1",
+"types": "c3 os ca ca ca ca ca ca h1 h1 h1 ha ha ha ha ha"
+},
+{
+"name": "Phenetole",
+"smiles": "CCOc1ccccc1",
+"types": "c3 c3 os ca ca ca ca ca ca hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "Ethyl benzoate",
+"smiles": "CCOC(=O)c1ccccc1",
+"types": "c3 c3 os c o ca ca ca ca ca ca hc hc hc h1 h1 ha ha ha ha ha"
+},
+{
+"name": "Dimethyl succinate",
+"smiles": "COC(=O)CCC(=O)OC",
+"types": "c3 os c o c3 c3 c o os c3 h1 h1 h1 hc hc hc hc h1 h1 h1"
+},
+{
+"name": "Dimethyl adipate",
+"smiles": "COC(=O)CCCCC(=O)OC",
+"types": "c3 os c o c3 c3 c3 c3 c o os c3 h1 h1 h1 hc hc hc hc hc hc hc hc h1 h1 h1"
+},
+{
+"name": "N-Ethyl-2-pyrrolidone",
+"smiles": "CCN1CCCC1=O",
+"types": "c3 c3 n c5 c5 c5 c o hc hc hc h1 h1 h1 h1 hc hc hc hc"
+},
+{
+"name": "Propylene carbonate",
+"smiles": "CC1COC(=O)O1",
+"types": "c3 c5 c5 os c o os hc hc hc h1 h1 h1"
+},
+{
+"name": "Sulfolane",
+"smiles": "O=S1(=O)CCCC1",
+"types": "o s6 o c5 c5 c5 c5 h1 h1 hc hc hc hc h1 h1"
+},
+{
+"name": "Diethylene glycol",
+"smiles": "OCCOCCO",
+"types": "oh c3 c3 os c3 c3 oh ho h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "Aspirin",
+"smiles": "CC(=O)Oc1ccccc1C(=O)O",
+"types": "c3 c o os ca ca ca ca ca ca c o oh hc hc hc ha ha ha ha ho"
+},
+{
+"name": "Acetaminophen",
+"smiles": "CC(=O)Nc1ccc(O)cc1",
+"types": "c3 c o ns ca ca ca ca oh ca ca hc hc hc hn ha ha ho ha ha"
+},
+{
+"name": "Ibuprofen",
+"smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+"types": "c3 c3 c3 c3 ca ca ca ca c3 c3 c o oh ca ca hc hc hc hc hc hc hc hc hc ha ha hc hc hc hc ho ha ha"
+},
+{
+"name": "Naproxen",
+"smiles": "COc1ccc2cc(C(C)C(=O)O)ccc2c1",
+"types": "c3 os ca ca ca ca ca ca c3 c3 c o oh ca ca ca ca h1 h1 h1 ha ha ha hc hc hc hc ho ha ha ha"
+},
+{
+"name": "Ketoprofen",
+"smiles": "CC(c1cccc(C(=O)c2ccccc2)c1)C(=O)O",
+"types": "c3 c3 ca ca ca ca ca c o ca ca ca ca ca ca ca c o oh hc hc hc hc ha ha ha ha ha ha ha ha ha ho"
+},
+{
+"name": "Lidocaine",
+"smiles": "CCN(CC)CC(=O)Nc1c(C)cccc1C",
+"types": "c3 c3 n3 c3 c3 c3 c o ns ca ca c3 ca ca ca ca c3 hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 hn hc hc hc ha ha ha hc hc hc"
+},
+{
+"name": "Benzocaine",
+"smiles": "CCOC(=O)c1ccc(N)cc1",
+"types": "c3 c3 os c o ca ca ca ca nv ca ca hc hc hc h1 h1 ha ha hn hn ha ha"
+},
+{
+"name": "Caffeine",
+"smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+"types": "c3 n c o cc cd nd cc na c3 n c3 c o h1 h1 h1 h5 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "Nicotinamide",
+"smiles": "NC(=O)c1cccnc1",
+"types": "nt c o ca ca ca ca nb ca hn hn ha ha h4 h4"
+},
+{
+"name": "Isoniazid",
+"smiles": "NNC(=O)c1ccncc1",
+"types": "n8 ns c o ca ca ca nb ca ca hn hn hn ha h4 h4 ha"
+},
+{
+"name": "Metronidazole",
+"smiles": "Cc1ncc([N+](=O)[O-])n1CCO",
+"types": "c3 cc nd cd cc no o o na c3 c3 oh hc hc hc h4 h1 h1 h1 h1 ho"
+},
+{
+"name": "Sulfamethoxazole",
+"smiles": "Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1",
+"types": "c3 cc cd cd nu sy o o ca ca ca ca nv ca ca nc os hc hc hc ha hn ha ha hn hn ha ha"
+},
+{
+"name": "Diclofenac",
+"smiles": "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+"types": "o c oh c3 ca ca ca ca ca ca nu ca ca cl ca ca ca ca cl ho hc hc ha ha ha ha hn ha ha ha"
+},
+{
+"name": "Fluconazole",
+"smiles": "OC(Cn1cncn1)(Cn1cncn1)c1ccc(F)cc1F",
+"types": "oh c3 c3 na cc nd cd nc c3 na cc nd cd nc ca ca ca ca f ca ca f ho h1 h1 h5 h5 h1 h1 h5 h5 ha ha ha"
+},
+{
+"name": "Carbamazepine",
+"smiles": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+"types": "nt c o n ca ca ca ca ca ca cc cd ca ca ca ca ca ca hn hn ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "1-Decanol",
+"smiles": "CCCCCCCCCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "1-Hexadecanol",
+"smiles": "CCCCCCCCCCCCCCCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 ho"
+},
+{
+"name": "Dodecylamine",
+"smiles": "CCCCCCCCCCCCN",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 n8 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hn hn"
+},
+{
+"name": "Octadecylamine",
+"smiles": "CCCCCCCCCCCCCCCCCCN",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 n8 hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 hn hn"
+},
+{
+"name": "Lauryldiethanolamine",
+"smiles": "CCCCCCCCCCCCN(CCO)CCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 n3 c3 c3 oh c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 ho h1 h1 h1 h1 ho"
+},
+{
+"name": "Lauramide DEA",
+"smiles": "CCCCCCCCCCCC(=O)N(CCO)CCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o n c3 c3 oh c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 ho h1 h1 h1 h1 ho"
+},
+{
+"name": "Lauramide MEA",
+"smiles": "CCCCCCCCCCCC(=O)NCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o ns c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hn h1 h1 h1 h1 ho"
+},
+{
+"name": "Glyceryl monolaurate",
+"smiles": "CCCCCCCCCCCC(=O)OCC(O)CO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c o os c3 c3 oh c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 ho h1 h1 ho"
+},
+{
+"name": "C8E3",
+"smiles": "CCCCCCCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "C10E3",
+"smiles": "CCCCCCCCCCOCCOCCOCCO",
+"types": "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 os c3 c3 os c3 c3 os c3 c3 oh hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc hc h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ho"
+},
+{
+"name": "Thymol",
+"smiles": "CC(C)c1ccc(C)cc1O",
+"types": "c3 c3 c3 ca ca ca ca c3 ca ca oh hc hc hc hc hc hc hc ha ha hc hc hc ha ho"
+},
+{
+"name": "Carvacrol",
+"smiles": "CC(C)c1ccc(C)c(O)c1",
+"types": "c3 c3 c3 ca ca ca ca c3 ca oh ca hc hc hc hc hc hc hc ha ha hc hc hc ho ha"
+},
+{
+"name": "Ethylvanillin",
+"smiles": "CCOc1cc(C=O)ccc1O",
+"types": "c3 c3 os ca ca ca c o ca ca ca oh hc hc hc h1 h1 ha h4 ha ha ho"
+},
+{
+"name": "Piperonal",
+"smiles": "O=Cc1ccc2OCOc2c1",
+"types": "o c ca ca ca ca os c5 os ca ca h4 ha ha h2 h2 ha"
+},
+{
+"name": "Benzyl salicylate",
+"smiles": "O=C(OCc1ccccc1)c1ccccc1O",
+"types": "o c os c3 ca ca ca ca ca ca ca ca ca ca ca ca oh h1 h1 ha ha ha ha ha ha ha ha ha ho"
+},
+{
+"name": "Ethyl salicylate",
+"smiles": "CCOC(=O)c1ccccc1O",
+"types": "c3 c3 os c o ca ca ca ca ca ca oh hc hc hc h1 h1 ha ha ha ha ho"
+},
+{
+"name": "Methyl anthranilate",
+"smiles": "COC(=O)c1ccccc1N",
+"types": "c3 os c o ca ca ca ca ca ca nv h1 h1 h1 ha ha ha ha hn hn"
+},
+{
+"name": "4-Anisyl alcohol",
+"smiles": "COc1ccc(CO)cc1",
+"types": "c3 os ca ca ca ca c3 oh ca ca h1 h1 h1 ha ha h1 h1 ho ha ha"
+},
+{
+"name": "2-Phenylethyl acetate",
+"smiles": "CC(=O)OCCc1ccccc1",
+"types": "c3 c o os c3 c3 ca ca ca ca ca ca hc hc hc h1 h1 hc hc ha ha ha ha ha"
+},
+{
+"name": "Isoamyl acetate",
+"smiles": "CC(=O)OCCC(C)C",
+"types": "c3 c o os c3 c3 c3 c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "Hexyl acetate",
+"smiles": "CC(=O)OCCCCCC",
+"types": "c3 c o os c3 c3 c3 c3 c3 c3 hc hc hc h1 h1 hc hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "Raspberry ketone",
+"smiles": "CC(=O)CCc1ccc(O)cc1",
+"types": "c3 c o c3 c3 ca ca ca ca oh ca ca hc hc hc hc hc hc hc ha ha ho ha ha"
+},
+{
+"name": "Zingerone",
+"smiles": "COc1cc(CCC(C)=O)ccc1O",
+"types": "c3 os ca ca ca c3 c3 c c3 o ca ca ca oh h1 h1 h1 ha hc hc hc hc hc hc hc ha ha ho"
+},
+{
+"name": "alpha-Terpineol",
+"smiles": "CC1=CCC(CC1)C(C)(C)O",
+"types": "c3 c2 c2 c6 c6 c6 c6 c3 c3 c3 oh hc hc hc ha hc hc hc hc hc hc hc hc hc hc hc hc hc ho"
+},
+{
+"name": "Citronellal",
+"smiles": "CC(C)=CCCC(C)CC=O",
+"types": "c3 c2 c3 c2 c3 c3 c3 c3 c3 c o hc hc hc hc hc hc ha hc hc hc hc hc hc hc hc hc hc h4"
+},
+{
+"name": "Ethyl lactate",
+"smiles": "CCOC(=O)C(C)O",
+"types": "c3 c3 os c o c3 c3 oh hc hc hc h1 h1 h1 hc hc hc ho"
+},
+{
+"name": "Triacetin",
+"smiles": "CC(=O)OCC(OC(C)=O)COC(C)=O",
+"types": "c3 c o os c3 c3 os c c3 o c3 os c c3 o hc hc hc h1 h1 h1 hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "Triethyl citrate",
+"smiles": "CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC",
+"types": "c3 c3 os c o c3 c3 oh c3 c o os c3 c3 c o os c3 c3 hc hc hc h1 h1 hc hc ho hc hc h1 h1 hc hc hc h1 h1 hc hc hc"
+},
+{
+"name": "Diethyl carbonate",
+"smiles": "CCOC(=O)OCC",
+"types": "c3 c3 os c o os c3 c3 hc hc hc h1 h1 h1 h1 hc hc hc"
+},
+{
+"name": "Diglyme",
+"smiles": "COCCOCCOC",
+"types": "c3 os c3 c3 os c3 c3 os c3 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "Triglyme",
+"smiles": "COCCOCCOCCOC",
+"types": "c3 os c3 c3 os c3 c3 os c3 c3 os c3 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "Tetraglyme",
+"smiles": "COCCOCCOCCOCCOC",
+"types": "c3 os c3 c3 os c3 c3 os c3 c3 os c3 c3 os c3 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "Isophorone",
+"smiles": "CC1=CC(=O)CC(C)(C)C1",
+"types": "c3 c2 ce c o c6 c6 c3 c3 c6 hc hc hc ha hc hc hc hc hc hc hc hc hc hc"
+},
+{
+"name": "Acetophenone",
+"smiles": "CC(=O)c1ccccc1",
+"types": "c3 c o ca ca ca ca ca ca hc hc hc ha ha ha ha ha"
+},
+{
+"name": "Benzonitrile",
+"smiles": "N#Cc1ccccc1",
+"types": "n1 cg ca ca ca ca ca ca ha ha ha ha ha"
+},
+{
+"name": "Salicylamide",
+"smiles": "NC(=O)c1ccccc1O",
+"types": "nt c o ca ca ca ca ca ca oh hn hn ha ha ha ha ho"
+},
+{
+"name": "Phenacetin",
+"smiles": "CCOc1ccc(NC(C)=O)cc1",
+"types": "c3 c3 os ca ca ca ca ns c c3 o ca ca hc hc hc h1 h1 ha ha hn hc hc hc ha ha"
+},
+{
+"name": "Procaine",
+"smiles": "CCN(CC)CCOC(=O)c1ccc(N)cc1",
+"types": "c3 c3 n3 c3 c3 c3 c3 os c o ca ca ca ca nv ca ca hc hc hc h1 h1 h1 h1 hc hc hc h1 h1 h1 h1 ha ha hn hn ha ha"
+},
+{
+"name": "Prilocaine",
+"smiles": "CCCNC(C)C(=O)Nc1ccccc1C",
+"types": "c3 c3 c3 n7 c3 c3 c o ns ca ca ca ca ca ca c3 hc hc hc hc hc h1 h1 hn h1 hc hc hc hn ha ha ha ha hc hc hc"
+},
+{
+"name": "Chlorzoxazone",
+"smiles": "O=c1[nH]c2cc(Cl)ccc2o1",
+"types": "o c ns ca ca ca cl ca ca ca os hn ha ha ha"
+},
+{
+"name": "Acetazolamide",
+"smiles": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+"types": "c3 c o ns cc nd nd cc sy n8 o o ss hc hc hc hn hn hn"
+},
+{
+"name": "Theophylline",
+"smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O",
+"types": "c3 n c o cc na cc nd cd n c3 c o h1 h1 h1 hn h5 h1 h1 h1"
+},
+{
+"name": "Trimethoprim",
+"smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC",
+"types": "c3 os ca ca ca c3 ca ca nb ca nv nb ca nv ca ca os c3 ca os c3 h1 h1 h1 ha hc hc h4 hn hn hn hn ha h1 h1 h1 h1 h1 h1"
+},
+{
+"name": "Dapsone",
+"smiles": "Nc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1",
+"types": "nv ca ca ca ca sy o o ca ca ca ca nv ca ca ca ca hn hn ha ha ha ha hn hn ha ha ha ha"
+},
+{
+"name": "Sulfanilamide",
+"smiles": "NS(=O)(=O)c1ccc(N)cc1",
+"types": "n8 sy o o ca ca ca ca nv ca ca hn hn ha ha hn hn ha ha"
+},
+{
+"name": "Clotrimazole",
+"smiles": "Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1",
+"types": "cl ca ca ca ca ca ca c3 ca ca ca ca ca ca ca ca ca ca ca ca na cc cd nd cc ha ha ha ha ha ha ha ha ha ha ha ha ha ha h4 h4 h5"
+},
+{
+"name": "Diphenhydramine",
+"smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+"types": "c3 n3 c3 c3 c3 os c3 ca ca ca ca ca ca ca ca ca ca ca ca h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha ha"
+},
+{
+"name": "Hydroxyzine",
+"smiles": "OCCOCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+"types": "oh c3 c3 os c3 c3 n3 c6 c6 n3 c3 ca ca ca ca ca ca ca ca ca ca cl ca ca c6 c6 ho h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 h1 ha ha ha ha ha ha ha ha ha h1 h1 h1 h1"
+},
+{
+"name": "Haloperidol",
+"smiles": "O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1",
+"types": "o c c3 c3 c3 n3 c6 c6 c6 oh ca ca ca ca cl ca ca c6 c6 ca ca ca ca f ca ca hc hc hc hc h1 h1 h1 h1 hc hc ho ha ha ha ha hc hc h1 h1 ha ha ha ha"
+},
+{
+"name": "Warfarin",
+"smiles": "CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",
+"types": "c3 c o c3 c3 ca ca ca ca ca ca cc cd oh ca ca ca ca ca ca os c o hc hc hc hc hc hc ha ha ha ha ha ho ha ha ha ha"
+}
+]
+}

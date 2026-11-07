@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]  # PEP 639 license metadata
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opls-ff-gen"
+version = "0.3.0"
+description = "Open-source OPLS/2020 and CM1A-LBCC topology generator for GROMACS"
+readme = "INSTALL.md"  # README.md is not in the public repository
+# MIT for the code; two AmberTools data files (data/parmchk/) are GPL-3.0 (NOTICE)
+license = "MIT AND GPL-3.0-only"
+license-files = ["LICENSE", "NOTICE", "src/opls_ff_gen/data/parmchk/AmberTools-LICENSE.txt"]
+requires-python = ">=3.12"
+# Required: RDKit, NumPy, plus the MOPAC program (not a Python package; conda-forge
+# mopac=23.2.5). Optional programs (xtb, GROMACS) are found on PATH or set with
+# `opls-ff-gen config set`; `opls-ff-gen doctor` reports what is available.
+dependencies = [
+  "numpy",
+  "rdkit>=2025.9",
+]
+
+[project.optional-dependencies]
+# --qm xtb|dft torsion fits with the default MM engine (--mm-engine gromacs needs GROMACS instead)
+qm = ["openmm"]
+# --qm dft
+dft = ["pyscf", "geometric"]
+# equivalence checks against the tools the project replaced
+# (src/scripts/check_foyer_equivalence.py); AmberTools is conda-only
+reference = ["foyer==1.2.0", "ParmEd"]
+
+[project.scripts]
+opls-ff-gen = "opls_ff_gen.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["opls_ff_gen*"]
+
+# Every data file the package needs ships in the wheel (listed with checksums
+# in data/MANIFEST.json, checked at start-up). The OPLS/2020 SI in
+# data/opls2020/ is user-installed and must never be distributed.
+[tool.setuptools.package-data]
+opls_ff_gen = ["data/**/*"]
+
+[tool.setuptools.exclude-package-data]
+opls_ff_gen = ["data/opls2020/*", "data/opls2020/**/*"]

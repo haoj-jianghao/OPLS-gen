@@ -1,0 +1,3808 @@
+{
+ "records": [
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    11,
+    12,
+    13,
+    16
+   ],
+   "classes": "CT-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"CT\", \"CT\", \"N3\", \"O2\"], \"[#6;A;X4;H2;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    12,
+    40
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    12,
+    41
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    14,
+    42
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    14,
+    43
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    14,
+    44
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    15,
+    45
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    15,
+    46
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lauramine oxide",
+   "atoms": [
+    16,
+    13,
+    15,
+    47
+   ],
+   "classes": "HC-CT-N3-O2",
+   "central": "CT-N3",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"N3\", \"O2\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;A])):2]~[#7;A;X4;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Limonene",
+   "atoms": [
+    2,
+    7,
+    6,
+    5
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Limonene",
+   "atoms": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Limonene",
+   "atoms": [
+    3,
+    4,
+    5,
+    8
+   ],
+   "classes": "CM-CT-CT-CM",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CM\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Limonene",
+   "atoms": [
+    7,
+    6,
+    5,
+    8
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Linalool",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Linalool",
+   "atoms": [
+    5,
+    6,
+    7,
+    10
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;!R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Geraniol",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CM-CT-CT-CM",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CM\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Citronellol",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    1,
+    2,
+    7,
+    6
+   ],
+   "classes": "CT-C-CM-CT",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CT\", \"C\", \"CM\", \"CT\"], \"[#6;A;X4;H2;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    2,
+    7,
+    6,
+    5
+   ],
+   "classes": "CM-C-CT-CT",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    2,
+    7,
+    6,
+    19
+   ],
+   "classes": "CM-C-CT-HC",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"HC\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    2,
+    7,
+    6,
+    20
+   ],
+   "classes": "CM-C-CT-HC",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"HC\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    3,
+    2,
+    7,
+    6
+   ],
+   "classes": "CM-CM-C-CT",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CM\", \"CM\", \"C\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    3,
+    4,
+    5,
+    9
+   ],
+   "classes": "CM-CT-CT-CM",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CM\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    7,
+    2,
+    1,
+    12
+   ],
+   "classes": "C-CM-CT-HC",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"HC\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    7,
+    2,
+    1,
+    13
+   ],
+   "classes": "C-CM-CT-HC",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"HC\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    7,
+    2,
+    1,
+    14
+   ],
+   "classes": "C-CM-CT-HC",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"HC\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carvone",
+   "atoms": [
+    7,
+    6,
+    5,
+    9
+   ],
+   "classes": "C-CT-CT-CM",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"C\", \"CT\", \"CT\", \"CM\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X3;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Benzyl acetate",
+   "atoms": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "classes": "C-OS-CT-CA",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"C\", \"OS\", \"CT\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "2-Phenylethanol",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "CA-CT-CT-OH",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CT\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Eugenol",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CA-CA-CT-CM",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Eugenol",
+   "atoms": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "classes": "CA-CT-CM-CM",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X3;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Eugenol",
+   "atoms": [
+    5,
+    6,
+    7,
+    19
+   ],
+   "classes": "CA-CT-CM-HC",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CM\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Eugenol",
+   "atoms": [
+    7,
+    6,
+    5,
+    9
+   ],
+   "classes": "CA-CA-CT-CM",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    2,
+    11,
+    10,
+    5
+   ],
+   "classes": "C-OS-CA-CB",
+   "central": "CA-OS",
+   "ring": true,
+   "key": "[[\"C\", \"OS\", \"CA\", \"CB\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    3,
+    2,
+    11,
+    10
+   ],
+   "classes": "CA-OS-C-CM",
+   "central": "C-OS",
+   "ring": true,
+   "key": "[[\"CA\", \"OS\", \"C\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#8;A])(~[#8;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    3,
+    4,
+    5,
+    10
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    4,
+    3,
+    2,
+    11
+   ],
+   "classes": "CM-CM-C-OS",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CM\", \"CM\", \"C\", \"OS\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#8;A])(~[#8;a])):3]~[#8;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    6,
+    5,
+    4,
+    13
+   ],
+   "classes": "CA-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    10,
+    5,
+    4,
+    13
+   ],
+   "classes": "CA-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Coumarin",
+   "atoms": [
+    11,
+    2,
+    3,
+    12
+   ],
+   "classes": "HC-CM-C-OS",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"HC\", \"CM\", \"C\", \"OS\"], \"[#1;A;X1;H0;!R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#8;A])(~[#8;a])):3]~[#8;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "trans-Cinnamaldehyde",
+   "atoms": [
+    4,
+    3,
+    2,
+    11
+   ],
+   "classes": "CM-CM-C-HC",
+   "central": "C-CM",
+   "ring": false,
+   "key": "[[\"CM\", \"CM\", \"C\", \"HC\"], \"[#6;A;X3;H1;!R:1]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#8;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "trans-Cinnamaldehyde",
+   "atoms": [
+    11,
+    2,
+    3,
+    12
+   ],
+   "classes": "HC-C-CM-HC",
+   "central": "C-CM",
+   "ring": false,
+   "key": "[[\"HC\", \"C\", \"CM\", \"HC\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X3;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Benzyl benzoate",
+   "atoms": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "classes": "C-OS-CT-CA",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"C\", \"OS\", \"CT\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Phenetole",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "CA-OS-CT-CT",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"CA\", \"OS\", \"CT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ibuprofen",
+   "atoms": [
+    7,
+    8,
+    9,
+    11
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ibuprofen",
+   "atoms": [
+    8,
+    9,
+    11,
+    13
+   ],
+   "classes": "CA-CT-C-OH",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"C\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ibuprofen",
+   "atoms": [
+    11,
+    9,
+    8,
+    14
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Naproxen",
+   "atoms": [
+    7,
+    8,
+    9,
+    11
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Naproxen",
+   "atoms": [
+    8,
+    9,
+    11,
+    13
+   ],
+   "classes": "CA-CT-C-OH",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"C\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Naproxen",
+   "atoms": [
+    11,
+    9,
+    8,
+    14
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    3,
+    2,
+    17,
+    19
+   ],
+   "classes": "CA-CT-C-OH",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"C\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    4,
+    3,
+    2,
+    17
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    6,
+    7,
+    8,
+    10
+   ],
+   "classes": "CA-C-CA-CA",
+   "central": "C-CA",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"CA\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    7,
+    8,
+    10,
+    11
+   ],
+   "classes": "CA-C-CA-CA",
+   "central": "C-CA",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"CA\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    7,
+    8,
+    10,
+    15
+   ],
+   "classes": "CA-C-CA-CA",
+   "central": "C-CA",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"CA\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    10,
+    8,
+    7,
+    16
+   ],
+   "classes": "CA-C-CA-CA",
+   "central": "C-CA",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"CA\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ketoprofen",
+   "atoms": [
+    16,
+    3,
+    2,
+    17
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lidocaine",
+   "atoms": [
+    2,
+    3,
+    6,
+    7
+   ],
+   "classes": "C-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"NT\", \"CT\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lidocaine",
+   "atoms": [
+    3,
+    6,
+    7,
+    9
+   ],
+   "classes": "N-C-CT-NT",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"N\", \"C\", \"CT\", \"NT\"], \"[#7;A;X3;H1;!R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#7;A])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):3]~[#7;A;X3;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Lidocaine",
+   "atoms": [
+    4,
+    3,
+    6,
+    7
+   ],
+   "classes": "C-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"NT\", \"CT\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "classes": "CB-C-N-CT",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"C\", \"N\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    2,
+    13,
+    11,
+    6
+   ],
+   "classes": "CB-N-C-N",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"N\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    3,
+    2,
+    13,
+    14
+   ],
+   "classes": "C-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    4,
+    3,
+    2,
+    13
+   ],
+   "classes": "C-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    5,
+    3,
+    2,
+    13
+   ],
+   "classes": "C-N-C-CB",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"CB\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    6,
+    11,
+    12,
+    22
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    6,
+    11,
+    12,
+    23
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    6,
+    11,
+    12,
+    24
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Caffeine",
+   "atoms": [
+    6,
+    11,
+    13,
+    14
+   ],
+   "classes": "CB-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "NT-N-C-O",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"NT\", \"N\", \"C\", \"O\"], \"[#7;A;X3;H2;!R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#7;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "classes": "CA-C-N-NT",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"N\", \"NT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;a])(~[#7;A])(~[#8;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):3]~[#7;A;X3;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    3,
+    2,
+    1,
+    11
+   ],
+   "classes": "C-N-NT-H",
+   "central": "N-NT",
+   "ring": false,
+   "key": "[[\"C\", \"N\", \"NT\", \"H\"], \"[#6;A;X3;H0;!R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#7;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    3,
+    2,
+    1,
+    12
+   ],
+   "classes": "C-N-NT-H",
+   "central": "N-NT",
+   "ring": false,
+   "key": "[[\"C\", \"N\", \"NT\", \"H\"], \"[#6;A;X3;H0;!R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#7;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    11,
+    1,
+    2,
+    13
+   ],
+   "classes": "H-N-NT-H",
+   "central": "N-NT",
+   "ring": false,
+   "key": "[[\"H\", \"N\", \"NT\", \"H\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#7;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Isoniazid",
+   "atoms": [
+    12,
+    1,
+    2,
+    13
+   ],
+   "classes": "H-N-NT-H",
+   "central": "N-NT",
+   "ring": false,
+   "key": "[[\"H\", \"N\", \"NT\", \"H\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#7;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CV-CW-NO-ON",
+   "central": "CW-NO",
+   "ring": false,
+   "key": "[[\"CV\", \"CW\", \"NO\", \"ON\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;a])(~[#8;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    4,
+    5,
+    6,
+    8
+   ],
+   "classes": "CV-CW-NO-ON",
+   "central": "CW-NO",
+   "ring": false,
+   "key": "[[\"CV\", \"CW\", \"NO\", \"ON\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;a])(~[#8;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    7,
+    6,
+    5,
+    9
+   ],
+   "classes": "NA-CW-NO-ON",
+   "central": "CW-NO",
+   "ring": false,
+   "key": "[[\"NA\", \"CW\", \"NO\", \"ON\"], \"[#7;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;a])(~[#8;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    8,
+    6,
+    5,
+    9
+   ],
+   "classes": "NA-CW-NO-ON",
+   "central": "CW-NO",
+   "ring": false,
+   "key": "[[\"NA\", \"CW\", \"NO\", \"ON\"], \"[#7;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):2]~[#7;A;X3;H0;!R;$([#7](~[#6;a])(~[#8;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "classes": "NA-CT-CT-OH",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NA\", \"CT\", \"CT\", \"OH\"], \"[#7;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    9,
+    10,
+    11,
+    19
+   ],
+   "classes": "HC-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"CT\", \"NA\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Metronidazole",
+   "atoms": [
+    9,
+    10,
+    11,
+    20
+   ],
+   "classes": "HC-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"CT\", \"NA\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    1,
+    2,
+    17,
+    16
+   ],
+   "classes": "CT-CW-OS-NB",
+   "central": "CW-OS",
+   "ring": true,
+   "key": "[[\"CT\", \"CW\", \"OS\", \"NB\"], \"[#6;A;X4;H3;!R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#8;a])):2]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "classes": "CW-CS-CU-N",
+   "central": "CS-CU",
+   "ring": true,
+   "key": "[[\"CW\", \"CS\", \"CU\", \"N\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):3]~[#7;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    2,
+    3,
+    4,
+    16
+   ],
+   "classes": "CW-CS-CU-NB",
+   "central": "CS-CU",
+   "ring": true,
+   "key": "[[\"CW\", \"CS\", \"CU\", \"NB\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    2,
+    17,
+    16,
+    4
+   ],
+   "classes": "CU-NB-OS-CW",
+   "central": "NB-OS",
+   "ring": true,
+   "key": "[[\"CU\", \"NB\", \"OS\", \"CW\"], \"[#6;a;X3;H0;R:1]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#8;a])):2]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    3,
+    2,
+    17,
+    16
+   ],
+   "classes": "CS-CW-OS-NB",
+   "central": "CW-OS",
+   "ring": true,
+   "key": "[[\"CS\", \"CW\", \"OS\", \"NB\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#8;a])):2]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    4,
+    5,
+    6,
+    9
+   ],
+   "classes": "CA-SY-N-CU",
+   "central": "N-SY",
+   "ring": false,
+   "key": "[[\"CA\", \"SY\", \"N\", \"CU\"], \"[#6;a;X3;H0;R:1]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#7;A])(~[#8;A])(~[#8;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#16;A])(~[#1;A])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    5,
+    4,
+    3,
+    21
+   ],
+   "classes": "HA-CS-CU-N",
+   "central": "CS-CU",
+   "ring": true,
+   "key": "[[\"HA\", \"CS\", \"CU\", \"N\"], \"[#1;A;X1;H0;!R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):3]~[#7;A;X3;H1;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Sulfamethoxazole",
+   "atoms": [
+    16,
+    4,
+    3,
+    21
+   ],
+   "classes": "HA-CS-CU-NB",
+   "central": "CS-CU",
+   "ring": true,
+   "key": "[[\"HA\", \"CS\", \"CU\", \"NB\"], \"[#1;A;X1;H0;!R:1]~[#6;a;X3;H1;R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;A])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    2,
+    4,
+    5,
+    10
+   ],
+   "classes": "C-CT-CA-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CA\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    3,
+    2,
+    4,
+    5
+   ],
+   "classes": "CA-CT-C-OH",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"C\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    5,
+    10,
+    11,
+    12
+   ],
+   "classes": "CA-CA-NT-CA",
+   "central": "CA-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"NT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "classes": "CA-CA-NT-CA",
+   "central": "CA-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"NT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "classes": "CA-CA-NT-CA",
+   "central": "CA-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"NT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diclofenac",
+   "atoms": [
+    10,
+    11,
+    12,
+    18
+   ],
+   "classes": "CA-CA-NT-CA",
+   "central": "CA-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"NT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "NA-CT-CT-OH",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NA\", \"CT\", \"CT\", \"OH\"], \"[#7;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    1,
+    2,
+    9,
+    10
+   ],
+   "classes": "NA-CT-CT-OH",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NA\", \"CT\", \"CT\", \"OH\"], \"[#7;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    2,
+    3,
+    4,
+    8
+   ],
+   "classes": "CT-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"CT\", \"CT\", \"NA\", \"NB\"], \"[#6;A;X4;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    2,
+    9,
+    10,
+    14
+   ],
+   "classes": "CT-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"CT\", \"CT\", \"NA\", \"NB\"], \"[#6;A;X4;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    3,
+    2,
+    9,
+    10
+   ],
+   "classes": "CT-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CT\", \"CT\", \"CT\", \"NA\"], \"[#6;A;X4;H2;!R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    4,
+    3,
+    2,
+    9
+   ],
+   "classes": "CT-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CT\", \"CT\", \"CT\", \"NA\"], \"[#6;A;X4;H2;!R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    4,
+    3,
+    2,
+    15
+   ],
+   "classes": "CA-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CT\", \"NA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    8,
+    4,
+    3,
+    24
+   ],
+   "classes": "HC-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"NA\", \"NB\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    8,
+    4,
+    3,
+    25
+   ],
+   "classes": "HC-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"NA\", \"NB\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    10,
+    9,
+    2,
+    15
+   ],
+   "classes": "CA-CT-CT-NA",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CT\", \"NA\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;a])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    14,
+    10,
+    9,
+    28
+   ],
+   "classes": "HC-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"NA\", \"NB\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Fluconazole",
+   "atoms": [
+    14,
+    10,
+    9,
+    29
+   ],
+   "classes": "HC-CT-NA-NB",
+   "central": "CT-NA",
+   "ring": false,
+   "key": "[[\"HC\", \"CT\", \"NA\", \"NB\"], \"[#1;A;X1;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;a])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "classes": "CB-N-C-N",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"C\", \"N\"], \"[#6;a;X3;H0;R:1]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#7;A])(~[#7;A])(~[#8;A])):3]~[#7;A;X3;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    1,
+    2,
+    4,
+    18
+   ],
+   "classes": "CB-N-C-N",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"C\", \"N\"], \"[#6;a;X3;H0;R:1]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#7;A])(~[#7;A])(~[#8;A])):3]~[#7;A;X3;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    3,
+    2,
+    4,
+    5
+   ],
+   "classes": "CB-N-C-O",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#7;A])(~[#7;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    3,
+    2,
+    4,
+    18
+   ],
+   "classes": "CB-N-C-O",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#7;A])(~[#7;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    5,
+    10,
+    11,
+    12
+   ],
+   "classes": "CB-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    5,
+    10,
+    11,
+    25
+   ],
+   "classes": "CB-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    9,
+    10,
+    11,
+    25
+   ],
+   "classes": "CA-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    11,
+    12,
+    13,
+    18
+   ],
+   "classes": "CB-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;A;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    14,
+    13,
+    12,
+    26
+   ],
+   "classes": "CA-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Carbamazepine",
+   "atoms": [
+    18,
+    13,
+    12,
+    26
+   ],
+   "classes": "CB-CB-CM-HC",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"CM\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Ethylvanillin",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "CA-OS-CT-CT",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"CA\", \"OS\", \"CT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "classes": "CA-CB-OS-CO",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"OS\", \"CO\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "classes": "CB-OS-CO-OS",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"OS\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    6,
+    7,
+    8,
+    15
+   ],
+   "classes": "CB-OS-CO-HC",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    6,
+    7,
+    8,
+    16
+   ],
+   "classes": "CB-OS-CO-HC",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    6,
+    10,
+    9,
+    8
+   ],
+   "classes": "CB-CB-OS-CO",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"OS\", \"CO\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "classes": "CB-OS-CO-OS",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"OS\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    8,
+    7,
+    6,
+    10
+   ],
+   "classes": "CB-CB-OS-CO",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"CB\", \"OS\", \"CO\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "classes": "CA-CB-OS-CO",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"OS\", \"CO\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    10,
+    9,
+    8,
+    15
+   ],
+   "classes": "CB-OS-CO-HC",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Piperonal",
+   "atoms": [
+    10,
+    9,
+    8,
+    16
+   ],
+   "classes": "CB-OS-CO-HC",
+   "central": "CO-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"CO\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#8;A])(~[#8;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Benzyl salicylate",
+   "atoms": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "classes": "C-OS-CT-CA",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"C\", \"OS\", \"CT\", \"CA\"], \"[#6;A;X3;H0;!R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "2-Phenylethyl acetate",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CA-CT-CT-OS",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CT\", \"OS\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "alpha-Terpineol",
+   "atoms": [
+    2,
+    7,
+    6,
+    5
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "alpha-Terpineol",
+   "atoms": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "alpha-Terpineol",
+   "atoms": [
+    3,
+    4,
+    5,
+    8
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Citronellal",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H1;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ethyl lactate",
+   "atoms": [
+    3,
+    4,
+    6,
+    8
+   ],
+   "classes": "OH-CT-C-OS",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"OH\", \"CT\", \"C\", \"OS\"], \"[#8;A;X2;H1;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Ethyl lactate",
+   "atoms": [
+    4,
+    6,
+    8,
+    18
+   ],
+   "classes": "C-CT-OH-HO",
+   "central": "CT-OH",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"OH\", \"HO\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#8;A])):2]~[#8;A;X2;H1;!R;$([#8](~[#1;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Triethyl citrate",
+   "atoms": [
+    8,
+    7,
+    15,
+    17
+   ],
+   "classes": "OH-CT-C-OS",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"OH\", \"CT\", \"C\", \"OS\"], \"[#8;A;X2;H1;!R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#8;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Triethyl citrate",
+   "atoms": [
+    15,
+    7,
+    8,
+    27
+   ],
+   "classes": "C-CT-OH-HO",
+   "central": "CT-OH",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"OH\", \"HO\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H0;!R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#8;A])):2]~[#8;A;X2;H1;!R;$([#8](~[#1;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "classes": "CM-CM-C-CT",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CM\", \"CM\", \"C\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    2,
+    10,
+    7,
+    6
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    2,
+    10,
+    7,
+    8
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    2,
+    10,
+    7,
+    9
+   ],
+   "classes": "CM-CT-CT-CT",
+   "central": "CT-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"CT\", \"CT\", \"CT\"], \"[#6;A;X3;H0;R:1]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "classes": "CM-C-CT-CT",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"CT\"], \"[#6;A;X3;H1;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    3,
+    4,
+    6,
+    15
+   ],
+   "classes": "CM-C-CT-HC",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"HC\"], \"[#6;A;X3;H1;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    3,
+    4,
+    6,
+    16
+   ],
+   "classes": "CM-C-CT-HC",
+   "central": "C-CT",
+   "ring": true,
+   "key": "[[\"CM\", \"C\", \"CT\", \"HC\"], \"[#6;A;X3;H1;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X4;H2;R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Isophorone",
+   "atoms": [
+    6,
+    4,
+    3,
+    14
+   ],
+   "classes": "CT-C-CM-HC",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CT\", \"C\", \"CM\", \"HC\"], \"[#6;A;X4;H2;R:1]~[#6;A;X3;H0;R;$([#6](~[#6;A])(~[#6;A])(~[#8;A])):2]~[#6;A;X3;H1;R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Phenacetin",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "CA-OS-CT-CT",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"CA\", \"OS\", \"CT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Procaine",
+   "atoms": [
+    3,
+    6,
+    7,
+    8
+   ],
+   "classes": "NT-CT-CT-OS",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NT\", \"CT\", \"CT\", \"OS\"], \"[#7;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Prilocaine",
+   "atoms": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "classes": "C-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"NT\", \"CT\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Prilocaine",
+   "atoms": [
+    4,
+    5,
+    7,
+    9
+   ],
+   "classes": "N-C-CT-NT",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"N\", \"C\", \"CT\", \"NT\"], \"[#7;A;X3;H1;!R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#7;A])(~[#8;A])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#7;A])):3]~[#7;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Prilocaine",
+   "atoms": [
+    7,
+    5,
+    4,
+    24
+   ],
+   "classes": "C-CT-NT-H",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"NT\", \"H\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;A])(~[#7;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#6;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "classes": "CB-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H1;R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#8;A])(~[#8;a])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    1,
+    2,
+    11,
+    10
+   ],
+   "classes": "CB-OS-C-O",
+   "central": "C-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#8;A])(~[#8;a])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    2,
+    11,
+    10,
+    4
+   ],
+   "classes": "C-OS-CB-CB",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"C\", \"OS\", \"CB\", \"CB\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    2,
+    11,
+    10,
+    9
+   ],
+   "classes": "C-OS-CB-CA",
+   "central": "CB-OS",
+   "ring": true,
+   "key": "[[\"C\", \"OS\", \"CB\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;a])):3]~[#6;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    3,
+    2,
+    11,
+    10
+   ],
+   "classes": "CB-OS-C-N",
+   "central": "C-OS",
+   "ring": true,
+   "key": "[[\"CB\", \"OS\", \"C\", \"N\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#8;A])(~[#8;a])):3]~[#7;a;X3;H1;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Chlorzoxazone",
+   "atoms": [
+    4,
+    3,
+    2,
+    11
+   ],
+   "classes": "CB-N-C-OS",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"OS\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H1;R;$([#7](~[#1;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#8;A])(~[#8;a])):3]~[#8;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "classes": "CT-C-N-CW",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CT\", \"C\", \"N\", \"CW\"], \"[#6;A;X4;H3;!R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#7;A])(~[#8;A])):2]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    3,
+    2,
+    4,
+    5
+   ],
+   "classes": "CW-N-C-O",
+   "central": "C-N",
+   "ring": false,
+   "key": "[[\"CW\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;A;X3;H1;!R;$([#7](~[#1;A])(~[#6;A])(~[#6;a])):2]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#7;A])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "N-CW-nb-nb",
+   "central": "CW-nb",
+   "ring": true,
+   "key": "[[\"N\", \"CW\", \"nb\", \"nb\"], \"[#7;A;X3;H1;!R:1]~[#6;a;X3;H0;R;$([#6](~[#16;a])(~[#7;A])(~[#7;a])):2]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    4,
+    5,
+    13,
+    8
+   ],
+   "classes": "CW-SA-CW-N",
+   "central": "CW-SA",
+   "ring": true,
+   "key": "[[\"CW\", \"SA\", \"CW\", \"N\"], \"[#6;a;X3;H0;R:1]~[#16;a;X2;H0;R;$([#16](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#16;a])(~[#7;A])(~[#7;a])):3]~[#7;A;X3;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "classes": "CW-nb-nb-CW",
+   "central": "nb-nb",
+   "ring": true,
+   "key": "[[\"CW\", \"nb\", \"nb\", \"CW\"], \"[#6;a;X3;H0;R:1]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):2]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    5,
+    13,
+    8,
+    7
+   ],
+   "classes": "CW-SA-CW-nb",
+   "central": "CW-SA",
+   "ring": true,
+   "key": "[[\"CW\", \"SA\", \"CW\", \"nb\"], \"[#6;a;X3;H0;R:1]~[#16;a;X2;H0;R;$([#16](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    5,
+    13,
+    8,
+    9
+   ],
+   "classes": "CW-SA-CW-SY",
+   "central": "CW-SA",
+   "ring": true,
+   "key": "[[\"CW\", \"SA\", \"CW\", \"SY\"], \"[#6;a;X3;H0;R:1]~[#16;a;X2;H0;R;$([#16](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):3]~[#16;A;X4;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    6,
+    5,
+    13,
+    8
+   ],
+   "classes": "CW-SA-CW-nb",
+   "central": "CW-SA",
+   "ring": true,
+   "key": "[[\"CW\", \"SA\", \"CW\", \"nb\"], \"[#6;a;X3;H0;R:1]~[#16;a;X2;H0;R;$([#16](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#16;a])(~[#7;A])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "classes": "SY-CW-nb-nb",
+   "central": "CW-nb",
+   "ring": true,
+   "key": "[[\"SY\", \"CW\", \"nb\", \"nb\"], \"[#16;A;X4;H0;!R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):2]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    6,
+    7,
+    8,
+    13
+   ],
+   "classes": "SA-CW-nb-nb",
+   "central": "CW-nb",
+   "ring": true,
+   "key": "[[\"SA\", \"CW\", \"nb\", \"nb\"], \"[#16;a;X2;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):2]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    7,
+    6,
+    5,
+    13
+   ],
+   "classes": "SA-CW-nb-nb",
+   "central": "CW-nb",
+   "ring": true,
+   "key": "[[\"SA\", \"CW\", \"nb\", \"nb\"], \"[#16;a;X2;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;a])(~[#7;A])(~[#7;a])):2]~[#7;a;X2;H0;R;$([#7](~[#6;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "classes": "N-SY-CW-nb",
+   "central": "CW-SY",
+   "ring": false,
+   "key": "[[\"N\", \"SY\", \"CW\", \"nb\"], \"[#7;A;X3;H2;!R:1]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#7;A])(~[#8;A])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    8,
+    9,
+    10,
+    18
+   ],
+   "classes": "CW-SY-N-H",
+   "central": "N-SY",
+   "ring": false,
+   "key": "[[\"CW\", \"SY\", \"N\", \"H\"], \"[#6;a;X3;H0;R:1]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#7;A])(~[#8;A])(~[#8;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#16;A])(~[#1;A])(~[#1;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    8,
+    9,
+    10,
+    19
+   ],
+   "classes": "CW-SY-N-H",
+   "central": "N-SY",
+   "ring": false,
+   "key": "[[\"CW\", \"SY\", \"N\", \"H\"], \"[#6;a;X3;H0;R:1]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#7;A])(~[#8;A])(~[#8;A])):2]~[#7;A;X3;H2;!R;$([#7](~[#16;A])(~[#1;A])(~[#1;A])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Acetazolamide",
+   "atoms": [
+    10,
+    9,
+    8,
+    13
+   ],
+   "classes": "N-SY-CW-SA",
+   "central": "CW-SY",
+   "ring": false,
+   "key": "[[\"N\", \"SY\", \"CW\", \"SA\"], \"[#7;A;X3;H2;!R:1]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#7;A])(~[#8;A])(~[#8;A])):2]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#16;a])(~[#7;a])):3]~[#16;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "classes": "CB-C-N-CT",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"C\", \"N\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):2]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;A;X4;H3;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    2,
+    12,
+    10,
+    9
+   ],
+   "classes": "CB-N-C-N",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"N\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#7;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    3,
+    2,
+    12,
+    13
+   ],
+   "classes": "C-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    4,
+    3,
+    2,
+    12
+   ],
+   "classes": "C-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    5,
+    3,
+    2,
+    12
+   ],
+   "classes": "C-N-C-CB",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"C\", \"N\", \"C\", \"CB\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#7;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    9,
+    10,
+    11,
+    19
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    9,
+    10,
+    11,
+    20
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    9,
+    10,
+    11,
+    21
+   ],
+   "classes": "CB-N-CT-HC",
+   "central": "CT-N",
+   "ring": false,
+   "key": "[[\"CB\", \"N\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H3;!R;$([#6](~[#1;A])(~[#1;A])(~[#1;A])(~[#7;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Theophylline",
+   "atoms": [
+    9,
+    10,
+    12,
+    13
+   ],
+   "classes": "CB-N-C-O",
+   "central": "C-N",
+   "ring": true,
+   "key": "[[\"CB\", \"N\", \"C\", \"O\"], \"[#6;a;X3;H0;R:1]~[#7;a;X3;H0;R;$([#7](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;a])(~[#7;a])(~[#8;A])):3]~[#8;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    5,
+    6,
+    7,
+    13
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    7,
+    6,
+    5,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    9,
+    10,
+    11,
+    29
+   ],
+   "classes": "H-NT-CQ-NC",
+   "central": "CQ-NT",
+   "ring": false,
+   "key": "[[\"H\", \"NT\", \"CQ\", \"NC\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;A])(~[#7;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    9,
+    10,
+    11,
+    30
+   ],
+   "classes": "H-NT-CQ-NC",
+   "central": "CQ-NT",
+   "ring": false,
+   "key": "[[\"H\", \"NT\", \"CQ\", \"NC\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;A])(~[#7;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    12,
+    10,
+    11,
+    29
+   ],
+   "classes": "H-NT-CQ-NC",
+   "central": "CQ-NT",
+   "ring": false,
+   "key": "[[\"H\", \"NT\", \"CQ\", \"NC\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;A])(~[#7;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Trimethoprim",
+   "atoms": [
+    12,
+    10,
+    11,
+    30
+   ],
+   "classes": "H-NT-CQ-NC",
+   "central": "CQ-NT",
+   "ring": false,
+   "key": "[[\"H\", \"NT\", \"CQ\", \"NC\"], \"[#1;A;X1;H0;!R:1]~[#7;A;X3;H2;!R;$([#7](~[#1;A])(~[#1;A])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#7;A])(~[#7;a])(~[#7;a])):3]~[#7;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Dapsone",
+   "atoms": [
+    4,
+    5,
+    6,
+    9
+   ],
+   "classes": "CA-CA-SY-CA",
+   "central": "CA-SY",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"SY\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#6;a])(~[#6;a])):2]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#6;a])(~[#8;A])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Dapsone",
+   "atoms": [
+    5,
+    6,
+    9,
+    10
+   ],
+   "classes": "CA-CA-SY-CA",
+   "central": "CA-SY",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"SY\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#6;a])(~[#6;a])):2]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#6;a])(~[#8;A])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Dapsone",
+   "atoms": [
+    5,
+    6,
+    9,
+    15
+   ],
+   "classes": "CA-CA-SY-CA",
+   "central": "CA-SY",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"SY\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#6;a])(~[#6;a])):2]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#6;a])(~[#8;A])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Dapsone",
+   "atoms": [
+    9,
+    6,
+    5,
+    16
+   ],
+   "classes": "CA-CA-SY-CA",
+   "central": "CA-SY",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"SY\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#16;A])(~[#6;a])(~[#6;a])):2]~[#16;A;X4;H0;!R;$([#16](~[#6;a])(~[#6;a])(~[#8;A])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    2,
+    7,
+    8,
+    9
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    2,
+    7,
+    8,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    6,
+    7,
+    8,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    7,
+    8,
+    9,
+    14
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    7,
+    8,
+    15,
+    16
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    7,
+    8,
+    15,
+    20
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    9,
+    8,
+    15,
+    16
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    9,
+    8,
+    15,
+    20
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    10,
+    9,
+    8,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Clotrimazole",
+   "atoms": [
+    14,
+    9,
+    8,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H0;!R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])(~[#7;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "classes": "NT-CT-CT-OS",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NT\", \"CT\", \"CT\", \"OS\"], \"[#7;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "classes": "CA-CT-OS-CT",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"OS\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    5,
+    6,
+    7,
+    14
+   ],
+   "classes": "CA-CT-OS-CT",
+   "central": "CT-OS",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"OS\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H0;!R;$([#8](~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    8,
+    7,
+    14,
+    15
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    8,
+    7,
+    14,
+    19
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    9,
+    8,
+    7,
+    14
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Diphenhydramine",
+   "atoms": [
+    13,
+    8,
+    7,
+    14
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "classes": "NT-CT-CT-OS",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"NT\", \"CT\", \"CT\", \"OS\"], \"[#7;A;X3;H0;R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#7;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#8;A])):3]~[#8;A;X2;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "classes": "CA-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"NT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    9,
+    10,
+    11,
+    18
+   ],
+   "classes": "CA-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"NT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    12,
+    11,
+    10,
+    25
+   ],
+   "classes": "CA-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"NT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    12,
+    11,
+    18,
+    19
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    12,
+    11,
+    18,
+    24
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    13,
+    12,
+    11,
+    18
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    17,
+    12,
+    11,
+    18
+   ],
+   "classes": "CA-CA-CT-CA",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CA\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Hydroxyzine",
+   "atoms": [
+    18,
+    11,
+    10,
+    25
+   ],
+   "classes": "CA-CT-NT-CT",
+   "central": "CT-NT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"NT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;a])(~[#6;a])(~[#7;A])):2]~[#7;A;X3;H0;R;$([#7](~[#6;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Haloperidol",
+   "atoms": [
+    4,
+    3,
+    2,
+    20
+   ],
+   "classes": "CA-C-CT-CT",
+   "central": "C-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"C\", \"CT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;A;X3;H0;!R;$([#6](~[#6;A])(~[#6;a])(~[#8;A])):2]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    2,
+    4,
+    5,
+    12
+   ],
+   "classes": "C-CT-CT-CM",
+   "central": "CT-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CT\", \"CT\", \"CM\"], \"[#6;A;X3;H0;!R:1]~[#6;A;X4;H2;!R;$([#6](~[#1;A])(~[#1;A])(~[#6;A])(~[#6;A])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    4,
+    5,
+    12,
+    22
+   ],
+   "classes": "C-CM-CT-CT",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"CT\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;A;X4;H2;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    6,
+    5,
+    12,
+    13
+   ],
+   "classes": "CA-CT-CM-CM",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CT\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    6,
+    5,
+    12,
+    22
+   ],
+   "classes": "C-CM-CT-CA",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"CA\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    7,
+    6,
+    5,
+    12
+   ],
+   "classes": "CA-CA-CT-CM",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    11,
+    6,
+    5,
+    12
+   ],
+   "classes": "CA-CA-CT-CM",
+   "central": "CA-CT",
+   "ring": false,
+   "key": "[[\"CA\", \"CA\", \"CT\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    12,
+    13,
+    15,
+    16
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    12,
+    13,
+    15,
+    20
+   ],
+   "classes": "CA-CB-CM-CM",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    12,
+    22,
+    21,
+    20
+   ],
+   "classes": "CA-OS-C-CM",
+   "central": "C-OS",
+   "ring": true,
+   "key": "[[\"CA\", \"OS\", \"C\", \"CM\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#8;A])(~[#8;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    13,
+    12,
+    22,
+    21
+   ],
+   "classes": "CM-CM-C-OS",
+   "central": "C-CM",
+   "ring": true,
+   "key": "[[\"CM\", \"CM\", \"C\", \"OS\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#8;A])(~[#8;a])):3]~[#8;a;X2;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    14,
+    13,
+    15,
+    16
+   ],
+   "classes": "CA-CB-CM-OH",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"OH\"], \"[#6;a;X3;H1;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    14,
+    13,
+    15,
+    20
+   ],
+   "classes": "CA-CB-CM-OH",
+   "central": "CB-CM",
+   "ring": true,
+   "key": "[[\"CA\", \"CB\", \"CM\", \"OH\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):3]~[#8;A;X2;H1;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    15,
+    13,
+    14,
+    35
+   ],
+   "classes": "CB-CM-OH-HO",
+   "central": "CM-OH",
+   "ring": false,
+   "key": "[[\"CB\", \"CM\", \"OH\", \"HO\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;A])):2]~[#8;A;X2;H1;!R;$([#8](~[#1;A])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    15,
+    20,
+    21,
+    22
+   ],
+   "classes": "C-OS-CA-CB",
+   "central": "CA-OS",
+   "ring": true,
+   "key": "[[\"C\", \"OS\", \"CA\", \"CB\"], \"[#6;a;X3;H0;R:1]~[#8;a;X2;H0;R;$([#8](~[#6;a])(~[#6;a])):2]~[#6;a;X3;H0;R;$([#6](~[#6;a])(~[#6;a])(~[#8;a])):3]~[#6;a;X3;H0;R:4]\"]",
+   "carrier": true
+  },
+  {
+   "molecule": "Warfarin",
+   "atoms": [
+    22,
+    12,
+    5,
+    29
+   ],
+   "classes": "C-CM-CT-HC",
+   "central": "CM-CT",
+   "ring": false,
+   "key": "[[\"C\", \"CM\", \"CT\", \"HC\"], \"[#6;a;X3;H0;R:1]~[#6;a;X3;H0;R;$([#6](~[#6;A])(~[#6;a])(~[#6;a])):2]~[#6;A;X4;H1;!R;$([#6](~[#1;A])(~[#6;A])(~[#6;a])(~[#6;a])):3]~[#1;A;X1;H0;!R:4]\"]",
+   "carrier": false
+  }
+ ],
+ "molecules": {
+  "1-Octanol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "1-Dodecanol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "2-Ethylhexan-1-ol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Lauric acid": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C12E2": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C12E3": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C12E4": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C12E5": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C12E6": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Lauramine oxide": {
+   "n_pending": 9,
+   "other_pending": 4
+  },
+  "Limonene": {
+   "n_pending": 4,
+   "other_pending": 0
+  },
+  "Linalool": {
+   "n_pending": 2,
+   "other_pending": 1
+  },
+  "Geraniol": {
+   "n_pending": 1,
+   "other_pending": 1
+  },
+  "Citronellol": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Menthol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Carvone": {
+   "n_pending": 11,
+   "other_pending": 1
+  },
+  "Benzyl acetate": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "2-Phenylethanol": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Eugenol": {
+   "n_pending": 4,
+   "other_pending": 0
+  },
+  "Vanillin": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Coumarin": {
+   "n_pending": 8,
+   "other_pending": 7
+  },
+  "trans-Cinnamaldehyde": {
+   "n_pending": 2,
+   "other_pending": 1
+  },
+  "Methyl salicylate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Benzyl benzoate": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "4-Anisaldehyde": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "n-Butyl acetate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Anisole": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Phenetole": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Ethyl benzoate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Dimethyl succinate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Dimethyl adipate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "N-Ethyl-2-pyrrolidone": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Propylene carbonate": {
+   "n_pending": 0,
+   "other_pending": 1
+  },
+  "Sulfolane": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Diethylene glycol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Aspirin": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Acetaminophen": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Ibuprofen": {
+   "n_pending": 3,
+   "other_pending": 0
+  },
+  "Naproxen": {
+   "n_pending": 3,
+   "other_pending": 0
+  },
+  "Ketoprofen": {
+   "n_pending": 7,
+   "other_pending": 0
+  },
+  "Lidocaine": {
+   "n_pending": 3,
+   "other_pending": 0
+  },
+  "Benzocaine": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Caffeine": {
+   "n_pending": 9,
+   "other_pending": 4
+  },
+  "Nicotinamide": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Isoniazid": {
+   "n_pending": 6,
+   "other_pending": 5
+  },
+  "Metronidazole": {
+   "n_pending": 7,
+   "other_pending": 10
+  },
+  "Sulfamethoxazole": {
+   "n_pending": 8,
+   "other_pending": 5
+  },
+  "Diclofenac": {
+   "n_pending": 7,
+   "other_pending": 0
+  },
+  "Fluconazole": {
+   "n_pending": 12,
+   "other_pending": 4
+  },
+  "Carbamazepine": {
+   "n_pending": 12,
+   "other_pending": 17
+  },
+  "1-Decanol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "1-Hexadecanol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Dodecylamine": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Octadecylamine": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Lauryldiethanolamine": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Lauramide DEA": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Lauramide MEA": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Glyceryl monolaurate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C8E3": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "C10E3": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Thymol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Carvacrol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Ethylvanillin": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Piperonal": {
+   "n_pending": 10,
+   "other_pending": 4
+  },
+  "Benzyl salicylate": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Ethyl salicylate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Methyl anthranilate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "4-Anisyl alcohol": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "2-Phenylethyl acetate": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Isoamyl acetate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Hexyl acetate": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Raspberry ketone": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Zingerone": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "alpha-Terpineol": {
+   "n_pending": 3,
+   "other_pending": 0
+  },
+  "Citronellal": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Ethyl lactate": {
+   "n_pending": 2,
+   "other_pending": 1
+  },
+  "Triacetin": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Triethyl citrate": {
+   "n_pending": 2,
+   "other_pending": 1
+  },
+  "Diethyl carbonate": {
+   "n_pending": 0,
+   "other_pending": 1
+  },
+  "Diglyme": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Triglyme": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Tetraglyme": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Isophorone": {
+   "n_pending": 8,
+   "other_pending": 1
+  },
+  "Acetophenone": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Benzonitrile": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Salicylamide": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Phenacetin": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Procaine": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Prilocaine": {
+   "n_pending": 3,
+   "other_pending": 0
+  },
+  "Chlorzoxazone": {
+   "n_pending": 6,
+   "other_pending": 6
+  },
+  "Acetazolamide": {
+   "n_pending": 15,
+   "other_pending": 17
+  },
+  "Theophylline": {
+   "n_pending": 9,
+   "other_pending": 4
+  },
+  "Trimethoprim": {
+   "n_pending": 8,
+   "other_pending": 5
+  },
+  "Dapsone": {
+   "n_pending": 4,
+   "other_pending": 1
+  },
+  "Sulfanilamide": {
+   "n_pending": 0,
+   "other_pending": 0
+  },
+  "Clotrimazole": {
+   "n_pending": 12,
+   "other_pending": 0
+  },
+  "Diphenhydramine": {
+   "n_pending": 7,
+   "other_pending": 0
+  },
+  "Hydroxyzine": {
+   "n_pending": 9,
+   "other_pending": 0
+  },
+  "Haloperidol": {
+   "n_pending": 1,
+   "other_pending": 0
+  },
+  "Warfarin": {
+   "n_pending": 15,
+   "other_pending": 7
+  }
+ }
+}

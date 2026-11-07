@@ -1,0 +1,11 @@
+{
+ "molecules": 6991,
+ "checked": 6983,
+ "atoms": 242914,
+ "equal": {
+  "typemap_equal": 6983,
+  "opls2020_equal": 6983,
+  "gromacs_equal": 6983
+ },
+ "mismatches": []
+}

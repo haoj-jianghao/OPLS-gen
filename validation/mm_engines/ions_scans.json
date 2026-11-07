@@ -1,0 +1,188 @@
+[
+  {
+    "name": "benzoate",
+    "charge": -1,
+    "atoms": 14,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00028108253590453103,
+      "angle": 0.0001540179923522622,
+      "proper": 1.519961041474005e-05,
+      "improper": 6.0640477095516565e-06,
+      "lj14": 7.188248563849697e-05,
+      "coulomb14": 2.8005812467313262e-05,
+      "lj_sr": 1.2538932063155261e-05,
+      "coulomb_sr": 3.821742024001651e-05,
+      "potential": 0.0004094309506825766
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.0918357141233841,
+    "max_abs_force_kj_mol_nm": 3947.6910438139266,
+    "scans": [
+      {
+        "scan": "scan_2_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00026377390113552224,
+        "max_rmsd_angstrom": 0.0005569655643510768
+      }
+    ]
+  },
+  {
+    "name": "choline",
+    "charge": 1,
+    "atoms": 21,
+    "frames": 72,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00019752623613134013,
+      "angle": 7.935015464877182e-05,
+      "proper": 8.782838461662834e-05,
+      "improper": 0.0,
+      "lj14": 4.550639772915588e-05,
+      "coulomb14": 0.00012867209534306312,
+      "lj_sr": 0.00020375272398354127,
+      "coulomb_sr": 0.0001223021685632375,
+      "potential": 0.0002647709021630362
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.08466660417366256,
+    "max_abs_force_kj_mol_nm": 3232.93471332311,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0013908356681042733,
+        "max_rmsd_angstrom": 0.0013041154654135838
+      },
+      {
+        "scan": "scan_2_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0020330810662301246,
+        "max_rmsd_angstrom": 0.0013897338264520131
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0023181849007301025,
+        "max_rmsd_angstrom": 0.0006625961505079586
+      }
+    ]
+  },
+  {
+    "name": "guanidinium",
+    "charge": 1,
+    "atoms": 10,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00013164013384425743,
+      "angle": 0.00019863318674850916,
+      "proper": 9.017118362564247e-05,
+      "improper": 8.533214600170425e-05,
+      "lj14": 0.0,
+      "coulomb14": 0.00031005014443508117,
+      "lj_sr": 0.0,
+      "coulomb_sr": 0.00031101455533644184,
+      "potential": 0.0006787976041948696
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.06896204888425927,
+    "max_abs_force_kj_mol_nm": 3361.586191807645,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0005436673843348672,
+        "max_rmsd_angstrom": 0.0011585825983348196
+      },
+      {
+        "scan": "scan_2_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.006887626777910327,
+        "max_rmsd_angstrom": 0.0055333535216500924
+      }
+    ]
+  },
+  {
+    "name": "methanesulfonate",
+    "charge": -1,
+    "atoms": 8,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 7.989516947359832e-06,
+      "angle": 6.532640708406534e-06,
+      "proper": 1.9935903434742386e-06,
+      "improper": 0.0,
+      "lj14": 3.344549092343385e-06,
+      "coulomb14": 3.367860350067531e-05,
+      "lj_sr": 0.0,
+      "coulomb_sr": 0.0,
+      "potential": 3.253969099148435e-05
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.0640567057690049,
+    "max_abs_force_kj_mol_nm": 130.8649851935021,
+    "scans": [
+      {
+        "scan": "scan_1_2",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 5.411788784215332e-05,
+        "max_rmsd_angstrom": 0.0001186184737889122
+      }
+    ]
+  },
+  {
+    "name": "methylammonium",
+    "charge": 1,
+    "atoms": 8,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 3.7735927400223135e-05,
+      "angle": 0.00010627378846450597,
+      "proper": 4.854803119958007e-06,
+      "improper": 0.0,
+      "lj14": 5.463892763513112e-07,
+      "coulomb14": 2.9453977589355418e-05,
+      "lj_sr": 0.0,
+      "coulomb_sr": 0.0,
+      "potential": 0.00013198841904227265
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.04924536653567202,
+    "max_abs_force_kj_mol_nm": 1128.7261391052918,
+    "scans": [
+      {
+        "scan": "scan_1_2",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 8.725717555080337e-05,
+        "max_rmsd_angstrom": 0.0025884498043040405
+      }
+    ]
+  },
+  {
+    "name": "phenethylammonium",
+    "charge": 1,
+    "atoms": 21,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00016927050984971714,
+      "angle": 9.229303644220366e-05,
+      "proper": 7.165352050630958e-05,
+      "improper": 1.4390229109817465e-05,
+      "lj14": 0.00011371873097942853,
+      "coulomb14": 5.517474782834597e-05,
+      "lj_sr": 3.967683280592382e-05,
+      "coulomb_sr": 7.683857754159362e-05,
+      "potential": 0.000240391509720439
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.09885613379265124,
+    "max_abs_force_kj_mol_nm": 1097.8563464858407,
+    "scans": [
+      {
+        "scan": "scan_1_2",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004867619386232036,
+        "max_rmsd_angstrom": 0.0016420960037556948
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.006878808085545529,
+        "max_rmsd_angstrom": 0.0014426235357254413
+      }
+    ]
+  }
+]

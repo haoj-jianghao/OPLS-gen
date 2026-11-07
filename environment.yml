@@ -1,0 +1,14 @@
+# Minimal environment for opls-ff-gen (required dependencies only).
+#   conda env create -f environment.yml
+#   conda activate opls-ff-gen
+#   pip install opls_ff_gen-<version>-py3-none-any.whl
+# Without xtb, SMILES geometries use MMFF94; --qm needs environment-full.yml.
+name: opls-ff-gen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12        # the tested version
+  - rdkit>=2025.9
+  - numpy
+  - mopac=23.2.5        # AM1 for the CM1A charges; the version behind the validation data
+  - pip

@@ -1,0 +1,9 @@
+{
+  "_note": "Seconds on this machine (10 cores, PySCF 2.14, B3LYP-D3(BJ), density fitting). sp = effective wall time per scan point in the parallel mode (4 points x 2 threads; measured for coumarin/DEET in benchmarks/opls2020_dft_check_v2, others = 8-thread single points x 0.81); grad = 8-thread gradient; dfhess = B3LYP/def2-SVP density-fitted analytic Hessian (8 threads, measured in benchmarks/opls2020_dft_check).",
+  "NMA": {"atoms": 12, "b3lyp_def2-svp_sp_s": 1.25, "b3lyp_def2-svp_grad_s": 0.59, "b3lyp_def2-tzvp_sp_s": 1.87, "b3lyp_def2-tzvp_grad_s": 1.03},
+  "coumarin": {"atoms": 17, "b3lyp_def2-svp_sp_s": 2.98, "b3lyp_def2-svp_dfhess_s": 166.6},
+  "metronidazole": {"atoms": 21, "b3lyp_def2-svp_dfhess_s": 296.7},
+  "DEET": {"atoms": 31, "b3lyp_def2-svp_sp_s": 8.85, "b3lyp_def2-svp_grad_s": 4.92, "b3lyp_def2-tzvp_sp_s": 21.0, "b3lyp_def2-tzvp_grad_s": 13.62},
+  "lidocaine": {"atoms": 39, "b3lyp_def2-svp_sp_s": 15.7, "b3lyp_def2-svp_grad_s": 9.35, "b3lyp_def2-tzvp_sp_s": 42.1, "b3lyp_def2-tzvp_grad_s": 24.54},
+  "C12E6": {"atoms": 81, "b3lyp_def2-svp_sp_s": 75.8, "b3lyp_def2-svp_grad_s": 63.61}
+}

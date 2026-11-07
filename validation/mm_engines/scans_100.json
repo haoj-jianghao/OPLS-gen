@@ -1,0 +1,1646 @@
+[
+  {
+    "name": "2_phenylethanol",
+    "charge": 0,
+    "atoms": 19,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00014868816628821335,
+      "angle": 8.309254754301776e-05,
+      "proper": 2.5413577109389962e-05,
+      "improper": 5.507083867942186e-06,
+      "lj14": 8.686304644101028e-05,
+      "coulomb14": 2.1281551951801703e-05,
+      "lj_sr": 3.745883222272539e-06,
+      "coulomb_sr": 2.3076102110053398e-05,
+      "potential": 0.0002561044618971664
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12508241046373314,
+    "max_abs_force_kj_mol_nm": 1138.9854623942501,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00020499662712225586,
+        "max_rmsd_angstrom": 0.0003524283111752637
+      }
+    ]
+  },
+  {
+    "name": "2_phenylethyl_acetate",
+    "charge": 0,
+    "atoms": 24,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003768617356421089,
+      "angle": 0.00027140722024121544,
+      "proper": 3.873282217892182e-05,
+      "improper": 1.6454729483805774e-05,
+      "lj14": 0.0001327430974029653,
+      "coulomb14": 3.872636280277675e-05,
+      "lj_sr": 0.00010609113986337348,
+      "coulomb_sr": 4.8191386457396845e-05,
+      "potential": 0.000601702521464631
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12180557205999776,
+    "max_abs_force_kj_mol_nm": 1950.1513212646269,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.000621097902417489,
+        "max_rmsd_angstrom": 0.0009999640176713127
+      }
+    ]
+  },
+  {
+    "name": "acetazolamide",
+    "charge": 0,
+    "atoms": 19,
+    "frames": 137,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0011537484699353229,
+      "angle": 0.00047968134456866096,
+      "proper": 0.00032623011188093187,
+      "improper": 0.0001422863538254049,
+      "lj14": 8.202856177597084e-05,
+      "coulomb14": 0.00039361100118640024,
+      "lj_sr": 0.00017582152698736309,
+      "coulomb_sr": 0.00020683943995436493,
+      "potential": 0.0014813310696126791
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.19051461956836135,
+    "max_abs_force_kj_mol_nm": 6623.020248005476,
+    "scans": [
+      {
+        "scan": "scan_2_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.005180788986876905,
+        "max_rmsd_angstrom": 0.011958617569168044
+      },
+      {
+        "scan": "scan_5_13",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.010096466738559684,
+        "max_rmsd_angstrom": 0.013095622944361313
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.016960637642455367,
+        "max_rmsd_angstrom": 0.020055814536427602
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.006965961922105635,
+        "max_rmsd_angstrom": 0.010359611429297937
+      },
+      {
+        "scan": "scan_7_8",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.01293389482520979,
+        "max_rmsd_angstrom": 0.01268756288934442
+      },
+      {
+        "scan": "scan_8_13",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.012304517417760508,
+        "max_rmsd_angstrom": 0.011244891696113986
+      },
+      {
+        "scan": "scan_8_9",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.015257881825277764,
+        "max_rmsd_angstrom": 0.0186856870934453
+      },
+      {
+        "scan": "scan_9_10",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.031868295634581045,
+        "max_rmsd_angstrom": 0.021474795485660034
+      }
+    ]
+  },
+  {
+    "name": "alpha_terpineol",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 59,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00017263633428177272,
+      "angle": 0.00022540734946829843,
+      "proper": 6.478814814769862e-05,
+      "improper": 8.118951412350306e-05,
+      "lj14": 0.00012505086672121024,
+      "coulomb14": 7.670940081538902e-05,
+      "lj_sr": 0.00017039414865038793,
+      "coulomb_sr": 5.345640369824878e-05,
+      "potential": 0.00035140630325258826
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12704525326728344,
+    "max_abs_force_kj_mol_nm": 1650.5267522363833,
+    "scans": [
+      {
+        "scan": "scan_4_5",
+        "points": 29,
+        "max_abs_profile_diff_kj_mol": 0.002394997765193807,
+        "max_rmsd_angstrom": 0.009582566321765554
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 30,
+        "max_abs_profile_diff_kj_mol": 22.56168021307022,
+        "max_rmsd_angstrom": 1.0684192661423642
+      }
+    ]
+  },
+  {
+    "name": "benzyl_acetate",
+    "charge": 0,
+    "atoms": 21,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00032912648962213353,
+      "angle": 0.0001550193839658931,
+      "proper": 5.7095210010515984e-05,
+      "improper": 1.027933022160199e-05,
+      "lj14": 0.0001819414023955801,
+      "coulomb14": 3.984375450727384e-05,
+      "lj_sr": 6.887050775805648e-05,
+      "coulomb_sr": 3.385062500882441e-05,
+      "potential": 0.0004680201487374802
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12196548721578893,
+    "max_abs_force_kj_mol_nm": 1843.0165745184565,
+    "scans": [
+      {
+        "scan": "scan_4_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.000634669497152629,
+        "max_rmsd_angstrom": 0.0011326247652550072
+      }
+    ]
+  },
+  {
+    "name": "benzyl_benzoate",
+    "charge": 0,
+    "atoms": 28,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00038092455156046867,
+      "angle": 0.00020306277941761763,
+      "proper": 4.531611553737491e-05,
+      "improper": 1.1758772772027526e-05,
+      "lj14": 0.00017147265651829002,
+      "coulomb14": 3.372117802769026e-05,
+      "lj_sr": 0.00013290419831157863,
+      "coulomb_sr": 0.00013735260615987954,
+      "potential": 0.0005576968324092491
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.14923282035601915,
+    "max_abs_force_kj_mol_nm": 1607.082532680549,
+    "scans": [
+      {
+        "scan": "scan_3_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0011790319664530813,
+        "max_rmsd_angstrom": 0.003289848408912542
+      }
+    ]
+  },
+  {
+    "name": "benzyl_salicylate",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00032197600005545723,
+      "angle": 0.00023880734629955214,
+      "proper": 4.134393731369812e-05,
+      "improper": 1.7768518866007055e-05,
+      "lj14": 0.0001997634893484701,
+      "coulomb14": 0.00012032422975494228,
+      "lj_sr": 0.00015434291549709656,
+      "coulomb_sr": 0.0001194920259877108,
+      "potential": 0.0005000251614859508
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1484475909939249,
+    "max_abs_force_kj_mol_nm": 2280.414254935883,
+    "scans": [
+      {
+        "scan": "scan_3_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.003619170485343659,
+        "max_rmsd_angstrom": 0.006203680218715348
+      }
+    ]
+  },
+  {
+    "name": "caffeine",
+    "charge": 0,
+    "atoms": 24,
+    "frames": 63,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.000560442533725336,
+      "angle": 0.00032178496449475347,
+      "proper": 8.148223912485264e-05,
+      "improper": 7.604411987882642e-05,
+      "lj14": 0.0001446397889282025,
+      "coulomb14": 0.00019372444415921564,
+      "lj_sr": 0.00013139534389328134,
+      "coulomb_sr": 0.00011730994894776359,
+      "potential": 0.0008819521650025308
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.11434669128925634,
+    "max_abs_force_kj_mol_nm": 3531.01826736838,
+    "scans": [
+      {
+        "scan": "scan_11_12",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0012962798810747245,
+        "max_rmsd_angstrom": 0.002547799673293294
+      },
+      {
+        "scan": "scan_11_13",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.005077986628577946,
+        "max_rmsd_angstrom": 0.004757904522099815
+      },
+      {
+        "scan": "scan_2_13",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.002137329017330103,
+        "max_rmsd_angstrom": 0.0019523211988562185
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0024780828633481633,
+        "max_rmsd_angstrom": 0.0016522057517659706
+      }
+    ]
+  },
+  {
+    "name": "carbamazepine",
+    "charge": 0,
+    "atoms": 30,
+    "frames": 47,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0010679710765444383,
+      "angle": 0.0004624763060121495,
+      "proper": 0.0009603837944496263,
+      "improper": 0.0008654982292739533,
+      "lj14": 0.0003403100224517175,
+      "coulomb14": 0.00031509778978033864,
+      "lj_sr": 0.00017363461460462304,
+      "coulomb_sr": 8.902453848236291e-05,
+      "potential": 0.0019220879615033937
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.15259033107213327,
+    "max_abs_force_kj_mol_nm": 6819.501607326104,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 23,
+        "max_abs_profile_diff_kj_mol": 0.0015218308030569005,
+        "max_rmsd_angstrom": 0.0017389758824809874
+      },
+      {
+        "scan": "scan_2_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0027813037325898904,
+        "max_rmsd_angstrom": 0.00969302287796119
+      }
+    ]
+  },
+  {
+    "name": "carvone",
+    "charge": 0,
+    "atoms": 25,
+    "frames": 126,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00035407001054998943,
+      "angle": 0.00017077630048589754,
+      "proper": 0.00013246582587633782,
+      "improper": 8.452941224557087e-05,
+      "lj14": 0.0001386742524189799,
+      "coulomb14": 5.5305630333180034e-05,
+      "lj_sr": 0.0001360412929471977,
+      "coulomb_sr": 6.204214479765824e-05,
+      "potential": 0.000486640896276036
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1265216485030578,
+    "max_abs_force_kj_mol_nm": 2773.0874754946476,
+    "scans": [
+      {
+        "scan": "scan_1_2",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0028826485071817842,
+        "max_rmsd_angstrom": 0.0025570919324883093
+      },
+      {
+        "scan": "scan_2_7",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0006391966946068806,
+        "max_rmsd_angstrom": 0.0007553776436030956
+      },
+      {
+        "scan": "scan_4_5",
+        "points": 30,
+        "max_abs_profile_diff_kj_mol": 0.001120058318011985,
+        "max_rmsd_angstrom": 0.0010354033922742537
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 34,
+        "max_abs_profile_diff_kj_mol": 0.0018365798478505724,
+        "max_rmsd_angstrom": 0.00511764333198099
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 25,
+        "max_abs_profile_diff_kj_mol": 0.0018694264100602709,
+        "max_rmsd_angstrom": 0.003894409237699955
+      }
+    ]
+  },
+  {
+    "name": "chlorzoxazone",
+    "charge": 0,
+    "atoms": 15,
+    "frames": 39,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0008391016031783494,
+      "angle": 0.00035155020357535705,
+      "proper": 0.00013711275264327583,
+      "improper": 9.544967004693206e-05,
+      "lj14": 0.00011048118475187607,
+      "coulomb14": 7.52362340676882e-05,
+      "lj_sr": 2.535833117711661e-06,
+      "coulomb_sr": 5.080335277796166e-05,
+      "potential": 0.0010375337623340641
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1481857478247548,
+    "max_abs_force_kj_mol_nm": 3953.5764227787286,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0006713371668212176,
+        "max_rmsd_angstrom": 0.00044455333894458376
+      },
+      {
+        "scan": "scan_2_11",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0015550967324173826,
+        "max_rmsd_angstrom": 0.0005045141714449181
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0003094374582559567,
+        "max_rmsd_angstrom": 0.00019143600814823213
+      }
+    ]
+  },
+  {
+    "name": "citronellal",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00018286160476854718,
+      "angle": 0.00042549501990407634,
+      "proper": 2.737173959665995e-05,
+      "improper": 3.5118794706745504e-05,
+      "lj14": 6.827580337542827e-05,
+      "coulomb14": 5.847194563557423e-05,
+      "lj_sr": 8.484166409328253e-05,
+      "coulomb_sr": 4.9657384693091444e-05,
+      "potential": 0.0004459645871150997
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.11270331109399478,
+    "max_abs_force_kj_mol_nm": 2537.5910698250427,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0010256673559396745,
+        "max_rmsd_angstrom": 0.0011994871566047267
+      }
+    ]
+  },
+  {
+    "name": "citronellol",
+    "charge": 0,
+    "atoms": 31,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00023298599923604613,
+      "angle": 0.0003772379524136227,
+      "proper": 4.884809839471316e-05,
+      "improper": 4.497588219570803e-05,
+      "lj14": 5.0927101124642604e-05,
+      "coulomb14": 5.915437712644689e-05,
+      "lj_sr": 0.0001029355390826936,
+      "coulomb_sr": 3.625999084988507e-05,
+      "potential": 0.00042797529361848774
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12182433905877588,
+    "max_abs_force_kj_mol_nm": 1945.0781756609413,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00266733972251032,
+        "max_rmsd_angstrom": 0.0028212238693641777
+      }
+    ]
+  },
+  {
+    "name": "clotrimazole",
+    "charge": 0,
+    "atoms": 42,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0006815926612517842,
+      "angle": 0.00031173655707661396,
+      "proper": 0.00024481381020535764,
+      "improper": 3.539209302361179e-05,
+      "lj14": 0.00026088758455955485,
+      "coulomb14": 4.174977514992406e-05,
+      "lj_sr": 0.0002865078005740429,
+      "coulomb_sr": 7.246445000674839e-05,
+      "potential": 0.0008054207404484259
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1590586752533909,
+    "max_abs_force_kj_mol_nm": 2023.148603826991,
+    "scans": [
+      {
+        "scan": "scan_7_8",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.007425330805261865,
+        "max_rmsd_angstrom": 0.0031681825954426313
+      },
+      {
+        "scan": "scan_8_9",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0033299778117310552,
+        "max_rmsd_angstrom": 0.0023101932563061676
+      }
+    ]
+  },
+  {
+    "name": "coumarin",
+    "charge": 0,
+    "atoms": 17,
+    "frames": 52,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0004242132289569156,
+      "angle": 0.00032429530648414584,
+      "proper": 7.456502254576947e-05,
+      "improper": 0.00013662331821073792,
+      "lj14": 0.00015627114339622494,
+      "coulomb14": 3.648153256818887e-05,
+      "lj_sr": 3.0940973054782717e-06,
+      "coulomb_sr": 3.260154477846555e-05,
+      "potential": 0.0004738459825261998
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12544969368832426,
+    "max_abs_force_kj_mol_nm": 3240.6565243649043,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0005089231471764322,
+        "max_rmsd_angstrom": 0.0003666850481816938
+      },
+      {
+        "scan": "scan_2_11",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0009671702832818596,
+        "max_rmsd_angstrom": 0.0013656722009383422
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0001742506136181987,
+        "max_rmsd_angstrom": 0.0007681899696032228
+      },
+      {
+        "scan": "scan_4_5",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.00020256540383556398,
+        "max_rmsd_angstrom": 0.00044539466746281657
+      }
+    ]
+  },
+  {
+    "name": "dapsone",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0004746778621704806,
+      "angle": 0.0002679211810345805,
+      "proper": 0.00010716600677973531,
+      "improper": 0.00011146124735894603,
+      "lj14": 0.00022498053925801287,
+      "coulomb14": 0.00020824891515758281,
+      "lj_sr": 2.1794945256559117e-05,
+      "coulomb_sr": 0.0002474686905316048,
+      "potential": 0.0005875790339047171
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.17594930649590879,
+    "max_abs_force_kj_mol_nm": 2201.71872649001,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.001939886969111626,
+        "max_rmsd_angstrom": 0.0035314204429200166
+      }
+    ]
+  },
+  {
+    "name": "diclofenac",
+    "charge": 0,
+    "atoms": 30,
+    "frames": 96,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0008250166843097873,
+      "angle": 0.00033502995158585236,
+      "proper": 0.00015998483945622866,
+      "improper": 9.325219545708308e-05,
+      "lj14": 0.00032662739690181297,
+      "coulomb14": 9.810068193871757e-05,
+      "lj_sr": 0.0008904275071230927,
+      "coulomb_sr": 0.0001513694468826543,
+      "potential": 0.0013179433355512415
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.17220005007152395,
+    "max_abs_force_kj_mol_nm": 5432.289449544318,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.005541785444776792,
+        "max_rmsd_angstrom": 0.007187335489015391
+      },
+      {
+        "scan": "scan_11_12",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.005808515725838959,
+        "max_rmsd_angstrom": 0.00310915491819975
+      },
+      {
+        "scan": "scan_2_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004004522591571913,
+        "max_rmsd_angstrom": 0.004812687335239426
+      },
+      {
+        "scan": "scan_4_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004997067180624981,
+        "max_rmsd_angstrom": 0.0011101243773731606
+      }
+    ]
+  },
+  {
+    "name": "diphenhydramine",
+    "charge": 0,
+    "atoms": 40,
+    "frames": 72,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00034447040309260046,
+      "angle": 0.00018715978429106883,
+      "proper": 7.220259612239488e-05,
+      "improper": 1.8558950732494583e-05,
+      "lj14": 0.00026045585542533445,
+      "coulomb14": 3.86514434609353e-05,
+      "lj_sr": 0.00014500435851871885,
+      "coulomb_sr": 4.823947382925908e-05,
+      "potential": 0.0006363042142538688
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1489248876240481,
+    "max_abs_force_kj_mol_nm": 1160.4285949065304,
+    "scans": [
+      {
+        "scan": "scan_4_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004114362177446651,
+        "max_rmsd_angstrom": 0.006224756239009055
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.002817310981399146,
+        "max_rmsd_angstrom": 0.004538841468883208
+      },
+      {
+        "scan": "scan_7_14",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0018765788214523127,
+        "max_rmsd_angstrom": 0.00274596953400311
+      }
+    ]
+  },
+  {
+    "name": "ethyl_lactate",
+    "charge": 0,
+    "atoms": 18,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0002994128904507676,
+      "angle": 0.0001085859406897427,
+      "proper": 5.224719681962142e-05,
+      "improper": 2.472884502380257e-05,
+      "lj14": 7.684832019450027e-05,
+      "coulomb14": 7.779638229976626e-05,
+      "lj_sr": 3.3137237056661984e-05,
+      "coulomb_sr": 9.214264215984258e-05,
+      "potential": 0.00033215480857151647
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.08525636964709093,
+    "max_abs_force_kj_mol_nm": 1728.0707339842843,
+    "scans": [
+      {
+        "scan": "scan_4_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00034910448922609305,
+        "max_rmsd_angstrom": 0.0005284911911615912
+      },
+      {
+        "scan": "scan_6_8",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0003075042893048163,
+        "max_rmsd_angstrom": 0.000525115081717876
+      }
+    ]
+  },
+  {
+    "name": "ethylvanillin",
+    "charge": 0,
+    "atoms": 22,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003258761893780715,
+      "angle": 0.00022276126320619483,
+      "proper": 0.00010519702166611467,
+      "improper": 8.847847481077697e-06,
+      "lj14": 0.00021457205986763483,
+      "coulomb14": 6.812190905236548e-05,
+      "lj_sr": 0.00020654653192586636,
+      "coulomb_sr": 5.933565900306803e-05,
+      "potential": 0.0006989243565413972
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.14603998200823298,
+    "max_abs_force_kj_mol_nm": 2457.9097871323606,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.005512143056051855,
+        "max_rmsd_angstrom": 0.0027351625018795147
+      }
+    ]
+  },
+  {
+    "name": "eugenol",
+    "charge": 0,
+    "atoms": 24,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003871375863537807,
+      "angle": 0.00020503689107087553,
+      "proper": 6.742560963579614e-05,
+      "improper": 0.00010242228674539611,
+      "lj14": 0.00016048985708749797,
+      "coulomb14": 6.605446600360665e-05,
+      "lj_sr": 3.5580442326654804e-05,
+      "coulomb_sr": 0.00011261559674835553,
+      "potential": 0.0007288745895142057
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.13691787795733035,
+    "max_abs_force_kj_mol_nm": 1942.4863119278925,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0002485844155302175,
+        "max_rmsd_angstrom": 0.0005676557786469432
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00043212432669292866,
+        "max_rmsd_angstrom": 0.0013824427363863566
+      }
+    ]
+  },
+  {
+    "name": "fluconazole",
+    "charge": 0,
+    "atoms": 34,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0008315526453159805,
+      "angle": 0.0005408091214178512,
+      "proper": 0.00011579537503791926,
+      "improper": 2.1332782383420845e-05,
+      "lj14": 0.00024187464926939128,
+      "coulomb14": 8.798012407851274e-05,
+      "lj_sr": 0.00022423281177097465,
+      "coulomb_sr": 0.0002182654966844666,
+      "potential": 0.0009993054599277684
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.14559122792672952,
+    "max_abs_force_kj_mol_nm": 2462.935188516336,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.02492771143565875,
+        "max_rmsd_angstrom": 0.0022105137641960314
+      },
+      {
+        "scan": "scan_3_4",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0025961980019246766,
+        "max_rmsd_angstrom": 0.0023818897687842666
+      }
+    ]
+  },
+  {
+    "name": "geraniol",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00021090665821121846,
+      "angle": 0.00037149141557080156,
+      "proper": 6.718212481907071e-05,
+      "improper": 3.88343212759934e-05,
+      "lj14": 0.00011705517135851551,
+      "coulomb14": 4.7891768417684943e-05,
+      "lj_sr": 5.584785305723372e-05,
+      "coulomb_sr": 4.455634190492219e-05,
+      "potential": 0.00035701327718129505
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1228319009533152,
+    "max_abs_force_kj_mol_nm": 1778.1630480723784,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004511085706237594,
+        "max_rmsd_angstrom": 0.0038459459091154547
+      }
+    ]
+  },
+  {
+    "name": "haloperidol",
+    "charge": 0,
+    "atoms": 49,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003939722483057295,
+      "angle": 0.00035778684762632906,
+      "proper": 9.394468992951488e-05,
+      "improper": 9.21998767766663e-05,
+      "lj14": 0.00035746690035409756,
+      "coulomb14": 0.00010684127835247637,
+      "lj_sr": 0.002395254146563275,
+      "coulomb_sr": 0.00016372568536837662,
+      "potential": 0.002792858664861342
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.21186306345043704,
+    "max_abs_force_kj_mol_nm": 12539.054538034976,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.009866074010652426,
+        "max_rmsd_angstrom": 0.023312080814355082
+      }
+    ]
+  },
+  {
+    "name": "hydroxyzine",
+    "charge": 0,
+    "atoms": 53,
+    "frames": 96,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00043486518205781977,
+      "angle": 0.000292943237205634,
+      "proper": 0.00019065748895741308,
+      "improper": 1.8782953538354352e-05,
+      "lj14": 0.0003605004067850359,
+      "coulomb14": 0.00010145810935568988,
+      "lj_sr": 0.00014636781999222137,
+      "coulomb_sr": 0.00020373858238542653,
+      "potential": 0.0006798076593668156
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1692980660837975,
+    "max_abs_force_kj_mol_nm": 1306.1528918588997,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.09961531934186496,
+        "max_rmsd_angstrom": 0.08648583032412328
+      },
+      {
+        "scan": "scan_11_12",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.030297455123275085,
+        "max_rmsd_angstrom": 0.04491678073458591
+      },
+      {
+        "scan": "scan_11_18",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.056888758765637704,
+        "max_rmsd_angstrom": 0.09558848156396837
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.020030189952422006,
+        "max_rmsd_angstrom": 0.05793609368251659
+      }
+    ]
+  },
+  {
+    "name": "ibuprofen",
+    "charge": 0,
+    "atoms": 33,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0005047062226948285,
+      "angle": 0.00025361711398019793,
+      "proper": 3.879727115929654e-05,
+      "improper": 3.392536435226079e-05,
+      "lj14": 0.00020209649719760137,
+      "coulomb14": 8.806602292565913e-05,
+      "lj_sr": 0.00015011432250233714,
+      "coulomb_sr": 6.570186630305841e-05,
+      "potential": 0.0008356771524269391
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.16653374269293408,
+    "max_abs_force_kj_mol_nm": 1732.114262412897,
+    "scans": [
+      {
+        "scan": "scan_8_9",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00047797628103296574,
+        "max_rmsd_angstrom": 0.0025962780259788576
+      },
+      {
+        "scan": "scan_9_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0008128035141794498,
+        "max_rmsd_angstrom": 0.0029072315145967733
+      }
+    ]
+  },
+  {
+    "name": "isoniazid",
+    "charge": 0,
+    "atoms": 17,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00033569976237135535,
+      "angle": 0.00015725585829429178,
+      "proper": 6.118200157345655e-05,
+      "improper": 7.174228689166284e-05,
+      "lj14": 0.00020277735868035052,
+      "coulomb14": 0.00013616161896834456,
+      "lj_sr": 8.692422980516312e-05,
+      "coulomb_sr": 0.00010234818995513706,
+      "potential": 0.00036946021450035005
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.10104701778109915,
+    "max_abs_force_kj_mol_nm": 5201.568840255825,
+    "scans": [
+      {
+        "scan": "scan_1_2",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00035514565560035294,
+        "max_rmsd_angstrom": 0.00044771671515694963
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0019368316216059611,
+        "max_rmsd_angstrom": 0.0018854966484462173
+      }
+    ]
+  },
+  {
+    "name": "isophorone",
+    "charge": 0,
+    "atoms": 24,
+    "frames": 67,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0002302541554697335,
+      "angle": 0.00020827320352267975,
+      "proper": 7.72583315722386e-05,
+      "improper": 8.832593119834087e-05,
+      "lj14": 0.0001435431448868485,
+      "coulomb14": 0.00012670552223426057,
+      "lj_sr": 3.3444543729999054e-05,
+      "coulomb_sr": 7.419723834800607e-05,
+      "potential": 0.0003824288840093004
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1032081585750575,
+    "max_abs_force_kj_mol_nm": 2838.969095717007,
+    "scans": [
+      {
+        "scan": "scan_3_4",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.001682494615394603,
+        "max_rmsd_angstrom": 0.001866203690736537
+      },
+      {
+        "scan": "scan_4_6",
+        "points": 23,
+        "max_abs_profile_diff_kj_mol": 0.0017379429465123053,
+        "max_rmsd_angstrom": 0.007075267491916284
+      },
+      {
+        "scan": "scan_7_10",
+        "points": 31,
+        "max_abs_profile_diff_kj_mol": 0.0008751963612638747,
+        "max_rmsd_angstrom": 0.002316991802425563
+      }
+    ]
+  },
+  {
+    "name": "ketoprofen",
+    "charge": 0,
+    "atoms": 33,
+    "frames": 96,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0005514615615194174,
+      "angle": 0.0003275823720247928,
+      "proper": 7.723442226037491e-05,
+      "improper": 5.059232318516127e-05,
+      "lj14": 0.00030791943595431803,
+      "coulomb14": 0.00011413461596276875,
+      "lj_sr": 9.528014545301389e-05,
+      "coulomb_sr": 0.00010422079714089705,
+      "potential": 0.0009019337192199828
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1683248978267784,
+    "max_abs_force_kj_mol_nm": 1935.5045524374145,
+    "scans": [
+      {
+        "scan": "scan_2_17",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.013356114740945557,
+        "max_rmsd_angstrom": 0.016685016501153137
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0021245092397279564,
+        "max_rmsd_angstrom": 0.005421350459236757
+      },
+      {
+        "scan": "scan_7_8",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0025966293271295626,
+        "max_rmsd_angstrom": 0.007270460910478995
+      },
+      {
+        "scan": "scan_8_10",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0002752609115912463,
+        "max_rmsd_angstrom": 0.003502533008418867
+      }
+    ]
+  },
+  {
+    "name": "lauramine_oxide",
+    "charge": 0,
+    "atoms": 47,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00035032957291925015,
+      "angle": 0.00023746729451445958,
+      "proper": 0.00010220840464825187,
+      "improper": 0.0,
+      "lj14": 0.00010625138806830137,
+      "coulomb14": 0.00015795560449305412,
+      "lj_sr": 0.00021112996775407566,
+      "coulomb_sr": 9.973631860304977e-05,
+      "potential": 0.0006377140838011996
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12759359543077853,
+    "max_abs_force_kj_mol_nm": 2182.4326135105653,
+    "scans": [
+      {
+        "scan": "scan_12_13",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.003230356935333134,
+        "max_rmsd_angstrom": 0.013923106366935807
+      },
+      {
+        "scan": "scan_13_14",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.004227680577599813,
+        "max_rmsd_angstrom": 0.004540475845840452
+      }
+    ]
+  },
+  {
+    "name": "lidocaine",
+    "charge": 0,
+    "atoms": 39,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003231249570845307,
+      "angle": 0.00032543453057343186,
+      "proper": 0.00013575463779602615,
+      "improper": 0.0001075621231221291,
+      "lj14": 0.00022189937926953007,
+      "coulomb14": 0.00016974682418435805,
+      "lj_sr": 0.00026284424583167265,
+      "coulomb_sr": 0.00023151502477958275,
+      "potential": 0.0007463169200860875
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.17878279082901827,
+    "max_abs_force_kj_mol_nm": 2705.059089471713,
+    "scans": [
+      {
+        "scan": "scan_3_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.016943068631007918,
+        "max_rmsd_angstrom": 0.018610719764591152
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.027056477772362086,
+        "max_rmsd_angstrom": 0.013561465461226486
+      }
+    ]
+  },
+  {
+    "name": "limonene",
+    "charge": 0,
+    "atoms": 26,
+    "frames": 94,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0001735625792385065,
+      "angle": 0.0002964343093623256,
+      "proper": 9.117755350374068e-05,
+      "improper": 7.166622764898101e-05,
+      "lj14": 0.00010492566408260018,
+      "coulomb14": 3.997648875753157e-05,
+      "lj_sr": 8.778770100370537e-05,
+      "coulomb_sr": 3.873339784199459e-05,
+      "potential": 0.000293317644718627
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.11252386884723364,
+    "max_abs_force_kj_mol_nm": 2279.191527096893,
+    "scans": [
+      {
+        "scan": "scan_4_5",
+        "points": 28,
+        "max_abs_profile_diff_kj_mol": 0.0011240717677161172,
+        "max_rmsd_angstrom": 0.018470533180368873
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 36,
+        "max_abs_profile_diff_kj_mol": 0.0006921635953407446,
+        "max_rmsd_angstrom": 0.0026755601069645006
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 30,
+        "max_abs_profile_diff_kj_mol": 0.0005350544389024492,
+        "max_rmsd_angstrom": 0.003076335474308681
+      }
+    ]
+  },
+  {
+    "name": "linalool",
+    "charge": 0,
+    "atoms": 29,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00035316241792937575,
+      "angle": 0.00031522914164128224,
+      "proper": 5.272530431810196e-05,
+      "improper": 8.655768579290957e-05,
+      "lj14": 6.887467599625552e-05,
+      "coulomb14": 8.741841963910701e-05,
+      "lj_sr": 7.094552464814718e-05,
+      "coulomb_sr": 6.174669459824145e-05,
+      "potential": 0.00038051200468203206
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.12637899435526379,
+    "max_abs_force_kj_mol_nm": 1810.3412277516884,
+    "scans": [
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0021364977948223896,
+        "max_rmsd_angstrom": 0.0016303649662902531
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0010172383522188966,
+        "max_rmsd_angstrom": 0.0023705348046782608
+      }
+    ]
+  },
+  {
+    "name": "metronidazole",
+    "charge": 0,
+    "atoms": 21,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0003944335393128995,
+      "angle": 0.00015328214961840558,
+      "proper": 0.00010488387525242615,
+      "improper": 2.222241632310329e-05,
+      "lj14": 0.00010312760063513338,
+      "coulomb14": 6.779329500439246e-05,
+      "lj_sr": 0.00016335777712761512,
+      "coulomb_sr": 0.0001010348156214036,
+      "potential": 0.0005377857597039792
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.09646740253350572,
+    "max_abs_force_kj_mol_nm": 2519.429370744788,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00114474726756697,
+        "max_rmsd_angstrom": 0.0012904171351582055
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0017560975215715757,
+        "max_rmsd_angstrom": 0.0006445001109647357
+      }
+    ]
+  },
+  {
+    "name": "naproxen",
+    "charge": 0,
+    "atoms": 31,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0009000933638141362,
+      "angle": 0.0007203424315491702,
+      "proper": 2.2121308695943753e-05,
+      "improper": 2.6314901795110313e-05,
+      "lj14": 0.00022288343027554447,
+      "coulomb14": 8.357541328507523e-05,
+      "lj_sr": 7.453199862705873e-05,
+      "coulomb_sr": 7.264315661359433e-05,
+      "potential": 0.0009664633181873938
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.17522457120202262,
+    "max_abs_force_kj_mol_nm": 2077.9866090408527,
+    "scans": [
+      {
+        "scan": "scan_8_9",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00038858977432632,
+        "max_rmsd_angstrom": 0.0013562874429387084
+      },
+      {
+        "scan": "scan_9_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.003460356925135244,
+        "max_rmsd_angstrom": 0.005568094927977712
+      }
+    ]
+  },
+  {
+    "name": "phenacetin",
+    "charge": 0,
+    "atoms": 26,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00044436275732007147,
+      "angle": 0.00021477597699970374,
+      "proper": 0.0001292132622152664,
+      "improper": 1.2244461460086953e-05,
+      "lj14": 0.00016502705145171603,
+      "coulomb14": 0.00010272637774733084,
+      "lj_sr": 0.0001787415556222527,
+      "coulomb_sr": 0.0001237074298785501,
+      "potential": 0.0007757624912443362
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1720269110578556,
+    "max_abs_force_kj_mol_nm": 2281.953579244706,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.003748631749715514,
+        "max_rmsd_angstrom": 0.004954745591990622
+      }
+    ]
+  },
+  {
+    "name": "phenetole",
+    "charge": 0,
+    "atoms": 19,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00011766497912679696,
+      "angle": 0.00011855943887084663,
+      "proper": 4.229283636902892e-05,
+      "improper": 5.117894233991338e-06,
+      "lj14": 0.00010575049466154951,
+      "coulomb14": 2.2052782576054142e-05,
+      "lj_sr": 4.5042141966877836e-05,
+      "coulomb_sr": 1.675713047166738e-05,
+      "potential": 0.0002240269834494768
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.10167786971260284,
+    "max_abs_force_kj_mol_nm": 1237.1949369380964,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0008430956472977869,
+        "max_rmsd_angstrom": 0.000632045442942646
+      }
+    ]
+  },
+  {
+    "name": "piperonal",
+    "charge": 0,
+    "atoms": 17,
+    "frames": 52,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.000476106995527914,
+      "angle": 0.00028477216324773735,
+      "proper": 5.52555886489392e-05,
+      "improper": 2.7449675074953106e-05,
+      "lj14": 0.00010537137195143487,
+      "coulomb14": 2.7226305405747553e-05,
+      "lj_sr": 1.3300319621656342e-05,
+      "coulomb_sr": 4.0812070722040517e-05,
+      "potential": 0.0005085693372173239
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.11867130659422287,
+    "max_abs_force_kj_mol_nm": 2529.158465813001,
+    "scans": [
+      {
+        "scan": "scan_6_7",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 7.983492810659243e-05,
+        "max_rmsd_angstrom": 0.0001658233774121471
+      },
+      {
+        "scan": "scan_7_8",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0002111601259997542,
+        "max_rmsd_angstrom": 0.00016959186786134257
+      },
+      {
+        "scan": "scan_8_9",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.00020473059106951297,
+        "max_rmsd_angstrom": 0.0001089446938672617
+      },
+      {
+        "scan": "scan_9_10",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0006584683143824321,
+        "max_rmsd_angstrom": 0.0007591209186670875
+      }
+    ]
+  },
+  {
+    "name": "prilocaine",
+    "charge": 0,
+    "atoms": 36,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00039704890419134387,
+      "angle": 0.00027362056801649715,
+      "proper": 6.692140368613764e-05,
+      "improper": 5.740278378352226e-05,
+      "lj14": 0.00022615473281462073,
+      "coulomb14": 0.0002716446286399332,
+      "lj_sr": 0.00022363173664885494,
+      "coulomb_sr": 0.000359417161462261,
+      "potential": 0.0005961401796525934
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.15464846014003797,
+    "max_abs_force_kj_mol_nm": 2280.6560116259616,
+    "scans": [
+      {
+        "scan": "scan_4_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.025912264647104166,
+        "max_rmsd_angstrom": 0.015844260563408853
+      },
+      {
+        "scan": "scan_5_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.015059240279498454,
+        "max_rmsd_angstrom": 0.008082588692456021
+      }
+    ]
+  },
+  {
+    "name": "procaine",
+    "charge": 0,
+    "atoms": 37,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00029290167449058657,
+      "angle": 0.0003005999728173947,
+      "proper": 9.842782362490254e-05,
+      "improper": 0.00010099742966573899,
+      "lj14": 0.00017852854380606686,
+      "coulomb14": 9.229697582213703e-05,
+      "lj_sr": 0.00013503324295349728,
+      "coulomb_sr": 0.000119398283532135,
+      "potential": 0.0006824193045034121
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.1491452854572799,
+    "max_abs_force_kj_mol_nm": 2211.109061064792,
+    "scans": [
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.006083920116878971,
+        "max_rmsd_angstrom": 0.005356494063959099
+      }
+    ]
+  },
+  {
+    "name": "sulfamethoxazole",
+    "charge": 0,
+    "atoms": 28,
+    "frames": 63,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0007325854554895983,
+      "angle": 0.0006683832763556552,
+      "proper": 0.00034875322425875765,
+      "improper": 0.00016049813478424824,
+      "lj14": 0.00014574519832422084,
+      "coulomb14": 0.0006126102673533751,
+      "lj_sr": 0.00019232793949797156,
+      "coulomb_sr": 0.00025162014458146587,
+      "potential": 0.0015976744161889656
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.2119584965462309,
+    "max_abs_force_kj_mol_nm": 3031.691122704524,
+    "scans": [
+      {
+        "scan": "scan_16_17",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.006515951745200255,
+        "max_rmsd_angstrom": 0.006330904272258978
+      },
+      {
+        "scan": "scan_2_17",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.005655768906876801,
+        "max_rmsd_angstrom": 0.008386518228367508
+      },
+      {
+        "scan": "scan_3_4",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.02187340305908947,
+        "max_rmsd_angstrom": 0.014780078629206854
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0231213915818671,
+        "max_rmsd_angstrom": 0.012623607321049207
+      }
+    ]
+  },
+  {
+    "name": "theophylline",
+    "charge": 0,
+    "atoms": 21,
+    "frames": 63,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0005326091079496109,
+      "angle": 0.00021970253839143083,
+      "proper": 5.6992773636466154e-05,
+      "improper": 5.9526358290540315e-05,
+      "lj14": 0.00023784632549705975,
+      "coulomb14": 0.00014520342581647583,
+      "lj_sr": 7.417307579871135e-05,
+      "coulomb_sr": 0.00012519160304691468,
+      "potential": 0.0006251796212382033
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.11576038084410811,
+    "max_abs_force_kj_mol_nm": 3343.788379120796,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0024215891311882842,
+        "max_rmsd_angstrom": 0.002217366442192903
+      },
+      {
+        "scan": "scan_10_12",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0032712595013322243,
+        "max_rmsd_angstrom": 0.003619316361071656
+      },
+      {
+        "scan": "scan_2_12",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.001948876871210814,
+        "max_rmsd_angstrom": 0.0027324411633132795
+      },
+      {
+        "scan": "scan_2_3",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.001107668205634127,
+        "max_rmsd_angstrom": 0.0017375811017387725
+      }
+    ]
+  },
+  {
+    "name": "trans_cinnamaldehyde",
+    "charge": 0,
+    "atoms": 18,
+    "frames": 24,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0004027081054660542,
+      "angle": 0.00017988065467022807,
+      "proper": 6.983430187545991e-05,
+      "improper": 8.872308348895075e-05,
+      "lj14": 0.00015315159257767164,
+      "coulomb14": 1.841484646014635e-05,
+      "lj_sr": 1.4264204375891154e-05,
+      "coulomb_sr": 2.189138203689822e-05,
+      "potential": 0.000515886583841052
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.10526295724241663,
+    "max_abs_force_kj_mol_nm": 2835.5103814609943,
+    "scans": [
+      {
+        "scan": "scan_2_3",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0054290653928923405,
+        "max_rmsd_angstrom": 0.0038004379246713814
+      }
+    ]
+  },
+  {
+    "name": "triethyl_citrate",
+    "charge": 0,
+    "atoms": 39,
+    "frames": 48,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0006267464805702616,
+      "angle": 0.00029696602179640763,
+      "proper": 7.905085579551496e-05,
+      "improper": 4.842662267240394e-05,
+      "lj14": 0.00022648769275690483,
+      "coulomb14": 0.0002311856037238158,
+      "lj_sr": 0.0006006960535884787,
+      "coulomb_sr": 0.0002604936504297939,
+      "potential": 0.0014737316894226637
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.14816971514574107,
+    "max_abs_force_kj_mol_nm": 3771.2423730503965,
+    "scans": [
+      {
+        "scan": "scan_7_15",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.00793605219664073,
+        "max_rmsd_angstrom": 0.005658163416671759
+      },
+      {
+        "scan": "scan_7_8",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.008137341784660634,
+        "max_rmsd_angstrom": 0.0046874905921913245
+      }
+    ]
+  },
+  {
+    "name": "trimethoprim",
+    "charge": 0,
+    "atoms": 39,
+    "frames": 72,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.00045848428046824097,
+      "angle": 0.0005049376451182752,
+      "proper": 0.0002954989870289637,
+      "improper": 0.00014637624300917196,
+      "lj14": 0.0002956846277584191,
+      "coulomb14": 0.0003874384427717814,
+      "lj_sr": 0.00017497808611777188,
+      "coulomb_sr": 0.0002584863444212715,
+      "potential": 0.0010374863282436309
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.16353593070311945,
+    "max_abs_force_kj_mol_nm": 2405.501908118042,
+    "scans": [
+      {
+        "scan": "scan_10_11",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.018973140024741042,
+        "max_rmsd_angstrom": 0.017196519015462288
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.0188990620534355,
+        "max_rmsd_angstrom": 0.017022107750923554
+      },
+      {
+        "scan": "scan_6_7",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.056478249229883204,
+        "max_rmsd_angstrom": 0.024795692128890035
+      }
+    ]
+  },
+  {
+    "name": "warfarin",
+    "charge": 0,
+    "atoms": 39,
+    "frames": 149,
+    "max_abs_energy_diff_kj_mol": {
+      "bond": 0.0007839754373542007,
+      "angle": 0.0006935283506308565,
+      "proper": 0.0002880093051089716,
+      "improper": 0.0002515480654086133,
+      "lj14": 0.0003972412790602675,
+      "coulomb14": 0.000167228191344293,
+      "lj_sr": 0.0004940112312681322,
+      "coulomb_sr": 0.0001608274733939652,
+      "potential": 0.0013766730753701495
+    },
+    "max_abs_force_diff_kj_mol_nm": 0.17076141467077832,
+    "max_abs_force_kj_mol_nm": 5634.548058366239,
+    "scans": [
+      {
+        "scan": "scan_12_22",
+        "points": 14,
+        "max_abs_profile_diff_kj_mol": 0.007155696696031555,
+        "max_rmsd_angstrom": 0.004508281562921371
+      },
+      {
+        "scan": "scan_13_14",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.015576142145285132,
+        "max_rmsd_angstrom": 0.00922451911039121
+      },
+      {
+        "scan": "scan_13_15",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.0025562951794242394,
+        "max_rmsd_angstrom": 0.0026472133687065746
+      },
+      {
+        "scan": "scan_20_21",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.014088387706244987,
+        "max_rmsd_angstrom": 0.01054305626208549
+      },
+      {
+        "scan": "scan_21_22",
+        "points": 13,
+        "max_abs_profile_diff_kj_mol": 0.009087571885160628,
+        "max_rmsd_angstrom": 0.002898968772050769
+      },
+      {
+        "scan": "scan_4_5",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.019931833256123355,
+        "max_rmsd_angstrom": 0.007606543594151272
+      },
+      {
+        "scan": "scan_5_12",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.008273680750804147,
+        "max_rmsd_angstrom": 0.010447539745154737
+      },
+      {
+        "scan": "scan_5_6",
+        "points": 24,
+        "max_abs_profile_diff_kj_mol": 0.005624055569704467,
+        "max_rmsd_angstrom": 0.004720442894989453
+      }
+    ]
+  }
+]

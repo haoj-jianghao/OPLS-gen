@@ -1,0 +1,51 @@
+name,smiles
+1-Decanol,CCCCCCCCCCO
+1-Hexadecanol,CCCCCCCCCCCCCCCCO
+Dodecylamine,CCCCCCCCCCCCN
+Octadecylamine,CCCCCCCCCCCCCCCCCCN
+Lauryldiethanolamine,CCCCCCCCCCCCN(CCO)CCO
+Lauramide DEA,CCCCCCCCCCCC(=O)N(CCO)CCO
+Lauramide MEA,CCCCCCCCCCCC(=O)NCCO
+Glyceryl monolaurate,CCCCCCCCCCCC(=O)OCC(O)CO
+C8E3,CCCCCCCCOCCOCCOCCO
+C10E3,CCCCCCCCCCOCCOCCOCCO
+Thymol,CC(C)c1ccc(C)cc1O
+Carvacrol,CC(C)c1ccc(C)c(O)c1
+Ethylvanillin,CCOc1cc(C=O)ccc1O
+Piperonal,O=Cc1ccc2OCOc2c1
+Benzyl salicylate,O=C(OCc1ccccc1)c1ccccc1O
+Ethyl salicylate,CCOC(=O)c1ccccc1O
+Methyl anthranilate,COC(=O)c1ccccc1N
+4-Anisyl alcohol,COc1ccc(CO)cc1
+2-Phenylethyl acetate,CC(=O)OCCc1ccccc1
+Isoamyl acetate,CC(=O)OCCC(C)C
+Hexyl acetate,CC(=O)OCCCCCC
+Raspberry ketone,CC(=O)CCc1ccc(O)cc1
+Zingerone,COc1cc(CCC(C)=O)ccc1O
+alpha-Terpineol,CC1=CCC(CC1)C(C)(C)O
+Citronellal,CC(C)=CCCC(C)CC=O
+Ethyl lactate,CCOC(=O)C(C)O
+Triacetin,CC(=O)OCC(OC(C)=O)COC(C)=O
+Triethyl citrate,CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC
+Diethyl carbonate,CCOC(=O)OCC
+Diglyme,COCCOCCOC
+Triglyme,COCCOCCOCCOC
+Tetraglyme,COCCOCCOCCOCCOC
+Isophorone,CC1=CC(=O)CC(C)(C)C1
+Acetophenone,CC(=O)c1ccccc1
+Benzonitrile,N#Cc1ccccc1
+Salicylamide,NC(=O)c1ccccc1O
+Phenacetin,CCOc1ccc(NC(C)=O)cc1
+Procaine,CCN(CC)CCOC(=O)c1ccc(N)cc1
+Prilocaine,CCCNC(C)C(=O)Nc1ccccc1C
+Chlorzoxazone,O=c1[nH]c2cc(Cl)ccc2o1
+Acetazolamide,CC(=O)Nc1nnc(S(N)(=O)=O)s1
+Theophylline,Cn1c(=O)c2[nH]cnc2n(C)c1=O
+Trimethoprim,COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC
+Dapsone,Nc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1
+Sulfanilamide,NS(=O)(=O)c1ccc(N)cc1
+Clotrimazole,Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1
+Diphenhydramine,CN(C)CCOC(c1ccccc1)c1ccccc1
+Hydroxyzine,OCCOCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1
+Haloperidol,O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1
+Warfarin,CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O

@@ -1,0 +1,2220 @@
+{
+ "summary": {
+  "molecules": 100,
+  "molecules_with_problems": 0,
+  "max_dq_raw_e": 0.00025331520745508485,
+  "max_dq_final_e": 0.0002887793364980684,
+  "median_molecule_max_dq_final_e": 3.496520280463211e-05,
+  "max_fitted_torsion_rb_change_kj_mol": 53.56161443475136,
+  "max_fitted_bond_b0_change_nm": 0.0,
+  "max_fitted_bond_k_relative_change": 0.0,
+  "max_fitted_angle_theta_change_deg": 0.0,
+  "max_fitted_angle_k_relative_change": 0.0,
+  "scans": 113,
+  "scan_rmse_change_kj_mol": {
+   "mean": -0.014247787610619454,
+   "max_abs": 1.096
+  }
+ },
+ "problems": {},
+ "molecules": {
+  "1_decanol": {
+   "problems": [],
+   "max_dq_final": 1.7415377825361067e-05,
+   "max_dq_raw": 1.5246344185168223e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "1_dodecanol": {
+   "problems": [],
+   "max_dq_final": 1.043264218206219e-05,
+   "max_dq_raw": 9.177081536332343e-06,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "1_hexadecanol": {
+   "problems": [],
+   "max_dq_final": 1.183725157373472e-05,
+   "max_dq_raw": 1.0422769698439915e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "1_octanol": {
+   "problems": [],
+   "max_dq_final": 1.6742344622788785e-05,
+   "max_dq_raw": 1.4649230176707814e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "2_ethylhexan_1_ol": {
+   "problems": [],
+   "max_dq_final": 1.1682398099399638e-05,
+   "max_dq_raw": 1.0321791705542038e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "2_phenylethanol": {
+   "problems": [],
+   "max_dq_final": 3.1085176753570254e-05,
+   "max_dq_raw": 2.7320330487440314e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0010215219581257706
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     5.716,
+     5.716
+    ]
+   ]
+  },
+  "2_phenylethyl_acetate": {
+   "problems": [],
+   "max_dq_final": 4.319836423188894e-05,
+   "max_dq_raw": 3.789330195774765e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0005301291957922061
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     3.282,
+     3.281
+    ]
+   ]
+  },
+  "4_anisaldehyde": {
+   "problems": [],
+   "max_dq_final": 3.0086767885253995e-05,
+   "max_dq_raw": 3.120125374572735e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "4_anisyl_alcohol": {
+   "problems": [],
+   "max_dq_final": 1.6384331649160755e-05,
+   "max_dq_raw": 1.4372220744400532e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "acetaminophen": {
+   "problems": [],
+   "max_dq_final": 4.6629803486020194e-05,
+   "max_dq_raw": 4.2178662328501426e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "acetazolamide": {
+   "problems": [],
+   "max_dq_final": 0.0002887793364980684,
+   "max_dq_raw": 0.00025331520745508485,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.004092456826612079
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      4
+     ],
+     0.463,
+     0.463
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     0.901,
+     0.901
+    ],
+    [
+     [
+      5,
+      13
+     ],
+     1.31,
+     1.31
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     1.177,
+     1.177
+    ],
+    [
+     [
+      8,
+      13
+     ],
+     1.151,
+     1.151
+    ],
+    [
+     [
+      7,
+      8
+     ],
+     1.041,
+     1.041
+    ],
+    [
+     [
+      8,
+      9
+     ],
+     0.595,
+     0.595
+    ],
+    [
+     [
+      9,
+      10
+     ],
+     0.425,
+     0.425
+    ]
+   ]
+  },
+  "acetophenone": {
+   "problems": [],
+   "max_dq_final": 3.322047905790493e-05,
+   "max_dq_raw": 2.9081947577280776e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "alpha_terpineol": {
+   "problems": [],
+   "max_dq_final": 9.72865336371087e-06,
+   "max_dq_raw": 8.637354735219205e-06,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0007252794080514491
+   },
+   "scan_rmse": [
+    [
+     [
+      6,
+      7
+     ],
+     4.927,
+     4.927
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     4.614,
+     4.614
+    ]
+   ]
+  },
+  "anisole": {
+   "problems": [],
+   "max_dq_final": 1.3825323745671192e-05,
+   "max_dq_raw": 1.2189976969285976e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "aspirin": {
+   "problems": [],
+   "max_dq_final": 3.910901407033762e-05,
+   "max_dq_raw": 3.430615269384152e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "benzocaine": {
+   "problems": [],
+   "max_dq_final": 3.336434008260891e-05,
+   "max_dq_raw": 2.926696498450898e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "benzonitrile": {
+   "problems": [],
+   "max_dq_final": 5.5558686050226e-05,
+   "max_dq_raw": 4.873568951899859e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "benzyl_acetate": {
+   "problems": [],
+   "max_dq_final": 4.094091066353389e-05,
+   "max_dq_raw": 3.600831762395895e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00023704929446211054
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      5
+     ],
+     1.919,
+     1.919
+    ]
+   ]
+  },
+  "benzyl_benzoate": {
+   "problems": [],
+   "max_dq_final": 3.460691064477439e-05,
+   "max_dq_raw": 3.0356939161757523e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0002053956125553924
+   },
+   "scan_rmse": [
+    [
+     [
+      3,
+      4
+     ],
+     2.136,
+     2.136
+    ]
+   ]
+  },
+  "benzyl_salicylate": {
+   "problems": [],
+   "max_dq_final": 4.153929315164895e-05,
+   "max_dq_raw": 3.640349369060658e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00030486410792995855
+   },
+   "scan_rmse": [
+    [
+     [
+      3,
+      4
+     ],
+     2.838,
+     2.838
+    ]
+   ]
+  },
+  "c10e3": {
+   "problems": [],
+   "max_dq_final": 1.4061713974868485e-05,
+   "max_dq_raw": 1.2316318301185819e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c12e2": {
+   "problems": [],
+   "max_dq_final": 1.587483633103126e-05,
+   "max_dq_raw": 1.394416295150483e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c12e3": {
+   "problems": [],
+   "max_dq_final": 1.4105625023637164e-05,
+   "max_dq_raw": 1.2373355284359317e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c12e4": {
+   "problems": [],
+   "max_dq_final": 1.9984850679527488e-05,
+   "max_dq_raw": 1.7560421518098e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c12e5": {
+   "problems": [],
+   "max_dq_final": 1.690901000833689e-05,
+   "max_dq_raw": 1.4778410865515235e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c12e6": {
+   "problems": [],
+   "max_dq_final": 1.4678697218703518e-05,
+   "max_dq_raw": 1.2900741549128243e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "c8e3": {
+   "problems": [],
+   "max_dq_final": 1.6731095511738573e-05,
+   "max_dq_raw": 1.4738899571035101e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "caffeine": {
+   "problems": [],
+   "max_dq_final": 6.918395665483912e-05,
+   "max_dq_raw": 6.077101460960632e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00018404080958141222
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     1.396,
+     1.396
+    ],
+    [
+     [
+      11,
+      13
+     ],
+     1.218,
+     1.218
+    ],
+    [
+     [
+      2,
+      13
+     ],
+     0.967,
+     0.967
+    ],
+    [
+     [
+      11,
+      12
+     ],
+     1.525,
+     1.525
+    ]
+   ]
+  },
+  "carbamazepine": {
+   "problems": [],
+   "max_dq_final": 5.862181308025072e-05,
+   "max_dq_raw": 5.14559763863387e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 53.56161443475136
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      4
+     ],
+     10.966,
+     9.87
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     3.974,
+     3.449
+    ]
+   ]
+  },
+  "carvacrol": {
+   "problems": [],
+   "max_dq_final": 9.949991482849363e-06,
+   "max_dq_raw": 8.688062703265942e-06,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "carvone": {
+   "problems": [],
+   "max_dq_final": 3.3156002516965266e-05,
+   "max_dq_raw": 2.9084212734176162e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00037670835698833116
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      7
+     ],
+     1.236,
+     1.236
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     0.847,
+     0.847
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     1.489,
+     1.489
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     0.513,
+     0.513
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     2.124,
+     2.124
+    ]
+   ]
+  },
+  "chlorzoxazone": {
+   "problems": [],
+   "max_dq_final": 3.986799454322454e-05,
+   "max_dq_raw": 3.497192503790214e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0001763182183864842
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     1.444,
+     1.444
+    ],
+    [
+     [
+      2,
+      11
+     ],
+     2.194,
+     2.194
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     0.605,
+     0.605
+    ]
+   ]
+  },
+  "citronellal": {
+   "problems": [],
+   "max_dq_final": 3.873669511200717e-05,
+   "max_dq_raw": 3.394507435780514e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 6.745036362687529e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     1.236,
+     1.236
+    ]
+   ]
+  },
+  "citronellol": {
+   "problems": [],
+   "max_dq_final": 1.4143605368902024e-05,
+   "max_dq_raw": 1.2374413311319957e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 3.675089132304521e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     1.531,
+     1.531
+    ]
+   ]
+  },
+  "clotrimazole": {
+   "problems": [],
+   "max_dq_final": 7.88927122888361e-05,
+   "max_dq_raw": 6.925175263439165e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0015017043809102404
+   },
+   "scan_rmse": [
+    [
+     [
+      7,
+      8
+     ],
+     4.797,
+     4.797
+    ],
+    [
+     [
+      8,
+      9
+     ],
+     4.392,
+     4.392
+    ]
+   ]
+  },
+  "coumarin": {
+   "problems": [],
+   "max_dq_final": 3.474338680553579e-05,
+   "max_dq_raw": 3.059430214952252e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 3.7425611995267616e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      10,
+      11
+     ],
+     0.037,
+     0.037
+    ],
+    [
+     [
+      2,
+      11
+     ],
+     1.489,
+     1.489
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     0.354,
+     0.354
+    ],
+    [
+     [
+      2,
+      3
+     ],
+     0.789,
+     0.789
+    ]
+   ]
+  },
+  "dapsone": {
+   "problems": [],
+   "max_dq_final": 0.00028147766036745736,
+   "max_dq_raw": 0.00024687574563397874,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0007733789151243009
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     0.568,
+     0.568
+    ]
+   ]
+  },
+  "diclofenac": {
+   "problems": [],
+   "max_dq_final": 3.711169806713821e-05,
+   "max_dq_raw": 3.2554121110917045e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0014375686352661177
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      5
+     ],
+     3.006,
+     3.006
+    ],
+    [
+     [
+      2,
+      4
+     ],
+     3.006,
+     3.006
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     2.386,
+     2.385
+    ],
+    [
+     [
+      11,
+      12
+     ],
+     3.707,
+     3.706
+    ]
+   ]
+  },
+  "diethyl_carbonate": {
+   "problems": [],
+   "max_dq_final": 3.8557299787300714e-05,
+   "max_dq_raw": 3.387774835228452e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   },
+   "scan_rmse": []
+  },
+  "diethylene_glycol": {
+   "problems": [],
+   "max_dq_final": 2.3461675751276778e-05,
+   "max_dq_raw": 2.446937983420494e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "diglyme": {
+   "problems": [],
+   "max_dq_final": 2.507952403028174e-05,
+   "max_dq_raw": 2.2376716114255735e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "dimethyl_adipate": {
+   "problems": [],
+   "max_dq_final": 3.9403782211511196e-05,
+   "max_dq_raw": 3.5261910586670275e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "dimethyl_succinate": {
+   "problems": [],
+   "max_dq_final": 3.185077703560246e-05,
+   "max_dq_raw": 2.8209987176452955e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "diphenhydramine": {
+   "problems": [],
+   "max_dq_final": 3.3311323003992754e-05,
+   "max_dq_raw": 2.9170458774929742e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0008292314034175075
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      5
+     ],
+     2.066,
+     2.066
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     5.143,
+     5.143
+    ],
+    [
+     [
+      7,
+      14
+     ],
+     2.341,
+     2.341
+    ]
+   ]
+  },
+  "dodecylamine": {
+   "problems": [],
+   "max_dq_final": 3.490798776262238e-05,
+   "max_dq_raw": 3.069604189753772e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "ethyl_benzoate": {
+   "problems": [],
+   "max_dq_final": 3.7552281145880606e-05,
+   "max_dq_raw": 3.2892978447829346e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "ethyl_lactate": {
+   "problems": [],
+   "max_dq_final": 1.776315543070006e-05,
+   "max_dq_raw": 1.5637270845775264e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00035393437464037447
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      6
+     ],
+     2.305,
+     2.305
+    ],
+    [
+     [
+      6,
+      8
+     ],
+     4.151,
+     4.151
+    ]
+   ]
+  },
+  "ethyl_salicylate": {
+   "problems": [],
+   "max_dq_final": 3.1729680969538876e-05,
+   "max_dq_raw": 2.778759893637406e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "ethylvanillin": {
+   "problems": [],
+   "max_dq_final": 3.502241784664184e-05,
+   "max_dq_raw": 3.076687370928699e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00030951679431012735
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     1.223,
+     1.223
+    ]
+   ]
+  },
+  "eugenol": {
+   "problems": [],
+   "max_dq_final": 1.6523762524603414e-05,
+   "max_dq_raw": 1.4494528530348272e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00016182568536282638
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     0.503,
+     0.503
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     0.357,
+     0.357
+    ]
+   ]
+  },
+  "fluconazole": {
+   "problems": [],
+   "max_dq_final": 7.001410090407001e-05,
+   "max_dq_raw": 6.437084338106747e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.004340107041123531
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     3.359,
+     3.358
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     3.795,
+     3.794
+    ]
+   ]
+  },
+  "geraniol": {
+   "problems": [],
+   "max_dq_final": 2.3999786196438055e-05,
+   "max_dq_raw": 2.1052444031721684e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 6.364482596321608e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     1.044,
+     1.044
+    ]
+   ]
+  },
+  "glyceryl_monolaurate": {
+   "problems": [],
+   "max_dq_final": 1.4799683171307088e-05,
+   "max_dq_raw": 1.2961770057384747e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "haloperidol": {
+   "problems": [],
+   "max_dq_final": 5.018825574076846e-05,
+   "max_dq_raw": 4.404519389944461e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0002975559503539671
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     10.376,
+     10.376
+    ]
+   ]
+  },
+  "hexyl_acetate": {
+   "problems": [],
+   "max_dq_final": 4.052923622605009e-05,
+   "max_dq_raw": 3.555196160198726e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "hydroxyzine": {
+   "problems": [],
+   "max_dq_final": 4.136945928301383e-05,
+   "max_dq_raw": 3.632673521991592e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.001501568500278161
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     6.133,
+     6.133
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     2.922,
+     2.922
+    ],
+    [
+     [
+      11,
+      18
+     ],
+     4.456,
+     4.456
+    ],
+    [
+     [
+      11,
+      12
+     ],
+     3.497,
+     3.496
+    ]
+   ]
+  },
+  "ibuprofen": {
+   "problems": [],
+   "max_dq_final": 2.8134556918357756e-05,
+   "max_dq_raw": 2.4618829833178424e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00010971619567046176
+   },
+   "scan_rmse": [
+    [
+     [
+      8,
+      9
+     ],
+     0.635,
+     0.635
+    ],
+    [
+     [
+      9,
+      11
+     ],
+     0.767,
+     0.767
+    ]
+   ]
+  },
+  "isoamyl_acetate": {
+   "problems": [],
+   "max_dq_final": 4.0457465903254164e-05,
+   "max_dq_raw": 3.544552691686631e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "isoniazid": {
+   "problems": [],
+   "max_dq_final": 7.01071207419579e-05,
+   "max_dq_raw": 6.14974743343849e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0016976781937021457
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     1.403,
+     1.403
+    ],
+    [
+     [
+      1,
+      2
+     ],
+     0.724,
+     0.724
+    ]
+   ]
+  },
+  "isophorone": {
+   "problems": [],
+   "max_dq_final": 3.5774686776957054e-05,
+   "max_dq_raw": 3.1422970856342936e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00021710246464889948
+   },
+   "scan_rmse": [
+    [
+     [
+      3,
+      4
+     ],
+     0.914,
+     0.914
+    ],
+    [
+     [
+      7,
+      10
+     ],
+     1.02,
+     1.02
+    ],
+    [
+     [
+      4,
+      6
+     ],
+     4.667,
+     4.667
+    ]
+   ]
+  },
+  "ketoprofen": {
+   "problems": [],
+   "max_dq_final": 5.126773733671319e-05,
+   "max_dq_raw": 4.533516913515778e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0005826116905733869
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      17
+     ],
+     0.681,
+     0.681
+    ],
+    [
+     [
+      2,
+      3
+     ],
+     2.097,
+     2.097
+    ],
+    [
+     [
+      7,
+      8
+     ],
+     0.885,
+     0.885
+    ],
+    [
+     [
+      8,
+      10
+     ],
+     0.728,
+     0.728
+    ]
+   ]
+  },
+  "lauramide_dea": {
+   "problems": [],
+   "max_dq_final": 2.5796878521888722e-05,
+   "max_dq_raw": 2.2572237035389797e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "lauramide_mea": {
+   "problems": [],
+   "max_dq_final": 3.5070494196487445e-05,
+   "max_dq_raw": 3.07635914001958e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "lauramine_oxide": {
+   "problems": [],
+   "max_dq_final": 0.00016236090388799251,
+   "max_dq_raw": 0.00014242184551560566,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0009586668717611602
+   },
+   "scan_rmse": [
+    [
+     [
+      12,
+      13
+     ],
+     15.604,
+     15.605
+    ],
+    [
+     [
+      13,
+      14
+     ],
+     0.691,
+     0.691
+    ]
+   ]
+  },
+  "lauric_acid": {
+   "problems": [],
+   "max_dq_final": 2.0958444959640055e-05,
+   "max_dq_raw": 1.8331969262375125e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "lauryldiethanolamine": {
+   "problems": [],
+   "max_dq_final": 0.00010134444178500068,
+   "max_dq_raw": 8.884307758882937e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "lidocaine": {
+   "problems": [],
+   "max_dq_final": 7.712719058072803e-05,
+   "max_dq_raw": 6.768107135934898e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0029985888926997717
+   },
+   "scan_rmse": [
+    [
+     [
+      3,
+      6
+     ],
+     10.39,
+     10.391
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     3.923,
+     3.923
+    ]
+   ]
+  },
+  "limonene": {
+   "problems": [],
+   "max_dq_final": 8.864896616889162e-06,
+   "max_dq_raw": 7.776225102382184e-06,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00014314504328183375
+   },
+   "scan_rmse": [
+    [
+     [
+      6,
+      7
+     ],
+     3.617,
+     3.617
+    ],
+    [
+     [
+      4,
+      5
+     ],
+     1.722,
+     1.74
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     2.559,
+     2.559
+    ]
+   ]
+  },
+  "linalool": {
+   "problems": [],
+   "max_dq_final": 1.316934021167171e-05,
+   "max_dq_raw": 1.1621018334337374e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00027887849688568167
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     7.484,
+     7.484
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     1.437,
+     1.437
+    ]
+   ]
+  },
+  "menthol": {
+   "problems": [],
+   "max_dq_final": 1.531255610820459e-05,
+   "max_dq_raw": 1.34320667612986e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "methyl_anthranilate": {
+   "problems": [],
+   "max_dq_final": 2.441419350618368e-05,
+   "max_dq_raw": 2.1415959215231872e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "methyl_salicylate": {
+   "problems": [],
+   "max_dq_final": 2.7219096903396967e-05,
+   "max_dq_raw": 2.382376921311602e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "metronidazole": {
+   "problems": [],
+   "max_dq_final": 0.00018361848957337834,
+   "max_dq_raw": 0.0001611164695511924,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.009596205520857382
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     15.228,
+     15.226
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     4.27,
+     4.27
+    ]
+   ]
+  },
+  "n_butyl_acetate": {
+   "problems": [],
+   "max_dq_final": 4.913701662273562e-05,
+   "max_dq_raw": 4.305264616089044e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "n_ethyl_2_pyrrolidone": {
+   "problems": [],
+   "max_dq_final": 4.479657179518037e-05,
+   "max_dq_raw": 3.924260683738079e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "naproxen": {
+   "problems": [],
+   "max_dq_final": 4.22965747506332e-05,
+   "max_dq_raw": 3.7102258553023404e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0002545852119979486
+   },
+   "scan_rmse": [
+    [
+     [
+      8,
+      9
+     ],
+     0.989,
+     0.989
+    ],
+    [
+     [
+      9,
+      11
+     ],
+     0.751,
+     0.751
+    ]
+   ]
+  },
+  "nicotinamide": {
+   "problems": [],
+   "max_dq_final": 3.877635084331699e-05,
+   "max_dq_raw": 3.4147676178042374e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "octadecylamine": {
+   "problems": [],
+   "max_dq_final": 5.342536246755181e-05,
+   "max_dq_raw": 4.684711166269562e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "phenacetin": {
+   "problems": [],
+   "max_dq_final": 3.5057036617658355e-05,
+   "max_dq_raw": 3.0790248045198254e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00013274357762682598
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     0.853,
+     0.853
+    ]
+   ]
+  },
+  "phenetole": {
+   "problems": [],
+   "max_dq_final": 1.5196357084162893e-05,
+   "max_dq_raw": 1.3382769371517167e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 9.702407598322083e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     0.553,
+     0.553
+    ]
+   ]
+  },
+  "piperonal": {
+   "problems": [],
+   "max_dq_final": 3.615000708750982e-05,
+   "max_dq_raw": 3.165170900293335e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 4.3109848017586216e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      6,
+      7
+     ],
+     0.385,
+     0.385
+    ],
+    [
+     [
+      7,
+      8
+     ],
+     0.084,
+     0.084
+    ],
+    [
+     [
+      9,
+      10
+     ],
+     0.224,
+     0.224
+    ],
+    [
+     [
+      8,
+      9
+     ],
+     0.158,
+     0.158
+    ]
+   ]
+  },
+  "prilocaine": {
+   "problems": [],
+   "max_dq_final": 6.81547697289897e-05,
+   "max_dq_raw": 5.984044128179433e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.002480092024146785
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      5
+     ],
+     4.384,
+     4.384
+    ],
+    [
+     [
+      5,
+      7
+     ],
+     5.081,
+     5.081
+    ]
+   ]
+  },
+  "procaine": {
+   "problems": [],
+   "max_dq_final": 0.0001058918533874964,
+   "max_dq_raw": 9.294164474527022e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0011688594512966333
+   },
+   "scan_rmse": [
+    [
+     [
+      6,
+      7
+     ],
+     6.902,
+     6.902
+    ]
+   ]
+  },
+  "propylene_carbonate": {
+   "problems": [],
+   "max_dq_final": 1.531491037287669e-05,
+   "max_dq_raw": 1.3587978061391226e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   },
+   "scan_rmse": []
+  },
+  "raspberry_ketone": {
+   "problems": [],
+   "max_dq_final": 4.010243743940434e-05,
+   "max_dq_raw": 3.521924336796767e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "salicylamide": {
+   "problems": [],
+   "max_dq_final": 3.963085364550034e-05,
+   "max_dq_raw": 3.4763906706425374e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "sulfamethoxazole": {
+   "problems": [],
+   "max_dq_final": 0.00026584054575717886,
+   "max_dq_raw": 0.00023319346119032858,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.004922629973268755
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      17
+     ],
+     1.092,
+     1.092
+    ],
+    [
+     [
+      3,
+      4
+     ],
+     2.67,
+     2.67
+    ],
+    [
+     [
+      16,
+      17
+     ],
+     1.014,
+     1.014
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     2.447,
+     2.447
+    ]
+   ]
+  },
+  "sulfanilamide": {
+   "problems": [],
+   "max_dq_final": 0.0002831729494539026,
+   "max_dq_raw": 0.00024839732408343806,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "sulfolane": {
+   "problems": [],
+   "max_dq_final": 0.00028298109660962467,
+   "max_dq_raw": 0.0002481623654473353,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "tetraglyme": {
+   "problems": [],
+   "max_dq_final": 1.7630825836563446e-05,
+   "max_dq_raw": 1.5804961812825036e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "theophylline": {
+   "problems": [],
+   "max_dq_final": 5.7589502209798304e-05,
+   "max_dq_raw": 5.0517107201719647e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.00021381945004161906
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     0.261,
+     0.261
+    ],
+    [
+     [
+      10,
+      12
+     ],
+     0.407,
+     0.407
+    ],
+    [
+     [
+      2,
+      12
+     ],
+     0.612,
+     0.612
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     0.076,
+     0.076
+    ]
+   ]
+  },
+  "thymol": {
+   "problems": [],
+   "max_dq_final": 1.9179538217756198e-05,
+   "max_dq_raw": 1.6864156330842484e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "trans_cinnamaldehyde": {
+   "problems": [],
+   "max_dq_final": 4.334607615831543e-05,
+   "max_dq_raw": 3.894077241753391e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 5.710913004541851e-05
+   },
+   "scan_rmse": [
+    [
+     [
+      2,
+      3
+     ],
+     0.278,
+     0.278
+    ]
+   ]
+  },
+  "triacetin": {
+   "problems": [],
+   "max_dq_final": 3.32664600765642e-05,
+   "max_dq_raw": 2.9283957072523403e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "triethyl_citrate": {
+   "problems": [],
+   "max_dq_final": 3.761469179158761e-05,
+   "max_dq_raw": 3.56771627712249e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0009890649880057722
+   },
+   "scan_rmse": [
+    [
+     [
+      7,
+      15
+     ],
+     0.396,
+     0.396
+    ],
+    [
+     [
+      7,
+      8
+     ],
+     1.618,
+     1.618
+    ]
+   ]
+  },
+  "triglyme": {
+   "problems": [],
+   "max_dq_final": 1.9177531090659727e-05,
+   "max_dq_raw": 1.8739608060647228e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "trimethoprim": {
+   "problems": [],
+   "max_dq_final": 6.800661008155018e-05,
+   "max_dq_raw": 5.9603639072536296e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0008226560282789119
+   },
+   "scan_rmse": [
+    [
+     [
+      5,
+      6
+     ],
+     1.188,
+     1.188
+    ],
+    [
+     [
+      6,
+      7
+     ],
+     1.613,
+     1.612
+    ],
+    [
+     [
+      10,
+      11
+     ],
+     7.989,
+     7.989
+    ]
+   ]
+  },
+  "vanillin": {
+   "problems": [],
+   "max_dq_final": 3.333680933520489e-05,
+   "max_dq_raw": 2.9242815206498296e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  },
+  "warfarin": {
+   "problems": [],
+   "max_dq_final": 5.1879341607802276e-05,
+   "max_dq_raw": 4.548255336733753e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.002482596767428902
+   },
+   "scan_rmse": [
+    [
+     [
+      4,
+      5
+     ],
+     4.015,
+     4.015
+    ],
+    [
+     [
+      5,
+      12
+     ],
+     3.486,
+     3.486
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     1.771,
+     1.771
+    ],
+    [
+     [
+      13,
+      15
+     ],
+     0.912,
+     0.912
+    ],
+    [
+     [
+      21,
+      22
+     ],
+     2.384,
+     2.384
+    ],
+    [
+     [
+      12,
+      22
+     ],
+     0.924,
+     0.924
+    ],
+    [
+     [
+      13,
+      14
+     ],
+     0.973,
+     0.973
+    ],
+    [
+     [
+      20,
+      21
+     ],
+     1.517,
+     1.517
+    ]
+   ]
+  },
+  "zingerone": {
+   "problems": [],
+   "max_dq_final": 2.9326348465641416e-05,
+   "max_dq_raw": 2.5760581361194967e-05,
+   "fitted_change": {
+    "bond_b0": 0.0,
+    "bond_k_rel": 0.0,
+    "angle_theta": 0.0,
+    "angle_k_rel": 0.0,
+    "torsion_rb": 0.0
+   }
+  }
+ }
+}

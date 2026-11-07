@@ -1,0 +1,1029 @@
+{
+ "summary": {
+  "molecules": 100,
+  "optimized": 100,
+  "errors": [],
+  "mmff_reproduces_old_path": 100,
+  "mmff_seconds": {
+   "total": 0.58,
+   "mean": 0.0058,
+   "max": 0.08
+  },
+  "xtb_seconds": {
+   "total": 71.83999999999999,
+   "mean": 0.7183999999999999,
+   "max": 5.14
+  },
+  "xtb_over_mmff_mean_ratio": 123.86206896551724,
+  "heavy_rmsd_A": {
+   "median": 0.1327002941934411,
+   "max": 1.6353565730174573
+  },
+  "cm1a_max_dq_e": {
+   "median": 0.01736589387329978,
+   "max": 0.15315053046852312
+  }
+ },
+ "molecules": [
+  {
+   "name": "1-Octanol",
+   "atoms": 27,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.18,
+   "heavy_rmsd_A": 0.11895545872370462,
+   "max_dq_cm1a": 0.004630627130317394,
+   "mean_dq_cm1a": 0.0012971302374926936
+  },
+  {
+   "name": "1-Dodecanol",
+   "atoms": 39,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.4,
+   "heavy_rmsd_A": 0.049620462141702536,
+   "max_dq_cm1a": 0.004968735010635661,
+   "mean_dq_cm1a": 0.0012758886713715785
+  },
+  {
+   "name": "2-Ethylhexan-1-ol",
+   "atoms": 27,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.28,
+   "heavy_rmsd_A": 0.08782707068331798,
+   "max_dq_cm1a": 0.04937906362007011,
+   "mean_dq_cm1a": 0.006849874984999509
+  },
+  {
+   "name": "Lauric acid",
+   "atoms": 38,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.46,
+   "heavy_rmsd_A": 0.08902727869629504,
+   "max_dq_cm1a": 0.016316304068367204,
+   "mean_dq_cm1a": 0.0021724795924824803
+  },
+  {
+   "name": "C12E2",
+   "atoms": 53,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 0.91,
+   "heavy_rmsd_A": 0.3759472399872415,
+   "max_dq_cm1a": 0.006678910255474124,
+   "mean_dq_cm1a": 0.0016425042264706302
+  },
+  {
+   "name": "C12E3",
+   "atoms": 60,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.04,
+   "xtb_s": 3.32,
+   "heavy_rmsd_A": 1.3139196954559114,
+   "max_dq_cm1a": 0.0297406860727036,
+   "mean_dq_cm1a": 0.003827312170515652
+  },
+  {
+   "name": "C12E4",
+   "atoms": 67,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.04,
+   "xtb_s": 4.65,
+   "heavy_rmsd_A": 1.110249112563429,
+   "max_dq_cm1a": 0.007366057129523457,
+   "mean_dq_cm1a": 0.002261037878804697
+  },
+  {
+   "name": "C12E5",
+   "atoms": 74,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.04,
+   "xtb_s": 5.14,
+   "heavy_rmsd_A": 0.7904951034546362,
+   "max_dq_cm1a": 0.028520923466611003,
+   "mean_dq_cm1a": 0.0034833460124051104
+  },
+  {
+   "name": "C12E6",
+   "atoms": 81,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.08,
+   "xtb_s": 4.11,
+   "heavy_rmsd_A": 1.5256893171620418,
+   "max_dq_cm1a": 0.00889507083196588,
+   "mean_dq_cm1a": 0.002622598802084509
+  },
+  {
+   "name": "Lauramine oxide",
+   "atoms": 47,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.48,
+   "heavy_rmsd_A": 0.1561573384290673,
+   "max_dq_cm1a": 0.15315053046852312,
+   "mean_dq_cm1a": 0.008677909142887082
+  },
+  {
+   "name": "Limonene",
+   "atoms": 26,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.43,
+   "heavy_rmsd_A": 0.1885517998676086,
+   "max_dq_cm1a": 0.010833080519397242,
+   "mean_dq_cm1a": 0.0016954898498238937
+  },
+  {
+   "name": "Linalool",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.35,
+   "heavy_rmsd_A": 0.08002660619027975,
+   "max_dq_cm1a": 0.011220084470411007,
+   "mean_dq_cm1a": 0.0021391953464956286
+  },
+  {
+   "name": "Geraniol",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.43,
+   "heavy_rmsd_A": 0.29274586075546793,
+   "max_dq_cm1a": 0.009784096320586091,
+   "mean_dq_cm1a": 0.0024709063986910577
+  },
+  {
+   "name": "Citronellol",
+   "atoms": 31,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.3,
+   "heavy_rmsd_A": 0.10343677892282731,
+   "max_dq_cm1a": 0.00550326864857642,
+   "mean_dq_cm1a": 0.002225246407667372
+  },
+  {
+   "name": "Menthol",
+   "atoms": 31,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.3,
+   "heavy_rmsd_A": 0.08681674527624121,
+   "max_dq_cm1a": 0.025507648520371268,
+   "mean_dq_cm1a": 0.00374458464220793
+  },
+  {
+   "name": "Carvone",
+   "atoms": 25,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.38,
+   "heavy_rmsd_A": 0.09256750163952451,
+   "max_dq_cm1a": 0.012416106296975982,
+   "mean_dq_cm1a": 0.0036424258618016924
+  },
+  {
+   "name": "Benzyl acetate",
+   "atoms": 21,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.037940297290478875,
+   "max_dq_cm1a": 0.01576012437728397,
+   "mean_dq_cm1a": 0.003085456876821013
+  },
+  {
+   "name": "2-Phenylethanol",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.4097948748023053,
+   "max_dq_cm1a": 0.01845493873965387,
+   "mean_dq_cm1a": 0.005046855948480591
+  },
+  {
+   "name": "Eugenol",
+   "atoms": 24,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.14,
+   "heavy_rmsd_A": 0.06047584067266768,
+   "max_dq_cm1a": 0.011716322665593248,
+   "mean_dq_cm1a": 0.003057752558523108
+  },
+  {
+   "name": "Vanillin",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.16,
+   "heavy_rmsd_A": 0.019846078583068312,
+   "max_dq_cm1a": 0.01738909326968288,
+   "mean_dq_cm1a": 0.0066103761172820715
+  },
+  {
+   "name": "Coumarin",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.06,
+   "heavy_rmsd_A": 0.04255106948809611,
+   "max_dq_cm1a": 0.024227601494910905,
+   "mean_dq_cm1a": 0.007710191634663459
+  },
+  {
+   "name": "trans-Cinnamaldehyde",
+   "atoms": 18,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.06,
+   "heavy_rmsd_A": 0.022227953846136256,
+   "max_dq_cm1a": 0.017889040789573415,
+   "mean_dq_cm1a": 0.0049595430493073345
+  },
+  {
+   "name": "Methyl salicylate",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.12,
+   "heavy_rmsd_A": 0.03844510973654919,
+   "max_dq_cm1a": 0.016613303036327243,
+   "mean_dq_cm1a": 0.005315746343085358
+  },
+  {
+   "name": "Benzyl benzoate",
+   "atoms": 28,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.34,
+   "heavy_rmsd_A": 0.28289104782170127,
+   "max_dq_cm1a": 0.015108068948072484,
+   "mean_dq_cm1a": 0.003306465725539867
+  },
+  {
+   "name": "4-Anisaldehyde",
+   "atoms": 18,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.01964215205699655,
+   "max_dq_cm1a": 0.01564122211398626,
+   "mean_dq_cm1a": 0.005585722182387036
+  },
+  {
+   "name": "n-Butyl acetate",
+   "atoms": 20,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.03339144030280065,
+   "max_dq_cm1a": 0.006710627543084435,
+   "mean_dq_cm1a": 0.002278534157740559
+  },
+  {
+   "name": "Anisole",
+   "atoms": 16,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.05,
+   "heavy_rmsd_A": 0.012374396212083668,
+   "max_dq_cm1a": 0.006418097312468354,
+   "mean_dq_cm1a": 0.0024034195154755845
+  },
+  {
+   "name": "Phenetole",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.07,
+   "heavy_rmsd_A": 0.016928077829905862,
+   "max_dq_cm1a": 0.006282600734384497,
+   "mean_dq_cm1a": 0.002544714472925854
+  },
+  {
+   "name": "Ethyl benzoate",
+   "atoms": 21,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.16,
+   "heavy_rmsd_A": 0.04069579856862617,
+   "max_dq_cm1a": 0.007797448367223403,
+   "mean_dq_cm1a": 0.0020752719053379045
+  },
+  {
+   "name": "Dimethyl succinate",
+   "atoms": 20,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.39,
+   "heavy_rmsd_A": 0.828689416314361,
+   "max_dq_cm1a": 0.013210615513493451,
+   "mean_dq_cm1a": 0.004859367165512213
+  },
+  {
+   "name": "Dimethyl adipate",
+   "atoms": 26,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.58,
+   "heavy_rmsd_A": 0.3129863239564832,
+   "max_dq_cm1a": 0.010542446307597209,
+   "mean_dq_cm1a": 0.003837597437930227
+  },
+  {
+   "name": "N-Ethyl-2-pyrrolidone",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.15,
+   "heavy_rmsd_A": 0.03416008666142105,
+   "max_dq_cm1a": 0.02808746906897097,
+   "mean_dq_cm1a": 0.004970295758004325
+  },
+  {
+   "name": "Propylene carbonate",
+   "atoms": 13,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.07,
+   "heavy_rmsd_A": 0.25922454221472596,
+   "max_dq_cm1a": 0.020335266480769665,
+   "mean_dq_cm1a": 0.00954027156918279
+  },
+  {
+   "name": "Sulfolane",
+   "atoms": 15,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.1,
+   "heavy_rmsd_A": 0.04354053307580229,
+   "max_dq_cm1a": 0.03888258817329571,
+   "mean_dq_cm1a": 0.011082594518602952
+  },
+  {
+   "name": "Diethylene glycol",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.21,
+   "heavy_rmsd_A": 0.0589103495736858,
+   "max_dq_cm1a": 0.008071314359668347,
+   "mean_dq_cm1a": 0.0029144942386823865
+  },
+  {
+   "name": "Aspirin",
+   "atoms": 21,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.42,
+   "heavy_rmsd_A": 0.2903535951680008,
+   "max_dq_cm1a": 0.02214575535862423,
+   "mean_dq_cm1a": 0.007672902130951307
+  },
+  {
+   "name": "Acetaminophen",
+   "atoms": 20,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.19,
+   "heavy_rmsd_A": 0.023995331282689044,
+   "max_dq_cm1a": 0.009583974162892694,
+   "mean_dq_cm1a": 0.0030720425216424776
+  },
+  {
+   "name": "Ibuprofen",
+   "atoms": 33,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.53,
+   "heavy_rmsd_A": 0.10960019146531683,
+   "max_dq_cm1a": 0.013467494993210427,
+   "mean_dq_cm1a": 0.0030166087186761603
+  },
+  {
+   "name": "Naproxen",
+   "atoms": 31,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.35,
+   "heavy_rmsd_A": 0.11491086478260011,
+   "max_dq_cm1a": 0.014105093716774986,
+   "mean_dq_cm1a": 0.0038224218803621954
+  },
+  {
+   "name": "Ketoprofen",
+   "atoms": 33,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.87,
+   "heavy_rmsd_A": 0.4283421665342208,
+   "max_dq_cm1a": 0.01734269447691668,
+   "mean_dq_cm1a": 0.0051490111456611535
+  },
+  {
+   "name": "Lidocaine",
+   "atoms": 39,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.33,
+   "heavy_rmsd_A": 0.739300652838086,
+   "max_dq_cm1a": 0.0771934380099113,
+   "mean_dq_cm1a": 0.013123931640054412
+  },
+  {
+   "name": "Benzocaine",
+   "atoms": 23,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.27,
+   "heavy_rmsd_A": 0.047074308235311696,
+   "max_dq_cm1a": 0.0983745022558613,
+   "mean_dq_cm1a": 0.016232894928663134
+  },
+  {
+   "name": "Caffeine",
+   "atoms": 24,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.35,
+   "heavy_rmsd_A": 0.03398527979477445,
+   "max_dq_cm1a": 0.04577009495959322,
+   "mean_dq_cm1a": 0.012763931174507767
+  },
+  {
+   "name": "Nicotinamide",
+   "atoms": 15,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.11,
+   "heavy_rmsd_A": 0.10697898184278583,
+   "max_dq_cm1a": 0.025686925087776036,
+   "mean_dq_cm1a": 0.008354599546587793
+  },
+  {
+   "name": "Isoniazid",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.13,
+   "heavy_rmsd_A": 0.044030922544409545,
+   "max_dq_cm1a": 0.07560018607630065,
+   "mean_dq_cm1a": 0.014896331887403547
+  },
+  {
+   "name": "Metronidazole",
+   "atoms": 21,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.24,
+   "heavy_rmsd_A": 0.15114744151804552,
+   "max_dq_cm1a": 0.07547425917841111,
+   "mean_dq_cm1a": 0.01924844740990401
+  },
+  {
+   "name": "Sulfamethoxazole",
+   "atoms": 28,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.53,
+   "heavy_rmsd_A": 0.23038473921225738,
+   "max_dq_cm1a": 0.09677862654935432,
+   "mean_dq_cm1a": 0.021586633121145803
+  },
+  {
+   "name": "Diclofenac",
+   "atoms": 30,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.85,
+   "heavy_rmsd_A": 0.9039349606881998,
+   "max_dq_cm1a": 0.09935690739494307,
+   "mean_dq_cm1a": 0.019302701226129888
+  },
+  {
+   "name": "Fluconazole",
+   "atoms": 34,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.13,
+   "heavy_rmsd_A": 0.36423352601164627,
+   "max_dq_cm1a": 0.05556041195983086,
+   "mean_dq_cm1a": 0.014706275210410255
+  },
+  {
+   "name": "Carbamazepine",
+   "atoms": 30,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.36,
+   "heavy_rmsd_A": 0.1605147658874362,
+   "max_dq_cm1a": 0.0664994298469681,
+   "mean_dq_cm1a": 0.010304874923210002
+  },
+  {
+   "name": "1-Decanol",
+   "atoms": 33,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.28,
+   "heavy_rmsd_A": 0.05991727037658896,
+   "max_dq_cm1a": 0.002210979594510859,
+   "mean_dq_cm1a": 0.0008038460791967662
+  },
+  {
+   "name": "1-Hexadecanol",
+   "atoms": 51,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.77,
+   "heavy_rmsd_A": 0.19080477758669404,
+   "max_dq_cm1a": 0.002428796965220248,
+   "mean_dq_cm1a": 0.0007629202216248466
+  },
+  {
+   "name": "Dodecylamine",
+   "atoms": 40,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.38,
+   "heavy_rmsd_A": 0.07101334851418993,
+   "max_dq_cm1a": 0.014190672142001759,
+   "mean_dq_cm1a": 0.0018642883125741805
+  },
+  {
+   "name": "Octadecylamine",
+   "atoms": 58,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 2.09,
+   "heavy_rmsd_A": 0.5590220799935867,
+   "max_dq_cm1a": 0.010369894704322702,
+   "mean_dq_cm1a": 0.001893578055309725
+  },
+  {
+   "name": "Lauryldiethanolamine",
+   "atoms": 54,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 1.67,
+   "heavy_rmsd_A": 0.2865998148549678,
+   "max_dq_cm1a": 0.06635088156230029,
+   "mean_dq_cm1a": 0.004077093752533125
+  },
+  {
+   "name": "Lauramide DEA",
+   "atoms": 53,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 1.93,
+   "heavy_rmsd_A": 0.29633665268912135,
+   "max_dq_cm1a": 0.03121596034659302,
+   "mean_dq_cm1a": 0.0031855720036786743
+  },
+  {
+   "name": "Lauramide MEA",
+   "atoms": 46,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 2.55,
+   "heavy_rmsd_A": 1.5058334028721156,
+   "max_dq_cm1a": 0.04344357601259577,
+   "mean_dq_cm1a": 0.00643468755837894
+  },
+  {
+   "name": "Glyceryl monolaurate",
+   "atoms": 49,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 2.73,
+   "heavy_rmsd_A": 1.6353565730174573,
+   "max_dq_cm1a": 0.04195473475047651,
+   "mean_dq_cm1a": 0.005863463748282998
+  },
+  {
+   "name": "C8E3",
+   "atoms": 48,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.53,
+   "heavy_rmsd_A": 0.20802124140497388,
+   "max_dq_cm1a": 0.0068357895028755,
+   "mean_dq_cm1a": 0.002241879588265788
+  },
+  {
+   "name": "C10E3",
+   "atoms": 54,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 2.66,
+   "heavy_rmsd_A": 1.0679116118617737,
+   "max_dq_cm1a": 0.027295605812339988,
+   "mean_dq_cm1a": 0.0033116480699099055
+  },
+  {
+   "name": "Thymol",
+   "atoms": 25,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.25,
+   "heavy_rmsd_A": 0.03416183290081374,
+   "max_dq_cm1a": 0.008524882409202142,
+   "mean_dq_cm1a": 0.002141658343985151
+  },
+  {
+   "name": "Carvacrol",
+   "atoms": 25,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.29,
+   "heavy_rmsd_A": 0.02737031610657283,
+   "max_dq_cm1a": 0.005115745684860923,
+   "mean_dq_cm1a": 0.001327925225610182
+  },
+  {
+   "name": "Ethylvanillin",
+   "atoms": 22,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.12,
+   "heavy_rmsd_A": 0.026545546878771,
+   "max_dq_cm1a": 0.016156972495764116,
+   "mean_dq_cm1a": 0.004080495785110696
+  },
+  {
+   "name": "Piperonal",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.08,
+   "heavy_rmsd_A": 0.033028080888297166,
+   "max_dq_cm1a": 0.02610279756859646,
+   "mean_dq_cm1a": 0.009184456738033793
+  },
+  {
+   "name": "Benzyl salicylate",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.51,
+   "heavy_rmsd_A": 0.16555823270495812,
+   "max_dq_cm1a": 0.02067499128632111,
+   "mean_dq_cm1a": 0.004644083953983513
+  },
+  {
+   "name": "Ethyl salicylate",
+   "atoms": 22,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.19,
+   "heavy_rmsd_A": 0.4521604885786087,
+   "max_dq_cm1a": 0.023090806691141552,
+   "mean_dq_cm1a": 0.0069236305791546835
+  },
+  {
+   "name": "Methyl anthranilate",
+   "atoms": 20,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.14,
+   "heavy_rmsd_A": 0.22178421292887587,
+   "max_dq_cm1a": 0.12660535534052697,
+   "mean_dq_cm1a": 0.026550938508018616
+  },
+  {
+   "name": "4-Anisyl alcohol",
+   "atoms": 20,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.15,
+   "heavy_rmsd_A": 0.3060749026734775,
+   "max_dq_cm1a": 0.02071802889672729,
+   "mean_dq_cm1a": 0.004309988776385103
+  },
+  {
+   "name": "2-Phenylethyl acetate",
+   "atoms": 24,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.19,
+   "heavy_rmsd_A": 0.044563752701622765,
+   "max_dq_cm1a": 0.005025094834210653,
+   "mean_dq_cm1a": 0.0020835475928982056
+  },
+  {
+   "name": "Isoamyl acetate",
+   "atoms": 23,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.21,
+   "heavy_rmsd_A": 0.058025756283763115,
+   "max_dq_cm1a": 0.0069105649969052885,
+   "mean_dq_cm1a": 0.002323969639565094
+  },
+  {
+   "name": "Hexyl acetate",
+   "atoms": 26,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.26,
+   "heavy_rmsd_A": 0.038994938892472145,
+   "max_dq_cm1a": 0.007991904091151358,
+   "mean_dq_cm1a": 0.001767128033395194
+  },
+  {
+   "name": "Raspberry ketone",
+   "atoms": 24,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.26,
+   "heavy_rmsd_A": 0.08668900073648335,
+   "max_dq_cm1a": 0.01659359420233064,
+   "mean_dq_cm1a": 0.0037086634782213554
+  },
+  {
+   "name": "Zingerone",
+   "atoms": 28,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.74,
+   "heavy_rmsd_A": 0.1602043373499812,
+   "max_dq_cm1a": 0.015230905696523078,
+   "mean_dq_cm1a": 0.0037825838982930306
+  },
+  {
+   "name": "alpha-Terpineol",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.27,
+   "heavy_rmsd_A": 0.03725992028762655,
+   "max_dq_cm1a": 0.009625032335598582,
+   "mean_dq_cm1a": 0.002046300271828436
+  },
+  {
+   "name": "Citronellal",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.46,
+   "heavy_rmsd_A": 0.06895343894207566,
+   "max_dq_cm1a": 0.01525562734294493,
+   "mean_dq_cm1a": 0.0029227974517177903
+  },
+  {
+   "name": "Ethyl lactate",
+   "atoms": 18,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.19,
+   "heavy_rmsd_A": 0.16420500172372657,
+   "max_dq_cm1a": 0.007617917523133899,
+   "mean_dq_cm1a": 0.0029842336685403097
+  },
+  {
+   "name": "Triacetin",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 1.11,
+   "heavy_rmsd_A": 0.9734202856243525,
+   "max_dq_cm1a": 0.03814262336534463,
+   "mean_dq_cm1a": 0.008841825255461302
+  },
+  {
+   "name": "Triethyl citrate",
+   "atoms": 39,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.89,
+   "heavy_rmsd_A": 0.3848437190927749,
+   "max_dq_cm1a": 0.020376319766551076,
+   "mean_dq_cm1a": 0.0055831026702383695
+  },
+  {
+   "name": "Diethyl carbonate",
+   "atoms": 18,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.05566119791037961,
+   "max_dq_cm1a": 0.012085971363944292,
+   "mean_dq_cm1a": 0.004195116695478935
+  },
+  {
+   "name": "Diglyme",
+   "atoms": 23,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.18,
+   "heavy_rmsd_A": 0.06561390874618044,
+   "max_dq_cm1a": 0.005335727281542302,
+   "mean_dq_cm1a": 0.002241866094128189
+  },
+  {
+   "name": "Triglyme",
+   "atoms": 30,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.33,
+   "heavy_rmsd_A": 0.1721388691381944,
+   "max_dq_cm1a": 0.004968330449725555,
+   "mean_dq_cm1a": 0.0023383842455083725
+  },
+  {
+   "name": "Tetraglyme",
+   "atoms": 37,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.88,
+   "heavy_rmsd_A": 0.346595754200524,
+   "max_dq_cm1a": 0.006989291343149514,
+   "mean_dq_cm1a": 0.0034302730490778323
+  },
+  {
+   "name": "Isophorone",
+   "atoms": 24,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.27,
+   "heavy_rmsd_A": 0.05358946958526068,
+   "max_dq_cm1a": 0.014571930373618147,
+   "mean_dq_cm1a": 0.003949776031190926
+  },
+  {
+   "name": "Acetophenone",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.04373870872635081,
+   "max_dq_cm1a": 0.009817681836930825,
+   "mean_dq_cm1a": 0.0035121870109048946
+  },
+  {
+   "name": "Benzonitrile",
+   "atoms": 13,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.04,
+   "heavy_rmsd_A": 0.020235496505008166,
+   "max_dq_cm1a": 0.009464221106926563,
+   "mean_dq_cm1a": 0.0023791535909784283
+  },
+  {
+   "name": "Salicylamide",
+   "atoms": 17,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.16,
+   "heavy_rmsd_A": 0.053495735698134955,
+   "max_dq_cm1a": 0.03859881503523965,
+   "mean_dq_cm1a": 0.007539220000652359
+  },
+  {
+   "name": "Phenacetin",
+   "atoms": 26,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.46,
+   "heavy_rmsd_A": 0.5414417654179746,
+   "max_dq_cm1a": 0.04245420565860007,
+   "mean_dq_cm1a": 0.008940632203926914
+  },
+  {
+   "name": "Procaine",
+   "atoms": 37,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.84,
+   "heavy_rmsd_A": 0.22105926858228384,
+   "max_dq_cm1a": 0.1328260144294473,
+   "mean_dq_cm1a": 0.01824248770847471
+  },
+  {
+   "name": "Prilocaine",
+   "atoms": 36,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.96,
+   "heavy_rmsd_A": 1.512801134741199,
+   "max_dq_cm1a": 0.029909552554865937,
+   "mean_dq_cm1a": 0.008145010955070638
+  },
+  {
+   "name": "Chlorzoxazone",
+   "atoms": 15,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.07,
+   "heavy_rmsd_A": 0.03092079321827765,
+   "max_dq_cm1a": 0.04423136186041243,
+   "mean_dq_cm1a": 0.010131212106441585
+  },
+  {
+   "name": "Acetazolamide",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.48,
+   "heavy_rmsd_A": 0.14644512966317758,
+   "max_dq_cm1a": 0.12795818633684664,
+   "mean_dq_cm1a": 0.025681930893799877
+  },
+  {
+   "name": "Theophylline",
+   "atoms": 21,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.09,
+   "heavy_rmsd_A": 0.041024025214822686,
+   "max_dq_cm1a": 0.03313313365360693,
+   "mean_dq_cm1a": 0.014307171816873401
+  },
+  {
+   "name": "Trimethoprim",
+   "atoms": 39,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.77,
+   "heavy_rmsd_A": 0.7196849803010871,
+   "max_dq_cm1a": 0.1391728700964998,
+   "mean_dq_cm1a": 0.027390595356761704
+  },
+  {
+   "name": "Dapsone",
+   "atoms": 29,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.5,
+   "heavy_rmsd_A": 0.1842364228743059,
+   "max_dq_cm1a": 0.09586661578411215,
+   "mean_dq_cm1a": 0.019646578134873957
+  },
+  {
+   "name": "Sulfanilamide",
+   "atoms": 19,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.0,
+   "xtb_s": 0.35,
+   "heavy_rmsd_A": 0.07322071151351377,
+   "max_dq_cm1a": 0.08993068737293008,
+   "mean_dq_cm1a": 0.022442725914924543
+  },
+  {
+   "name": "Clotrimazole",
+   "atoms": 42,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 0.47,
+   "heavy_rmsd_A": 0.19588540418522235,
+   "max_dq_cm1a": 0.041902705573739873,
+   "mean_dq_cm1a": 0.004626908005836187
+  },
+  {
+   "name": "Diphenhydramine",
+   "atoms": 40,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.05,
+   "heavy_rmsd_A": 0.16919134165399463,
+   "max_dq_cm1a": 0.038459036203033814,
+   "mean_dq_cm1a": 0.0040830388957346815
+  },
+  {
+   "name": "Hydroxyzine",
+   "atoms": 53,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 2.46,
+   "heavy_rmsd_A": 0.7843967862496447,
+   "max_dq_cm1a": 0.0543502307191831,
+   "mean_dq_cm1a": 0.00475048548013613
+  },
+  {
+   "name": "Haloperidol",
+   "atoms": 49,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.02,
+   "xtb_s": 3.11,
+   "heavy_rmsd_A": 0.6123187229258131,
+   "max_dq_cm1a": 0.04558931820508394,
+   "mean_dq_cm1a": 0.007128100869626527
+  },
+  {
+   "name": "Warfarin",
+   "atoms": 39,
+   "mmff_reproduces_old": true,
+   "mmff_s": 0.01,
+   "xtb_s": 1.49,
+   "heavy_rmsd_A": 0.22538210604744324,
+   "max_dq_cm1a": 0.04579027366534241,
+   "mean_dq_cm1a": 0.007952435999768996
+  }
+ ]
+}

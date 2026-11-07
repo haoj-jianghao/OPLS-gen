@@ -1,0 +1,9 @@
+name,smiles
+acetate,CC(=O)[O-]
+benzoate,[O-]C(=O)c1ccccc1
+methylammonium,C[NH3+]
+choline,C[N+](C)(C)CCO
+methanesulfonate,CS(=O)(=O)[O-]
+guanidinium,NC(=[NH2+])N
+phenethylammonium,[NH3+]CCc1ccccc1
+propanoate,CCC(=O)[O-]

@@ -1,0 +1,766 @@
+{
+ "summary": {
+  "molecules": 7208,
+  "compared": 6803,
+  "atoms": 228190,
+  "skipped": {
+   "elements": 168,
+   "fragments": 137,
+   "embed": 30,
+   "rdkit": 8
+  },
+  "tolerance_e": 0.002,
+  "over_tolerance": 0,
+  "max_abs_dq": 0.0009054819056832919,
+  "molecule_max_abs_dq_percentiles": {
+   "50": 5.1438278273752136e-05,
+   "90": 0.00024557454482141414,
+   "99": 0.0003254863089420899,
+   "99.9": 0.0005421611973800051
+  },
+  "failed_both": 0,
+  "failed_amsol_only": 62,
+  "failed_mopac_only": 0
+ },
+ "over_tolerance": [],
+ "failed": [
+  {
+   "name": "first_5K:68",
+   "atoms": 39,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmps9lcvcs_/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:70",
+   "atoms": 29,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpiqqi40c4/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:192",
+   "atoms": 32,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmppaka5ltp/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:198",
+   "atoms": 37,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpv8syle5f/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:233",
+   "atoms": 34,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmph0m4kpwl/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:397",
+   "atoms": 29,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpj36x_7_0/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:488",
+   "atoms": 18,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp_71__172/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:521",
+   "atoms": 14,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpjvdqeguy/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:792",
+   "atoms": 44,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp4t4ys_4j/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:815",
+   "atoms": 100,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpxr59gvbn/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:826",
+   "atoms": 12,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpwy20t2wq/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:854",
+   "atoms": 116,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp44tn41_3/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:865",
+   "atoms": 107,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp1d28q74f/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:876",
+   "atoms": 26,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpqd7qa4jt/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:879",
+   "atoms": 96,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpzac6ouey/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:945",
+   "atoms": 94,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpp6cz3in6/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:967",
+   "atoms": 17,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmplgkp_la8/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:970",
+   "atoms": 23,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpnsfy9f_j/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1017",
+   "atoms": 30,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmppni__3j3/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1241",
+   "atoms": 119,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp5efifm44/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1324",
+   "atoms": 15,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpvxb2x46c/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1331",
+   "atoms": 21,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpc3b4tft4/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1779",
+   "atoms": 114,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmph1fl8m8_/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1789",
+   "atoms": 102,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpsh8fb0sh/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1832",
+   "atoms": 23,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpfh1ljdwc/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1840",
+   "atoms": 22,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpyk4_unrk/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:1890",
+   "atoms": 10,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmphnjd_v5b/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2005",
+   "atoms": 27,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmprbbdewl4/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2221",
+   "atoms": 23,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp8b2havz3/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2225",
+   "atoms": 20,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpm4x1xc4m/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2339",
+   "atoms": 26,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmptpb9r2vc/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2662",
+   "atoms": 116,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp6v3x8li2/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2695",
+   "atoms": 27,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp6r6vc28c/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2700",
+   "atoms": 23,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpyej9k8c9/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2780",
+   "atoms": 120,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpsd2yxbi1/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:2977",
+   "atoms": 104,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpi5jlp0su/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3032",
+   "atoms": 176,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp32n2qvds/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3096",
+   "atoms": 24,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpxedm5y1x/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3126",
+   "atoms": 125,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpyeiwzeim/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3225",
+   "atoms": 29,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmplhleka32/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3480",
+   "atoms": 28,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp7reumr1_/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3616",
+   "atoms": 25,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp_jrvi7t8/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3768",
+   "atoms": 13,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp83ne4r0p/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:3979",
+   "atoms": 20,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp677g74f3/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4124",
+   "atoms": 19,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpkq_shgra/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4275",
+   "atoms": 38,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp6j21m28a/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4279",
+   "atoms": 18,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpy92fkjkb/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4281",
+   "atoms": 26,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp_okqs2_v/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4337",
+   "atoms": 22,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpy0lxvx3n/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4361",
+   "atoms": 26,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp5ysef2jz/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4708",
+   "atoms": 112,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpiyjr7kzh/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4765",
+   "atoms": 117,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpuy8fxb80/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4766",
+   "atoms": 33,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpkkdxmxq5/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_5K:4787",
+   "atoms": 10,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpt6szevyn/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "rare:cyanamide",
+   "atoms": 5,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpc5b8gqgs/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "bzr:23",
+   "atoms": 35,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpx6hi1nn5/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "bzr:83",
+   "atoms": 32,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpxsxtu54h/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_200.props:51",
+   "atoms": 39,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmph5wzjt8h/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_200.props:68",
+   "atoms": 39,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmp841c3z2r/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_200.props:70",
+   "atoms": 29,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpt47g6qog/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_200.props:192",
+   "atoms": 32,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpd_btet0y/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  },
+  {
+   "name": "first_200.props:198",
+   "atoms": 37,
+   "net_charge": 0,
+   "failed": {
+    "amsol": "AssignmentError: /tmp/tmpcn716ui6/amsol/amsol/m.amsol.out: AMSOL did not report SCF convergence"
+   }
+  }
+ ],
+ "worst_20": [
+  {
+   "name": "first_5K:2648",
+   "atoms": 12,
+   "net_charge": 0,
+   "max_abs_dq": 0.0009054819056832919,
+   "mean_abs_dq": 0.0004392080390919391,
+   "worst_atom": 4,
+   "worst_element": "P",
+   "heat_amsol": -44.881757,
+   "heat_mopac": -45.02295731678896,
+   "smiles": "ClP1(Cl)=NP(Cl)(Cl)=NP(Cl)(Cl)=N1"
+  },
+  {
+   "name": "pubchem.200:176",
+   "atoms": 28,
+   "net_charge": 0,
+   "max_abs_dq": 0.0007450655522216465,
+   "mean_abs_dq": 6.941380449571601e-05,
+   "worst_atom": 5,
+   "worst_element": "P",
+   "heat_amsol": -69.025489,
+   "heat_mopac": -69.20715280328295,
+   "smiles": "CC(C)(O)P(C)(=O)c1ccccc1"
+  },
+  {
+   "name": "first_5K:2614",
+   "atoms": 76,
+   "net_charge": 0,
+   "max_abs_dq": 0.0006979424454758298,
+   "mean_abs_dq": 0.00014952347661248742,
+   "worst_atom": 16,
+   "worst_element": "C",
+   "heat_amsol": 143.2413,
+   "heat_mopac": 142.73654391188757,
+   "smiles": "C=CC1=C(C)c2cc3[nH]c(cc4nc(cc5[nH]c(cc1n2)c(C)c5CCC(=O)O)C(CCC(=O)O)=C4C)c(C)c3C=C"
+  },
+  {
+   "name": "first_5K:542",
+   "atoms": 59,
+   "net_charge": 0,
+   "max_abs_dq": 0.0006783741535874022,
+   "mean_abs_dq": 4.190368653124984e-05,
+   "worst_atom": 2,
+   "worst_element": "P",
+   "heat_amsol": -70.805499,
+   "heat_mopac": -71.1180253369821,
+   "smiles": "S=P(NC1CCCCC1)(NC1CCCCC1)NC1CCCCC1"
+  },
+  {
+   "name": "first_5K:396",
+   "atoms": 35,
+   "net_charge": 0,
+   "max_abs_dq": 0.0006260601044409952,
+   "mean_abs_dq": 5.4378146180850526e-05,
+   "worst_atom": 2,
+   "worst_element": "P",
+   "heat_amsol": 47.226777,
+   "heat_mopac": 46.969756823265925,
+   "smiles": "O=P(c1ccccc1)(c1ccccc1)c1ccccc1"
+  },
+  {
+   "name": "first_5K:495",
+   "atoms": 38,
+   "net_charge": 0,
+   "max_abs_dq": 0.0005704569158271333,
+   "mean_abs_dq": 5.2676010296739374e-05,
+   "worst_atom": 5,
+   "worst_element": "P",
+   "heat_amsol": -45.600368,
+   "heat_mopac": -45.793862204292964,
+   "smiles": "CCCNP(=S)(NCCC)NCCC"
+  },
+  {
+   "name": "first_5K:496",
+   "atoms": 74,
+   "net_charge": 0,
+   "max_abs_dq": 0.0005448263323084568,
+   "mean_abs_dq": 2.643697398593694e-05,
+   "worst_atom": 9,
+   "worst_element": "P",
+   "heat_amsol": -107.372167,
+   "heat_mopac": -107.71855586906895,
+   "smiles": "CCCCCCCNP(=S)(NCCCCCCC)NCCCCCCC"
+  },
+  {
+   "name": "first_5K:497",
+   "atoms": 83,
+   "net_charge": 0,
+   "max_abs_dq": 0.0005415032214250992,
+   "mean_abs_dq": 2.3717054174487592e-05,
+   "worst_atom": 10,
+   "worst_element": "P",
+   "heat_amsol": -123.09114,
+   "heat_mopac": -123.47582410939503,
+   "smiles": "CCCCCCCCNP(=S)(NCCCCCCCC)NCCCCCCCC"
+  },
+  {
+   "name": "first_5K:257",
+   "atoms": 23,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004906526632324493,
+   "mean_abs_dq": 6.817178713728864e-05,
+   "worst_atom": 3,
+   "worst_element": "P",
+   "heat_amsol": 99.035251,
+   "heat_mopac": 98.86831339784112,
+   "smiles": "NNP(=S)(NN)c1ccccc1"
+  },
+  {
+   "name": "pubchem.200:124",
+   "atoms": 35,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004900562725866919,
+   "mean_abs_dq": 4.7554779278942413e-05,
+   "worst_atom": 2,
+   "worst_element": "P",
+   "heat_amsol": 90.964931,
+   "heat_mopac": 90.67759729437239,
+   "smiles": "O=P(Nc1nccs1)(c1ccccc1)c1nc2ccccc2s1"
+  },
+  {
+   "name": "first_5K:3214",
+   "atoms": 58,
+   "net_charge": 0,
+   "max_abs_dq": 0.00048805859932343765,
+   "mean_abs_dq": 2.2519603475534344e-05,
+   "worst_atom": 13,
+   "worst_element": "P",
+   "heat_amsol": -23.738988,
+   "heat_mopac": -24.07140766500379,
+   "smiles": "Cc1ccc(C(C)(C)C)c(OP(=S)(S)Oc2cc(C)ccc2C(C)(C)C)c1"
+  },
+  {
+   "name": "first_5K:3206",
+   "atoms": 54,
+   "net_charge": 0,
+   "max_abs_dq": 0.00048022213478216,
+   "mean_abs_dq": 4.375062296486507e-05,
+   "worst_atom": 4,
+   "worst_element": "P",
+   "heat_amsol": -407.542545,
+   "heat_mopac": -407.865963961769,
+   "smiles": "CCOP(=O)(CCCCCCP(=O)(OCC)OCC)OCC"
+  },
+  {
+   "name": "first_5K:4701",
+   "atoms": 29,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004763175582476187,
+   "mean_abs_dq": 4.657856075066065e-05,
+   "worst_atom": 2,
+   "worst_element": "P",
+   "heat_amsol": -21.539237,
+   "heat_mopac": -21.774174246325856,
+   "smiles": "O=P(N=C=S)(Oc1ccccc1)Oc1ccccc1"
+  },
+  {
+   "name": "first_5K:2647",
+   "atoms": 43,
+   "net_charge": 0,
+   "max_abs_dq": 0.00047189212093101673,
+   "mean_abs_dq": 2.771514147742363e-05,
+   "worst_atom": 6,
+   "worst_element": "P",
+   "heat_amsol": -241.218279,
+   "heat_mopac": -241.4422166882723,
+   "smiles": "CCCCOP(=O)(CCCC)OCCCC"
+  },
+  {
+   "name": "first_5K:3210",
+   "atoms": 66,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004705690201949331,
+   "mean_abs_dq": 3.342198368616505e-05,
+   "worst_atom": 6,
+   "worst_element": "P",
+   "heat_amsol": -437.332312,
+   "heat_mopac": -437.7063023604278,
+   "smiles": "CCCCOP(=O)(CCP(=O)(OCCCC)OCCCC)OCCCC"
+  },
+  {
+   "name": "first_5K:2041",
+   "atoms": 30,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004635114355640013,
+   "mean_abs_dq": 6.037651408882632e-05,
+   "worst_atom": 2,
+   "worst_element": "P",
+   "heat_amsol": -45.670955,
+   "heat_mopac": -45.96612534835003,
+   "smiles": "O=[N+]([O-])c1ccc(P(=O)(O)c2ccc([N+](=O)[O-])cc2)cc1"
+  },
+  {
+   "name": "first_5K:248",
+   "atoms": 45,
+   "net_charge": 0,
+   "max_abs_dq": 0.00045871028616328857,
+   "mean_abs_dq": 3.28695750239105e-05,
+   "worst_atom": 5,
+   "worst_element": "P",
+   "heat_amsol": -36.404897,
+   "heat_mopac": -36.7405289242306,
+   "smiles": "CC(=NNP(=O)(Oc1ccccc1)Oc1ccccc1)c1ccc(Cl)cc1"
+  },
+  {
+   "name": "first_5K:2650",
+   "atoms": 31,
+   "net_charge": 0,
+   "max_abs_dq": 0.00045274408117235154,
+   "mean_abs_dq": 3.593624176677245e-05,
+   "worst_atom": 4,
+   "worst_element": "P",
+   "heat_amsol": -173.924103,
+   "heat_mopac": -174.1349360178574,
+   "smiles": "CCOP(=O)(OCC)C(=O)c1ccccc1"
+  },
+  {
+   "name": "first_5K:2632",
+   "atoms": 26,
+   "net_charge": 0,
+   "max_abs_dq": 0.0004490420731944056,
+   "mean_abs_dq": 4.104774046023558e-05,
+   "worst_atom": 4,
+   "worst_element": "P",
+   "heat_amsol": -180.270532,
+   "heat_mopac": -180.42295759198896,
+   "smiles": "CCOP(=S)(OCC)OCC"
+  },
+  {
+   "name": "first_5K:3207",
+   "atoms": 57,
+   "net_charge": 0,
+   "max_abs_dq": 0.00044057805471586775,
+   "mean_abs_dq": 3.874504498017406e-05,
+   "worst_atom": 5,
+   "worst_element": "P",
+   "heat_amsol": -415.630451,
+   "heat_mopac": -415.96640624037536,
+   "smiles": "CCCOP(=O)(CCCP(=O)(OCCC)OCCC)OCCC"
+  }
+ ]
+}

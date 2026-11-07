@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# OPLS/2020 parameter files: ACS Supporting Information of
+# doi:10.1021/acs.jpcb.3c06602 (download them yourself; see README).
+jp3c06602_si_*
+src/opls_ff_gen/data/opls2020/
+
+# Local Claude Code skills and settings
+skills/
+.claude/
+
+# Generated outputs, QM/DFT data and benchmarks (regenerable, large)
+benchmarks/
+generated_benchmarks/
+atom_type_comparison/
+cm1a_reference/
+out/
+validation/*
+!validation/*.md
+!validation/opls2020/
+validation/opls2020/*
+!validation/opls2020/qm_timings.json
+!validation/opls2020/dft_check_molecules.csv
+
+# Environment snapshots: keep the notes, not the vendored wheels
+setup/wheels/
+
+# AMSOL / xtb / GROMACS scratch files
+fort.*
+*.tpr
+*.edr
+*.trr
+*.xtc
+*.cpt
+mdout.mdp
+\#*#
+!validation/foyer_removal/
+validation/foyer_removal/*
+!validation/foyer_removal/README.md
+!validation/foyer_removal/*.json
+!validation/mopac_cm1a/
+validation/mopac_cm1a/*
+!validation/mopac_cm1a/README.md
+!validation/mopac_cm1a/*.json
+!validation/geometry_optimization_benchmark.json
+!validation/mm_engines/
+validation/mm_engines/*
+!validation/mm_engines/README.md
+!validation/mm_engines/*.json
+!validation/mm_engines/*.csv

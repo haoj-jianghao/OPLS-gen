@@ -1,0 +1,19 @@
+# Full environment for opls-ff-gen: every optional feature.
+#   conda env create -f environment-full.yml
+#   conda activate opls-ff-gen-full
+#   pip install opls_ff_gen-<version>-py3-none-any.whl
+# GROMACS is not included: use your own build (opls-ff-gen config set gmx PATH)
+# or add "gromacs" below for the conda-forge CPU build.
+name: opls-ff-gen-full
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12        # the tested version
+  - rdkit>=2025.9
+  - numpy
+  - mopac=23.2.5        # required: AM1 for the CM1A charges
+  - xtb=6.7             # SMILES geometry, --qm xtb, scans for --qm dft
+  - openmm              # MM engine of the --qm torsion fits
+  - pyscf               # --qm dft
+  - geometric           # --qm dft geometry optimization
+  - pip
