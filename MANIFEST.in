@@ -1,6 +1,6 @@
 # Source distribution: the package, its data and the docs a user needs.
 # The OPLS/2020 SI (data/opls2020/) is user-installed and never distributed.
-include INSTALL.md LICENSE NOTICE pyproject.toml MANIFEST.in run_opls_ff_gen.py
+include README.md INSTALL.md LICENSE NOTICE pyproject.toml MANIFEST.in run_opls_ff_gen.py
 include environment.yml environment-full.yml
 graft src/opls_ff_gen
 prune src/opls_ff_gen/data/opls2020

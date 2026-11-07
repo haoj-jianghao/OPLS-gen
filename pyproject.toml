@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "opls-ff-gen"
 version = "0.3.0"
 description = "Open-source OPLS/2020 and CM1A-LBCC topology generator for GROMACS"
-readme = "INSTALL.md"  # README.md is not in the public repository
+readme = "README.md"
 # MIT for the code; two AmberTools data files (data/parmchk/) are GPL-3.0 (NOTICE)
 license = "MIT AND GPL-3.0-only"
 license-files = ["LICENSE", "NOTICE", "src/opls_ff_gen/data/parmchk/AmberTools-LICENSE.txt"]
