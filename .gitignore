@@ -53,3 +53,4 @@ validation/mm_engines/*
 !validation/mm_engines/README.md
 !validation/mm_engines/*.json
 !validation/mm_engines/*.csv
+.github/
